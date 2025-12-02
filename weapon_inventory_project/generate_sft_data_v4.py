@@ -243,42 +243,41 @@ def generate_negative_qa(weapon: dict) -> list:
 
 
 def generate_reverse_qa(weapons_by_type: dict, weapons_by_quality: dict) -> list:
-    """生成反向问答（属性→武器）"""
+    """生成反向问答（属性→武器）- 每个问题只生成一个答案，避免一对多"""
     qa_pairs = []
 
-    # 类型反向：给我一个XX类型的武器
+    # 类型反向：每种问法只保留一个答案
     for wtype, weapons in weapons_by_type.items():
-        for _ in range(min(30, len(weapons))):
-            weapon = random.choice(weapons)
-            questions = [
-                f"说一个{wtype}",
-                f"举例一个{wtype}",
-                f"给我一个{wtype}的例子",
-            ]
-            for q in questions:
-                qa_pairs.append({
-                    "instruction": "查询武器示例",
-                    "input": q,
-                    "output": f"{weapon['name']}是{wtype}。",
-                    "task_type": "reverse_type"
-                })
+        # 随机选一个武器作为标准答案
+        weapon = random.choice(weapons)
+        questions = [
+            (f"说一个{wtype}", f"{weapon['name']}是{wtype}。"),
+            (f"举例一个{wtype}", f"{weapon['name']}是{wtype}。"),
+            (f"给我一个{wtype}的例子", f"{weapon['name']}是{wtype}。"),
+        ]
+        for q, a in questions:
+            qa_pairs.append({
+                "instruction": "查询武器示例",
+                "input": q,
+                "output": a,
+                "task_type": "reverse_type"
+            })
 
-    # 品质反向：给我一个XX品质的武器
+    # 品质反向：每种问法只保留一个答案
     for quality, weapons in weapons_by_quality.items():
-        for _ in range(min(20, len(weapons))):
-            weapon = random.choice(weapons)
-            questions = [
-                f"说一个{quality}品质的武器",
-                f"举例一个{quality}级武器",
-                f"给我一个{quality}品质的例子",
-            ]
-            for q in questions:
-                qa_pairs.append({
-                    "instruction": "查询武器示例",
-                    "input": q,
-                    "output": f"{weapon['name']}是{quality}品质的{weapon['type']}。",
-                    "task_type": "reverse_quality"
-                })
+        weapon = random.choice(weapons)
+        questions = [
+            (f"说一个{quality}品质的武器", f"{weapon['name']}是{quality}品质的{weapon['type']}。"),
+            (f"举例一个{quality}级武器", f"{weapon['name']}是{quality}品质的{weapon['type']}。"),
+            (f"给我一个{quality}品质的例子", f"{weapon['name']}是{quality}品质的{weapon['type']}。"),
+        ]
+        for q, a in questions:
+            qa_pairs.append({
+                "instruction": "查询武器示例",
+                "input": q,
+                "output": a,
+                "task_type": "reverse_quality"
+            })
 
     return qa_pairs
 
@@ -475,6 +474,260 @@ def generate_is_weapon_qa(weapon: dict) -> list:
     return qa_pairs
 
 
+# ============ 新增：武器区分性问答 ============
+
+def generate_model_comparison_qa(weapons_by_type: dict, weapons_by_model: dict) -> list:
+    """生成同类型不同型号对比问答 - 使用完整武器名称"""
+    qa_pairs = []
+
+    for wtype, weapons in weapons_by_type.items():
+        # 获取该类型下所有不同的型号，构建完整名称
+        models = list(set(w["model"] for w in weapons if w["model"]))
+        if len(models) < 2:
+            continue
+
+        # 两两对比
+        for i, model1 in enumerate(models):
+            for model2 in models[i+1:]:
+                # 完整名称
+                full_name1 = f"{model1}{wtype}"
+                full_name2 = f"{model2}{wtype}"
+
+                # 问：A和B有什么区别？
+                qa_pairs.append({
+                    "instruction": "对比武器型号",
+                    "input": f"{full_name1}和{full_name2}有什么区别？",
+                    "output": f"{full_name1}和{full_name2}都是{wtype}类型，但它们是不同的武器型号。",
+                    "task_type": "model_comparison"
+                })
+
+                # 问：A和B都是XX类型吗？
+                qa_pairs.append({
+                    "instruction": "确认武器类型",
+                    "input": f"{full_name1}和{full_name2}都是{wtype}吗？",
+                    "output": f"是的，{full_name1}和{full_name2}都属于{wtype}类型。",
+                    "task_type": "model_comparison"
+                })
+
+                # 问：A是不是B？（易混淆澄清）
+                qa_pairs.append({
+                    "instruction": "区分武器型号",
+                    "input": f"{full_name1}是{full_name2}吗？",
+                    "output": f"不是。{full_name1}和{full_name2}是两种不同的{wtype}型号。",
+                    "task_type": "model_comparison"
+                })
+
+    return qa_pairs
+
+
+def generate_type_difference_qa(weapons_by_type: dict) -> list:
+    """生成不同类型武器区分问答 - 使用完整武器名称"""
+    qa_pairs = []
+
+    type_list = list(weapons_by_type.keys())
+
+    # 两两对比类型
+    for i, type1 in enumerate(type_list):
+        for type2 in type_list[i+1:]:
+            # 获取每种类型的示例型号，构建完整名称
+            models1 = list(set(w["model"] for w in weapons_by_type[type1] if w["model"]))[:3]
+            models2 = list(set(w["model"] for w in weapons_by_type[type2] if w["model"]))[:3]
+
+            # 使用完整名称
+            full_names1 = [f"{m}{type1}" for m in models1]
+            full_names2 = [f"{m}{type2}" for m in models2]
+
+            examples1 = "、".join(full_names1) if full_names1 else type1
+            examples2 = "、".join(full_names2) if full_names2 else type2
+
+            # 问：两种类型有什么区别？
+            qa_pairs.append({
+                "instruction": "区分武器类型",
+                "input": f"{type1}和{type2}有什么区别？",
+                "output": f"{type1}和{type2}是不同的武器类型。{type1}包括{examples1}等，{type2}包括{examples2}等。",
+                "task_type": "type_difference"
+            })
+
+            qa_pairs.append({
+                "instruction": "区分武器类型",
+                "input": f"{type1}和{type2}有什么不同？",
+                "output": f"{type1}和{type2}是两种不同的武器类型。",
+                "task_type": "type_difference"
+            })
+
+            # 取一个完整名称问它是type1还是type2
+            if full_names1:
+                full_name = full_names1[0]
+                qa_pairs.append({
+                    "instruction": "判断武器类型",
+                    "input": f"{full_name}是{type1}还是{type2}？",
+                    "output": f"{full_name}是{type1}，不是{type2}。",
+                    "task_type": "type_difference"
+                })
+
+            if full_names2:
+                full_name = full_names2[0]
+                qa_pairs.append({
+                    "instruction": "判断武器类型",
+                    "input": f"{full_name}是{type1}还是{type2}？",
+                    "output": f"{full_name}是{type2}，不是{type1}。",
+                    "task_type": "type_difference"
+                })
+
+    return qa_pairs
+
+
+def generate_model_identity_qa(weapons_by_model: dict) -> list:
+    """生成型号识别强化问答 - 使用完整武器名称"""
+    qa_pairs = []
+
+    for model, weapons in weapons_by_model.items():
+        if len(weapons) < 1 or len(model) < 2:
+            continue
+
+        wtype = weapons[0]["type"]
+        full_name = f"{model}{wtype}"
+
+        # 问：XX是什么类型？（用完整名称）
+        qa_pairs.append({
+            "instruction": "识别武器型号",
+            "input": f"{full_name}是什么类型的武器？",
+            "output": f"{full_name}是{wtype}类型的武器。",
+            "task_type": "model_identity"
+        })
+
+        qa_pairs.append({
+            "instruction": "识别武器型号",
+            "input": f"{full_name}属于哪种武器？",
+            "output": f"{full_name}属于{wtype}类型。",
+            "task_type": "model_identity"
+        })
+
+        # 强化：XX是YY吗？（正确的类型）
+        qa_pairs.append({
+            "instruction": "确认武器类型",
+            "input": f"{full_name}是{wtype}吗？",
+            "output": f"是的，{full_name}是{wtype}。",
+            "task_type": "model_identity"
+        })
+
+    return qa_pairs
+
+
+def generate_confusion_clarification_qa(weapons_by_type: dict, weapons_by_model: dict) -> list:
+    """生成易混淆武器澄清问答 - 使用完整武器名称"""
+    qa_pairs = []
+
+    # 1. 同类型不同型号的混淆
+    for wtype, weapons in weapons_by_type.items():
+        models = list(set(w["model"] for w in weapons if w["model"]))
+
+        for weapon in weapons:
+            name = weapon["name"]
+            model = weapon["model"]
+            quality = weapon["quality"]
+
+            if not model or not quality:
+                continue
+
+            # 找同类型的其他型号
+            other_models = [m for m in models if m != model]
+            if not other_models:
+                continue
+
+            # 随机选一个其他型号问（使用完整名称）
+            other_model = random.choice(other_models)
+            other_full_name = f"{other_model}{wtype}"
+            my_full_name = f"{model}{wtype}"
+            qa_pairs.append({
+                "instruction": "澄清武器型号",
+                "input": f"{name}是{other_full_name}吗？",
+                "output": f"不是。{name}是{my_full_name}，不是{other_full_name}。它们是两种不同的{wtype}。",
+                "task_type": "confusion_clarify"
+            })
+
+    # 2. 名称相似的型号混淆（如 M416 vs M417）- 使用完整名称
+    similar_pairs = [
+        ("M416", "M417", "突击步枪", "射手步枪"),
+        ("M24", "M249", "狙击枪", "轻机枪"),
+        ("MK12", "MK14", "射手步枪", "射手步枪"),
+        ("P90", "P92", "冲锋枪", "手枪"),
+        ("P18C", "P1911", "手枪", "手枪"),
+    ]
+
+    for m1, m2, t1, t2 in similar_pairs:
+        full_name1 = f"{m1}{t1}"
+        full_name2 = f"{m2}{t2}"
+
+        if t1 == t2:
+            qa_pairs.append({
+                "instruction": "区分相似武器",
+                "input": f"{full_name1}和{full_name2}是同一种武器吗？",
+                "output": f"不是。{full_name1}和{full_name2}是两种不同的{t1}型号。",
+                "task_type": "confusion_clarify"
+            })
+        else:
+            qa_pairs.append({
+                "instruction": "区分相似武器",
+                "input": f"{full_name1}和{full_name2}是同一种武器吗？",
+                "output": f"不是。{full_name1}是{t1}，{full_name2}是{t2}，它们是不同类型的武器。",
+                "task_type": "confusion_clarify"
+            })
+
+            qa_pairs.append({
+                "instruction": "区分相似武器",
+                "input": f"{full_name1}和{full_name2}有什么区别？",
+                "output": f"{full_name1}属于{t1}类型，{full_name2}属于{t2}类型，它们是完全不同的武器。",
+                "task_type": "confusion_clarify"
+            })
+
+    return qa_pairs
+
+
+def generate_type_definition_qa(weapons_by_type: dict) -> list:
+    """生成武器类型定义问答 - 使用完整武器名称"""
+    qa_pairs = []
+
+    # 问：什么是XX？
+    for wtype, weapons in weapons_by_type.items():
+        models = list(set(w["model"] for w in weapons if w["model"]))[:5]
+        # 使用完整名称
+        full_names = [f"{m}{wtype}" for m in models]
+        full_names_str = "、".join(full_names) if full_names else ""
+
+        qa_pairs.append({
+            "instruction": "解释武器类型",
+            "input": f"什么是{wtype}？",
+            "output": f"{wtype}是一种武器类型。武器库中的{wtype}包括{full_names_str}等。",
+            "task_type": "type_definition"
+        })
+
+        qa_pairs.append({
+            "instruction": "查询武器类型",
+            "input": f"武器库里有多少种{wtype}？",
+            "output": f"武器库中有多种{wtype}，包括：{full_names_str}等。",
+            "task_type": "type_definition"
+        })
+
+    # 问：武器库有哪些武器类型？
+    all_types = "、".join(list(weapons_by_type.keys()))
+    qa_pairs.append({
+        "instruction": "查询武器类型",
+        "input": "武器库有哪些武器类型？",
+        "output": f"武器库中的武器类型包括：{all_types}。",
+        "task_type": "type_definition"
+    })
+
+    qa_pairs.append({
+        "instruction": "查询武器类型",
+        "input": "武器有几种类型？",
+        "output": f"武器库中有{len(weapons_by_type)}种武器类型：{all_types}。",
+        "task_type": "type_definition"
+    })
+
+    return qa_pairs
+
+
 def main():
     # 解析武器数据
     csv_path = Path("/Users/guoyichen/EasonAI/LLaMA-Factory/item_name.csv")
@@ -545,6 +798,51 @@ def main():
     all_qa.extend(compare_qa)
     print(f"  品质对比: {len(compare_qa)} 条")
 
+    # ============ 新增：武器区分性问答 ============
+
+    # 9. 同类型型号对比
+    print("生成型号对比...")
+    model_compare_qa = generate_model_comparison_qa(weapons_data["by_type"], weapons_data["by_model"])
+    all_qa.extend(model_compare_qa)
+    print(f"  型号对比: {len(model_compare_qa)} 条")
+
+    # 10. 不同类型区分
+    print("生成类型区分...")
+    type_diff_qa = generate_type_difference_qa(weapons_data["by_type"])
+    all_qa.extend(type_diff_qa)
+    print(f"  类型区分: {len(type_diff_qa)} 条")
+
+    # 11. 型号识别强化
+    print("生成型号识别...")
+    model_id_qa = generate_model_identity_qa(weapons_data["by_model"])
+    all_qa.extend(model_id_qa)
+    print(f"  型号识别: {len(model_id_qa)} 条")
+
+    # 12. 易混淆澄清
+    print("生成易混淆澄清...")
+    confusion_qa = generate_confusion_clarification_qa(weapons_data["by_type"], weapons_data["by_model"])
+    all_qa.extend(confusion_qa)
+    print(f"  易混淆澄清: {len(confusion_qa)} 条")
+
+    # 13. 类型定义
+    print("生成类型定义...")
+    type_def_qa = generate_type_definition_qa(weapons_data["by_type"])
+    all_qa.extend(type_def_qa)
+    print(f"  类型定义: {len(type_def_qa)} 条")
+
+    # 去重：同一个 input 只保留一条（保留第一个）
+    print("\n去重处理...")
+    seen_inputs = set()
+    unique_qa = []
+    for qa in all_qa:
+        inp = qa.get("input", "")
+        if inp not in seen_inputs:
+            seen_inputs.add(inp)
+            unique_qa.append(qa)
+    print(f"  去重前: {len(all_qa)} 条")
+    print(f"  去重后: {len(unique_qa)} 条")
+    all_qa = unique_qa
+
     # 打乱顺序
     random.shuffle(all_qa)
 
@@ -566,8 +864,13 @@ def main():
     print(f"\n数据已保存到: {output_path}")
 
     # 显示示例
-    print("\n=== 新增数据类型示例 ===")
-    for task_type in ["negative_type", "negative_quality", "reverse_type", "reverse_quality", "combo_exists", "combo_not_exists"]:
+    print("\n=== 数据类型示例 ===")
+    sample_types = [
+        "negative_type", "negative_quality",
+        "model_comparison", "type_difference",
+        "model_identity", "confusion_clarify", "type_definition"
+    ]
+    for task_type in sample_types:
         examples = [qa for qa in all_qa if qa["task_type"] == task_type][:2]
         for ex in examples:
             print(f"\n[{task_type}]")
