@@ -702,18 +702,6 @@ def main():
         all_qa.extend(comparison_qa)
         comparison_count += len(comparison_qa)
 
-    # 装备问答
-    for armor in armors:
-        # 正例
-        armor_pos_qa = generate_armor_positive_qa(armor)
-        all_qa.extend(armor_pos_qa)
-        armor_positive_count += len(armor_pos_qa)
-
-        # 反例
-        armor_neg_qa = generate_armor_negative_qa(armor)
-        all_qa.extend(armor_neg_qa)
-        armor_negative_count += len(armor_neg_qa)
-
     # 品质定义和对比问答
     quality_def_qa = generate_quality_definition_qa()
     all_qa.extend(quality_def_qa)
@@ -723,8 +711,6 @@ def main():
     print(f"  枪械正例: {positive_count} 条")
     print(f"  枪械反例: {negative_count} 条")
     print(f"  枪械对比: {comparison_count} 条")
-    print(f"  装备正例: {armor_positive_count} 条")
-    print(f"  装备反例: {armor_negative_count} 条")
     print(f"  品质定义: {quality_def_count} 条")
 
     # 去重
