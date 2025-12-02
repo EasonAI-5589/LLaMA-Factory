@@ -17,6 +17,15 @@ from collections import defaultdict
 # 品质等级排序（从高到低）
 QUALITY_ORDER = ["轩辕", "黑鹰", "铁爪", "卓越", "精制", "改进", "完好", "修复", "破损"]
 
+# 防具品质排序（从高到低，仅4-7级有）
+ARMOR_QUALITY_ORDER = ["轩辕", "黑鹰", "铁爪"]
+
+# 防具等级
+ARMOR_LEVELS = [1, 2, 3, 4, 5, 6, 7]
+
+# 防具类型
+ARMOR_TYPES = ["头盔", "防弹衣"]
+
 # 武器类型定义
 WEAPON_TYPES = {
     "狙击枪": ["狙击枪"],
@@ -728,6 +737,507 @@ def generate_type_definition_qa(weapons_by_type: dict) -> list:
     return qa_pairs
 
 
+# ============ 防具相关函数 ============
+
+def parse_armor_items(csv_path: str) -> dict:
+    """解析防具数据（头盔和防弹衣）"""
+    helmets = []  # 头盔
+    vests = []    # 防弹衣
+    helmets_by_level = defaultdict(list)
+    vests_by_level = defaultdict(list)
+    helmets_by_quality = defaultdict(list)
+    vests_by_quality = defaultdict(list)
+
+    with open(csv_path, "r", encoding="utf-8") as f:
+        for line in f:
+            item_name = line.strip()
+            if not item_name:
+                continue
+
+            # 跳过礼包、物资箱等
+            if "礼包" in item_name or "物资箱" in item_name:
+                continue
+
+            # 跳过子物品（可选：也可以包含）
+            if item_name.startswith("子物品-"):
+                continue
+
+            # 解析头盔
+            if "头盔" in item_name and "级头盔" in item_name:
+                armor_info = parse_single_armor(item_name, "头盔")
+                if armor_info:
+                    helmets.append(armor_info)
+                    helmets_by_level[armor_info["level"]].append(armor_info)
+                    if armor_info["quality"]:
+                        helmets_by_quality[armor_info["quality"]].append(armor_info)
+
+            # 解析防弹衣
+            elif "防弹衣" in item_name and "级防弹衣" in item_name:
+                armor_info = parse_single_armor(item_name, "防弹衣")
+                if armor_info:
+                    vests.append(armor_info)
+                    vests_by_level[armor_info["level"]].append(armor_info)
+                    if armor_info["quality"]:
+                        vests_by_quality[armor_info["quality"]].append(armor_info)
+
+    return {
+        "helmets": helmets,
+        "vests": vests,
+        "helmets_by_level": dict(helmets_by_level),
+        "vests_by_level": dict(vests_by_level),
+        "helmets_by_quality": dict(helmets_by_quality),
+        "vests_by_quality": dict(vests_by_quality),
+        "all_armors": helmets + vests
+    }
+
+
+def parse_single_armor(item_name: str, armor_type: str) -> dict:
+    """解析单个防具的信息"""
+    import re
+
+    # 提取等级
+    level_match = re.search(r"(\d)级", item_name)
+    if not level_match:
+        return None
+    level = int(level_match.group(1))
+
+    # 提取品质
+    quality = None
+    for q in ARMOR_QUALITY_ORDER:
+        if f"({q})" in item_name:
+            quality = q
+            break
+
+    # 判断是否是特殊款
+    is_special = "·" in item_name
+    special_name = None
+    if is_special:
+        # 提取特殊款名称，如 "墨守"、"特劳斯"
+        special_match = re.search(r"·(.+)$", item_name)
+        if special_match:
+            special_name = special_match.group(1)
+
+    return {
+        "name": item_name,
+        "type": armor_type,
+        "level": level,
+        "quality": quality,
+        "is_special": is_special,
+        "special_name": special_name
+    }
+
+
+def generate_armor_level_qa(armor_data: dict) -> list:
+    """生成防具等级查询问答"""
+    qa_pairs = []
+
+    all_armors = armor_data["all_armors"]
+
+    for armor in all_armors:
+        name = armor["name"]
+        level = armor["level"]
+        atype = armor["type"]
+
+        # 问：XX是几级？
+        questions = [
+            f"{name}是几级{atype}？",
+            f"{name}是什么等级？",
+            f"查询{name}的等级",
+        ]
+
+        for q in questions:
+            qa_pairs.append({
+                "instruction": "查询防具等级",
+                "input": q,
+                "output": f"{name}是{level}级{atype}。",
+                "task_type": "armor_level"
+            })
+
+    return qa_pairs
+
+
+def generate_armor_quality_qa(armor_data: dict) -> list:
+    """生成防具品质查询问答"""
+    qa_pairs = []
+
+    all_armors = armor_data["all_armors"]
+
+    for armor in all_armors:
+        name = armor["name"]
+        quality = armor["quality"]
+        level = armor["level"]
+        atype = armor["type"]
+
+        questions = [
+            f"{name}是什么品质？",
+            f"{name}的品质是什么？",
+            f"查询{name}的品质",
+        ]
+
+        if quality:
+            answer = f"{name}是{quality}品质。"
+        else:
+            answer = f"{name}是普通品质，没有特殊品质后缀。"
+
+        for q in questions:
+            qa_pairs.append({
+                "instruction": "查询防具品质",
+                "input": q,
+                "output": answer,
+                "task_type": "armor_quality"
+            })
+
+    return qa_pairs
+
+
+def generate_armor_type_qa(armor_data: dict) -> list:
+    """生成防具类型识别问答"""
+    qa_pairs = []
+
+    all_armors = armor_data["all_armors"]
+
+    for armor in all_armors:
+        name = armor["name"]
+        atype = armor["type"]
+        other_type = "防弹衣" if atype == "头盔" else "头盔"
+
+        # 问：XX是头盔还是防弹衣？
+        qa_pairs.append({
+            "instruction": "识别防具类型",
+            "input": f"{name}是头盔还是防弹衣？",
+            "output": f"{name}是{atype}。",
+            "task_type": "armor_type"
+        })
+
+        qa_pairs.append({
+            "instruction": "识别防具类型",
+            "input": f"{name}属于什么防具类型？",
+            "output": f"{name}是{atype}类型。",
+            "task_type": "armor_type"
+        })
+
+        # 问：XX是YY吗？（正确）
+        qa_pairs.append({
+            "instruction": "确认防具类型",
+            "input": f"{name}是{atype}吗？",
+            "output": f"是的，{name}是{atype}。",
+            "task_type": "armor_type"
+        })
+
+    return qa_pairs
+
+
+def generate_armor_level_compare_qa(armor_data: dict) -> list:
+    """生成防具等级对比问答"""
+    qa_pairs = []
+
+    # 头盔等级对比
+    helmets = armor_data["helmets"]
+    for i, h1 in enumerate(helmets):
+        for h2 in helmets[i+1:]:
+            if h1["level"] == h2["level"]:
+                continue
+
+            name1, level1 = h1["name"], h1["level"]
+            name2, level2 = h2["name"], h2["level"]
+
+            if level1 > level2:
+                higher, lower = name1, name2
+                higher_level, lower_level = level1, level2
+            else:
+                higher, lower = name2, name1
+                higher_level, lower_level = level2, level1
+
+            qa_pairs.append({
+                "instruction": "对比防具等级",
+                "input": f"{name1}和{name2}哪个等级更高？",
+                "output": f"{higher}等级更高。{higher_level}级 > {lower_level}级。",
+                "task_type": "armor_level_compare"
+            })
+
+    # 防弹衣等级对比
+    vests = armor_data["vests"]
+    for i, v1 in enumerate(vests):
+        for v2 in vests[i+1:]:
+            if v1["level"] == v2["level"]:
+                continue
+
+            name1, level1 = v1["name"], v1["level"]
+            name2, level2 = v2["name"], v2["level"]
+
+            if level1 > level2:
+                higher, lower = name1, name2
+                higher_level, lower_level = level1, level2
+            else:
+                higher, lower = name2, name1
+                higher_level, lower_level = level2, level1
+
+            qa_pairs.append({
+                "instruction": "对比防具等级",
+                "input": f"{name1}和{name2}哪个等级更高？",
+                "output": f"{higher}等级更高。{higher_level}级 > {lower_level}级。",
+                "task_type": "armor_level_compare"
+            })
+
+    # 限制数量，避免太多
+    if len(qa_pairs) > 200:
+        qa_pairs = random.sample(qa_pairs, 200)
+
+    return qa_pairs
+
+
+def generate_armor_quality_compare_qa(armor_data: dict) -> list:
+    """生成防具品质对比问答"""
+    qa_pairs = []
+    quality_order = {"轩辕": 0, "黑鹰": 1, "铁爪": 2}
+
+    # 同等级不同品质对比
+    for level in ARMOR_LEVELS:
+        # 头盔
+        helmets_at_level = armor_data["helmets_by_level"].get(level, [])
+        quality_helmets = [h for h in helmets_at_level if h["quality"]]
+
+        for i, h1 in enumerate(quality_helmets):
+            for h2 in quality_helmets[i+1:]:
+                if h1["quality"] == h2["quality"]:
+                    continue
+
+                name1, q1 = h1["name"], h1["quality"]
+                name2, q2 = h2["name"], h2["quality"]
+
+                if quality_order[q1] < quality_order[q2]:
+                    better, worse = name1, name2
+                    better_q = q1
+                else:
+                    better, worse = name2, name1
+                    better_q = q2
+
+                qa_pairs.append({
+                    "instruction": "对比防具品质",
+                    "input": f"{name1}和{name2}哪个品质更好？",
+                    "output": f"{better}品质更好。品质排序：轩辕 > 黑鹰 > 铁爪。",
+                    "task_type": "armor_quality_compare"
+                })
+
+        # 防弹衣
+        vests_at_level = armor_data["vests_by_level"].get(level, [])
+        quality_vests = [v for v in vests_at_level if v["quality"]]
+
+        for i, v1 in enumerate(quality_vests):
+            for v2 in quality_vests[i+1:]:
+                if v1["quality"] == v2["quality"]:
+                    continue
+
+                name1, q1 = v1["name"], v1["quality"]
+                name2, q2 = v2["name"], v2["quality"]
+
+                if quality_order[q1] < quality_order[q2]:
+                    better, worse = name1, name2
+                else:
+                    better, worse = name2, name1
+
+                qa_pairs.append({
+                    "instruction": "对比防具品质",
+                    "input": f"{name1}和{name2}哪个品质更好？",
+                    "output": f"{better}品质更好。品质排序：轩辕 > 黑鹰 > 铁爪。",
+                    "task_type": "armor_quality_compare"
+                })
+
+    return qa_pairs
+
+
+def generate_armor_existence_qa(armor_data: dict) -> list:
+    """生成防具存在性查询问答"""
+    qa_pairs = []
+
+    # 各等级头盔存在性
+    for level in ARMOR_LEVELS:
+        helmets = armor_data["helmets_by_level"].get(level, [])
+        if helmets:
+            names = "、".join([h["name"] for h in helmets])
+            qa_pairs.append({
+                "instruction": "查询防具存在",
+                "input": f"武器库有{level}级头盔吗？",
+                "output": f"有。武器库中有{names}。",
+                "task_type": "armor_existence"
+            })
+
+    # 各等级防弹衣存在性
+    for level in ARMOR_LEVELS:
+        vests = armor_data["vests_by_level"].get(level, [])
+        if vests:
+            names = "、".join([v["name"] for v in vests])
+            qa_pairs.append({
+                "instruction": "查询防具存在",
+                "input": f"武器库有{level}级防弹衣吗？",
+                "output": f"有。武器库中有{names}。",
+                "task_type": "armor_existence"
+            })
+
+    # 不存在的等级
+    qa_pairs.append({
+        "instruction": "查询防具存在",
+        "input": "有8级头盔吗？",
+        "output": "没有。武器库中头盔最高等级为7级。",
+        "task_type": "armor_existence"
+    })
+
+    qa_pairs.append({
+        "instruction": "查询防具存在",
+        "input": "有8级防弹衣吗？",
+        "output": "没有。武器库中防弹衣最高等级为7级。",
+        "task_type": "armor_existence"
+    })
+
+    qa_pairs.append({
+        "instruction": "查询防具存在",
+        "input": "有0级头盔吗？",
+        "output": "没有。武器库中头盔最低等级为1级。",
+        "task_type": "armor_existence"
+    })
+
+    return qa_pairs
+
+
+def generate_armor_negative_qa(armor_data: dict) -> list:
+    """生成防具否定判断问答"""
+    qa_pairs = []
+
+    all_armors = armor_data["all_armors"]
+
+    for armor in all_armors:
+        name = armor["name"]
+        level = armor["level"]
+        atype = armor["type"]
+        quality = armor["quality"]
+        other_type = "防弹衣" if atype == "头盔" else "头盔"
+
+        # 类型否定
+        qa_pairs.append({
+            "instruction": "判断防具类型",
+            "input": f"{name}是{other_type}吗？",
+            "output": f"不是。{name}是{atype}，不是{other_type}。",
+            "task_type": "armor_negative"
+        })
+
+        # 等级否定（问其他等级）
+        other_levels = [l for l in ARMOR_LEVELS if l != level]
+        for wrong_level in random.sample(other_levels, min(2, len(other_levels))):
+            qa_pairs.append({
+                "instruction": "判断防具等级",
+                "input": f"{name}是{wrong_level}级{atype}吗？",
+                "output": f"不是。{name}是{level}级{atype}，不是{wrong_level}级{atype}。",
+                "task_type": "armor_negative"
+            })
+
+        # 品质否定
+        if quality:
+            other_qualities = [q for q in ARMOR_QUALITY_ORDER if q != quality]
+            for wrong_quality in other_qualities:
+                qa_pairs.append({
+                    "instruction": "判断防具品质",
+                    "input": f"{name}是{wrong_quality}品质吗？",
+                    "output": f"不是。{name}是{quality}品质，不是{wrong_quality}品质。",
+                    "task_type": "armor_negative"
+                })
+
+    return qa_pairs
+
+
+def generate_armor_special_qa(armor_data: dict) -> list:
+    """生成特殊款防具识别问答"""
+    qa_pairs = []
+
+    all_armors = armor_data["all_armors"]
+    special_armors = [a for a in all_armors if a["is_special"]]
+
+    for armor in special_armors:
+        name = armor["name"]
+        level = armor["level"]
+        atype = armor["type"]
+        special_name = armor["special_name"]
+
+        qa_pairs.append({
+            "instruction": "识别特殊防具",
+            "input": f"{name}是什么？",
+            "output": f"{name}是{level}级{atype}的特殊款式。",
+            "task_type": "armor_special"
+        })
+
+        qa_pairs.append({
+            "instruction": "识别特殊防具",
+            "input": f"{name}和普通{level}级{atype}有什么区别？",
+            "output": f"{name}是{level}级{atype}的特殊款式，都是{level}级{atype}。",
+            "task_type": "armor_special"
+        })
+
+        qa_pairs.append({
+            "instruction": "识别特殊防具",
+            "input": f"{name}是{level}级{atype}吗？",
+            "output": f"是的，{name}是{level}级{atype}的特殊款式。",
+            "task_type": "armor_special"
+        })
+
+    return qa_pairs
+
+
+def generate_armor_definition_qa(armor_data: dict) -> list:
+    """生成防具类型定义问答"""
+    qa_pairs = []
+
+    # 武器库有哪些防具类型？
+    qa_pairs.append({
+        "instruction": "查询防具类型",
+        "input": "武器库有哪些防具类型？",
+        "output": "武器库中的防具类型包括：头盔和防弹衣。",
+        "task_type": "armor_definition"
+    })
+
+    qa_pairs.append({
+        "instruction": "查询防具类型",
+        "input": "防具有哪些种类？",
+        "output": "防具分为两种：头盔和防弹衣。",
+        "task_type": "armor_definition"
+    })
+
+    # 头盔等级说明
+    helmet_levels = sorted(armor_data["helmets_by_level"].keys())
+    min_level, max_level = min(helmet_levels), max(helmet_levels)
+    qa_pairs.append({
+        "instruction": "查询防具等级",
+        "input": "头盔有哪些等级？",
+        "output": f"头盔有{min_level}级到{max_level}级，共{len(helmet_levels)}个等级。4级及以上有铁爪、黑鹰、轩辕品质版本。",
+        "task_type": "armor_definition"
+    })
+
+    # 防弹衣等级说明
+    vest_levels = sorted(armor_data["vests_by_level"].keys())
+    min_level, max_level = min(vest_levels), max(vest_levels)
+    qa_pairs.append({
+        "instruction": "查询防具等级",
+        "input": "防弹衣有哪些等级？",
+        "output": f"防弹衣有{min_level}级到{max_level}级，共{len(vest_levels)}个等级。4级及以上有铁爪、黑鹰、轩辕品质版本。",
+        "task_type": "armor_definition"
+    })
+
+    # 品质说明
+    qa_pairs.append({
+        "instruction": "查询防具品质",
+        "input": "防具有哪些品质？",
+        "output": "防具品质从高到低为：轩辕 > 黑鹰 > 铁爪 > 普通。4级及以上的防具才有品质区分。",
+        "task_type": "armor_definition"
+    })
+
+    qa_pairs.append({
+        "instruction": "查询防具品质",
+        "input": "防具品质排序是什么？",
+        "output": "防具品质从高到低为：轩辕 > 黑鹰 > 铁爪。1-3级防具没有品质后缀。",
+        "task_type": "armor_definition"
+    })
+
+    return qa_pairs
+
+
 def main():
     # 解析武器数据
     csv_path = Path("/Users/guoyichen/EasonAI/LLaMA-Factory/item_name.csv")
@@ -830,6 +1340,70 @@ def main():
     all_qa.extend(type_def_qa)
     print(f"  类型定义: {len(type_def_qa)} 条")
 
+    # ============ 新增：防具问答 ============
+    print("\n" + "="*50)
+    print("开始生成防具数据...")
+    print("="*50)
+
+    # 解析防具数据
+    armor_data = parse_armor_items(csv_path)
+    print(f"解析到 {len(armor_data['helmets'])} 个头盔")
+    print(f"解析到 {len(armor_data['vests'])} 个防弹衣")
+
+    # 14. 防具等级查询
+    print("\n生成防具等级查询...")
+    armor_level_qa = generate_armor_level_qa(armor_data)
+    all_qa.extend(armor_level_qa)
+    print(f"  防具等级查询: {len(armor_level_qa)} 条")
+
+    # 15. 防具品质查询
+    print("生成防具品质查询...")
+    armor_quality_qa = generate_armor_quality_qa(armor_data)
+    all_qa.extend(armor_quality_qa)
+    print(f"  防具品质查询: {len(armor_quality_qa)} 条")
+
+    # 16. 防具类型识别
+    print("生成防具类型识别...")
+    armor_type_qa = generate_armor_type_qa(armor_data)
+    all_qa.extend(armor_type_qa)
+    print(f"  防具类型识别: {len(armor_type_qa)} 条")
+
+    # 17. 防具等级对比
+    print("生成防具等级对比...")
+    armor_level_compare_qa = generate_armor_level_compare_qa(armor_data)
+    all_qa.extend(armor_level_compare_qa)
+    print(f"  防具等级对比: {len(armor_level_compare_qa)} 条")
+
+    # 18. 防具品质对比
+    print("生成防具品质对比...")
+    armor_quality_compare_qa = generate_armor_quality_compare_qa(armor_data)
+    all_qa.extend(armor_quality_compare_qa)
+    print(f"  防具品质对比: {len(armor_quality_compare_qa)} 条")
+
+    # 19. 防具存在性查询
+    print("生成防具存在性查询...")
+    armor_existence_qa = generate_armor_existence_qa(armor_data)
+    all_qa.extend(armor_existence_qa)
+    print(f"  防具存在性查询: {len(armor_existence_qa)} 条")
+
+    # 20. 防具否定判断
+    print("生成防具否定判断...")
+    armor_negative_qa = generate_armor_negative_qa(armor_data)
+    all_qa.extend(armor_negative_qa)
+    print(f"  防具否定判断: {len(armor_negative_qa)} 条")
+
+    # 21. 特殊款防具识别
+    print("生成特殊款防具识别...")
+    armor_special_qa = generate_armor_special_qa(armor_data)
+    all_qa.extend(armor_special_qa)
+    print(f"  特殊款防具识别: {len(armor_special_qa)} 条")
+
+    # 22. 防具类型定义
+    print("生成防具类型定义...")
+    armor_def_qa = generate_armor_definition_qa(armor_data)
+    all_qa.extend(armor_def_qa)
+    print(f"  防具类型定义: {len(armor_def_qa)} 条")
+
     # 去重：同一个 input 只保留一条（保留第一个）
     print("\n去重处理...")
     seen_inputs = set()
@@ -868,7 +1442,10 @@ def main():
     sample_types = [
         "negative_type", "negative_quality",
         "model_comparison", "type_difference",
-        "model_identity", "confusion_clarify", "type_definition"
+        "model_identity", "confusion_clarify", "type_definition",
+        # 防具类型
+        "armor_level", "armor_quality", "armor_type",
+        "armor_level_compare", "armor_negative", "armor_definition"
     ]
     for task_type in sample_types:
         examples = [qa for qa in all_qa if qa["task_type"] == task_type][:2]
