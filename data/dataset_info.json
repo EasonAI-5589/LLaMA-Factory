@@ -31,6 +31,22 @@
       "response": "output"
     }
   },
+  "weapon_inventory_sft_v5": {
+    "file_name": "weapon_inventory_sft_v5.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "weapon_inventory_sft_v5_merged": {
+    "file_name": "weapon_inventory_sft_v5_merged.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
   "identity": {
     "file_name": "identity.json"
   },
