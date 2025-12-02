@@ -142,7 +142,7 @@ def generate_negative_qa(gun: dict) -> list:
             qa_pairs.append({
                 "instruction": "",
                 "input": f"{name}是{other_type}吗？",
-                "output": f"不是，{name}不是{other_type}，是{gtype}。"
+                "output": f"不是，{name}是{gtype}，不是{other_type}。"
             })
 
     return qa_pairs
