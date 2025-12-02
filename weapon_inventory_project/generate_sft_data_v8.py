@@ -100,74 +100,49 @@ def parse_guns_from_csv(csv_path: str) -> list:
 
 
 def generate_positive_qa(gun: dict) -> list:
-    """为单把武器生成正例问答（多种问法变体）"""
+    """为单把武器生成正例问答（精简版）"""
     name = gun["name"]
     gtype = gun["type"]
     quality = gun["quality"]
 
     qa_pairs = []
 
-    # 基础问题 - 是武器吗
+    # 1. 是武器吗
     qa_pairs.append({
         "instruction": "",
         "input": f"{name}是武器吗？",
         "output": f"是的，{name}是武器。"
     })
 
-    # 类型问题 - 多种问法
+    # 2. 类型问题（保留1个）
     qa_pairs.append({
         "instruction": "",
         "input": f"{name}是什么武器？",
         "output": f"{name}是{gtype}。"
     })
-    qa_pairs.append({
-        "instruction": "",
-        "input": f"{name}是什么类型的武器？",
-        "output": f"{name}是{gtype}。"
-    })
-    qa_pairs.append({
-        "instruction": "",
-        "input": f"{name}属于什么类型？",
-        "output": f"{name}属于{gtype}类型。"
-    })
 
-    # 品质问题 - 多种问法
+    # 3. 品质问题（保留1个）
     qa_pairs.append({
         "instruction": "",
         "input": f"{name}是什么品质？",
         "output": f"{name}是{quality}品质。"
     })
-    qa_pairs.append({
-        "instruction": "",
-        "input": f"{name}的品质是什么？",
-        "output": f"{name}的品质是{quality}。"
-    })
-    qa_pairs.append({
-        "instruction": "",
-        "input": f"{name}是什么等级？",
-        "output": f"{name}是{quality}品质。"
-    })
 
-    # 描述问题
+    # 4. 描述问题（保留1个）
     qa_pairs.append({
         "instruction": "",
         "input": f"描述{name}",
         "output": f"{name}是{quality}品质的{gtype}。"
     })
-    qa_pairs.append({
-        "instruction": "",
-        "input": f"介绍一下{name}",
-        "output": f"{name}是一把{quality}品质的{gtype}。"
-    })
 
-    # 确认类型问题（正向确认）
+    # 5. 确认类型（正向）
     qa_pairs.append({
         "instruction": "",
         "input": f"{name}是{gtype}吗？",
         "output": f"是的，{name}是{gtype}。"
     })
 
-    # 确认品质问题（正向确认）
+    # 6. 确认品质（正向）
     qa_pairs.append({
         "instruction": "",
         "input": f"{name}是{quality}品质吗？",
