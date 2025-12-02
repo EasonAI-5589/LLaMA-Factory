@@ -1,4 +1,12 @@
 {
+  "weapon_inventory_sft": {
+    "file_name": "weapon_inventory_sft.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
   "identity": {
     "file_name": "identity.json"
   },
