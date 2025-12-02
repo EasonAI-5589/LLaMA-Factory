@@ -178,14 +178,15 @@ def generate_positive_qa(gun: dict) -> list:
 
 
 def generate_negative_qa(gun: dict) -> list:
-    """为单把武器生成反例问答（类型否定）- 只取3个"""
+    """为单把武器生成反例问答（类型否定 + 品质否定）"""
     name = gun["name"]
     gtype = gun["type"]
+    quality = gun["quality"]
 
     qa_pairs = []
-    other_types = [t for t in GUN_TYPES if t != gtype]
 
-    # 只随机选择3个其他类型（减少反例数量）
+    # 1. 类型否定 - 随机选择3个其他类型
+    other_types = [t for t in GUN_TYPES if t != gtype]
     selected_types = random.sample(other_types, min(3, len(other_types)))
 
     for other_type in selected_types:
@@ -193,6 +194,17 @@ def generate_negative_qa(gun: dict) -> list:
             "instruction": "",
             "input": f"{name}是{other_type}吗？",
             "output": f"不是，{name}是{gtype}，不是{other_type}。"
+        })
+
+    # 2. 品质否定 - 随机选择3个其他品质
+    other_qualities = [q for q in QUALITY_ORDER if q != quality]
+    selected_qualities = random.sample(other_qualities, min(3, len(other_qualities)))
+
+    for other_quality in selected_qualities:
+        qa_pairs.append({
+            "instruction": "",
+            "input": f"{name}是{other_quality}品质吗？",
+            "output": f"不是，{name}是{quality}品质，不是{other_quality}品质。"
         })
 
     return qa_pairs
