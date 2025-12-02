@@ -6,18 +6,24 @@
 2. 减少对比问答数量
 3. 增加正例问法变体
 4. 按武器分组排列
+5. 添加装备（头盔、防弹衣、背包）支持
 """
 
 import json
 import random
+import re
 from pathlib import Path
 from collections import defaultdict
 
 # 品质等级排序（从高到低）
 QUALITY_ORDER = ["轩辕", "卓越", "黑鹰", "铁爪", "精制", "改进", "完好", "修复", "破损"]
+ARMOR_QUALITY = ["轩辕", "黑鹰", "铁爪"]  # 装备可用的品质
 
 # 枪类武器类型
 GUN_TYPES = ["狙击枪", "冲锋枪", "突击步枪", "射手步枪", "轻机枪", "霰弹枪", "手枪"]
+
+# 装备类型
+ARMOR_TYPES = ["头盔", "防弹衣", "背包"]
 
 # 配件关键词（排除）
 ACCESSORY_KEYWORDS = [
@@ -97,6 +103,157 @@ def parse_guns_from_csv(csv_path: str) -> list:
             })
 
     return guns
+
+
+def parse_armors_from_csv(csv_path: str) -> list:
+    """解析CSV文件，只返回装备（头盔、防弹衣、背包）"""
+    armors = []
+    seen = set()
+
+    # 匹配模式: X级头盔/防弹衣/背包 或 X级头盔/防弹衣/背包(品质) 或 X级头盔·特殊名
+    armor_pattern = re.compile(r'^(\d)级(头盔|防弹衣|背包)(?:\(([^)]+)\)|·(.+))?$')
+
+    with open(csv_path, "r", encoding="utf-8") as f:
+        for line in f:
+            item_name = line.strip()
+            if not item_name:
+                continue
+
+            # 排除子物品
+            if item_name.startswith("子物品-"):
+                continue
+
+            if item_name in seen:
+                continue
+            seen.add(item_name)
+
+            match = armor_pattern.match(item_name)
+            if not match:
+                continue
+
+            level = int(match.group(1))
+            armor_type = match.group(2)
+            quality = match.group(3)  # 括号内的品质
+            special_name = match.group(4)  # 特殊名称如"墨守"
+
+            # 验证品质
+            if quality and quality not in ARMOR_QUALITY:
+                continue
+
+            armors.append({
+                "name": item_name,
+                "type": armor_type,
+                "level": level,
+                "quality": quality,  # 可能为 None（无品质装备）
+                "special_name": special_name  # 可能为 None
+            })
+
+    return armors
+
+
+def generate_armor_positive_qa(armor: dict) -> list:
+    """为装备生成正例问答"""
+    name = armor["name"]
+    armor_type = armor["type"]
+    level = armor["level"]
+    quality = armor["quality"]
+
+    qa_pairs = []
+
+    # 1. 是装备吗
+    qa_pairs.append({
+        "instruction": "",
+        "input": f"{name}是装备吗？",
+        "output": f"是的，{name}是装备。"
+    })
+
+    # 2. 类型问题
+    qa_pairs.append({
+        "instruction": "",
+        "input": f"{name}是什么装备？",
+        "output": f"{name}是{level}级{armor_type}。"
+    })
+
+    # 3. 等级问题
+    qa_pairs.append({
+        "instruction": "",
+        "input": f"{name}是几级装备？",
+        "output": f"{name}是{level}级装备。"
+    })
+
+    # 4. 确认类型
+    qa_pairs.append({
+        "instruction": "",
+        "input": f"{name}是{armor_type}吗？",
+        "output": f"是的，{name}是{armor_type}。"
+    })
+
+    # 5. 如果有品质，添加品质问答
+    if quality:
+        qa_pairs.append({
+            "instruction": "",
+            "input": f"{name}是什么品质？",
+            "output": f"{name}是{quality}品质。"
+        })
+        qa_pairs.append({
+            "instruction": "",
+            "input": f"{name}是{quality}品质吗？",
+            "output": f"是的，{name}是{quality}品质。"
+        })
+        qa_pairs.append({
+            "instruction": "",
+            "input": f"描述{name}",
+            "output": f"{name}是{quality}品质的{level}级{armor_type}。"
+        })
+    else:
+        qa_pairs.append({
+            "instruction": "",
+            "input": f"描述{name}",
+            "output": f"{name}是{level}级{armor_type}。"
+        })
+
+    return qa_pairs
+
+
+def generate_armor_negative_qa(armor: dict) -> list:
+    """为装备生成反例问答"""
+    name = armor["name"]
+    armor_type = armor["type"]
+    level = armor["level"]
+    quality = armor["quality"]
+
+    qa_pairs = []
+
+    # 1. 类型否定
+    other_types = [t for t in ARMOR_TYPES if t != armor_type]
+    for other_type in other_types:
+        qa_pairs.append({
+            "instruction": "",
+            "input": f"{name}是{other_type}吗？",
+            "output": f"不是，{name}是{armor_type}，不是{other_type}。"
+        })
+
+    # 2. 等级否定（随机选2个其他等级）
+    other_levels = [l for l in range(1, 8) if l != level]
+    selected_levels = random.sample(other_levels, min(2, len(other_levels)))
+    for other_level in selected_levels:
+        qa_pairs.append({
+            "instruction": "",
+            "input": f"{name}是{other_level}级装备吗？",
+            "output": f"不是，{name}是{level}级装备，不是{other_level}级。"
+        })
+
+    # 3. 品质否定（如果有品质）
+    if quality:
+        other_qualities = [q for q in ARMOR_QUALITY if q != quality]
+        for other_quality in other_qualities:
+            qa_pairs.append({
+                "instruction": "",
+                "input": f"{name}是{other_quality}品质吗？",
+                "output": f"不是，{name}是{quality}品质，不是{other_quality}品质。"
+            })
+
+    return qa_pairs
 
 
 def generate_positive_qa(gun: dict) -> list:
@@ -481,25 +638,45 @@ def main():
     random.seed(42)  # 固定随机种子，保证可复现
 
     csv_path = Path("/Users/guoyichen/EasonAI/LLaMA-Factory/item_name.csv")
-    guns = parse_guns_from_csv(csv_path)
 
+    # 解析枪械
+    guns = parse_guns_from_csv(csv_path)
     print(f"解析到 {len(guns)} 把枪类武器")
 
-    # 统计各类型数量
+    # 解析装备
+    armors = parse_armors_from_csv(csv_path)
+    print(f"解析到 {len(armors)} 件装备")
+
+    # 统计枪械各类型数量
     type_counts = defaultdict(int)
     quality_counts = defaultdict(int)
     for gun in guns:
         type_counts[gun["type"]] += 1
         quality_counts[gun["quality"]] += 1
 
-    print("\n各类型数量:")
+    print("\n枪械类型分布:")
     for t in GUN_TYPES:
         print(f"  {t}: {type_counts[t]}")
 
-    print("\n各品质数量:")
+    print("\n枪械品质分布:")
     for q in QUALITY_ORDER:
         if q in quality_counts:
             print(f"  {q}: {quality_counts[q]}")
+
+    # 统计装备
+    armor_type_counts = defaultdict(int)
+    armor_level_counts = defaultdict(int)
+    for armor in armors:
+        armor_type_counts[armor["type"]] += 1
+        armor_level_counts[armor["level"]] += 1
+
+    print("\n装备类型分布:")
+    for t in ARMOR_TYPES:
+        print(f"  {t}: {armor_type_counts[t]}")
+
+    print("\n装备等级分布:")
+    for level in sorted(armor_level_counts.keys()):
+        print(f"  {level}级: {armor_level_counts[level]}")
 
     # 预处理：建立索引
     guns_by_type = defaultdict(list)
@@ -516,33 +693,50 @@ def main():
     positive_count = 0
     negative_count = 0
     comparison_count = 0
+    armor_positive_count = 0
+    armor_negative_count = 0
 
+    # 枪械问答
     for gun in guns:
-        # 1. 正例（11条）
+        # 1. 正例
         positive_qa = generate_positive_qa(gun)
         all_qa.extend(positive_qa)
         positive_count += len(positive_qa)
 
-        # 2. 反例（3条）
+        # 2. 反例
         negative_qa = generate_negative_qa(gun)
         all_qa.extend(negative_qa)
         negative_count += len(negative_qa)
 
-        # 3. 对比问答（最多4条）
+        # 3. 对比问答
         comparison_qa = generate_limited_comparison_qa(gun, guns_by_type, guns_by_quality, gun_base_names)
         all_qa.extend(comparison_qa)
         comparison_count += len(comparison_qa)
 
-    # 4. 品质定义和对比问答
+    # 装备问答
+    for armor in armors:
+        # 正例
+        armor_pos_qa = generate_armor_positive_qa(armor)
+        all_qa.extend(armor_pos_qa)
+        armor_positive_count += len(armor_pos_qa)
+
+        # 反例
+        armor_neg_qa = generate_armor_negative_qa(armor)
+        all_qa.extend(armor_neg_qa)
+        armor_negative_count += len(armor_neg_qa)
+
+    # 品质定义和对比问答
     quality_def_qa = generate_quality_definition_qa()
     all_qa.extend(quality_def_qa)
     quality_def_count = len(quality_def_qa)
 
     print(f"\n生成问答数据: {len(all_qa)} 条")
-    print(f"  正例: {positive_count} 条 ({positive_count/len(all_qa)*100:.1f}%)")
-    print(f"  反例: {negative_count} 条 ({negative_count/len(all_qa)*100:.1f}%)")
-    print(f"  对比: {comparison_count} 条 ({comparison_count/len(all_qa)*100:.1f}%)")
-    print(f"  品质定义: {quality_def_count} 条 ({quality_def_count/len(all_qa)*100:.1f}%)")
+    print(f"  枪械正例: {positive_count} 条")
+    print(f"  枪械反例: {negative_count} 条")
+    print(f"  枪械对比: {comparison_count} 条")
+    print(f"  装备正例: {armor_positive_count} 条")
+    print(f"  装备反例: {armor_negative_count} 条")
+    print(f"  品质定义: {quality_def_count} 条")
 
     # 去重
     seen_inputs = set()
