@@ -219,7 +219,6 @@ def generate_armor_negative_qa(armor: dict) -> list:
     """为装备生成反例问答"""
     name = armor["name"]
     armor_type = armor["type"]
-    level = armor["level"]
     quality = armor["quality"]
 
     qa_pairs = []
@@ -233,17 +232,7 @@ def generate_armor_negative_qa(armor: dict) -> list:
             "output": f"不是，{name}是{armor_type}，不是{other_type}。"
         })
 
-    # 2. 等级否定（随机选2个其他等级）
-    other_levels = [l for l in range(1, 8) if l != level]
-    selected_levels = random.sample(other_levels, min(2, len(other_levels)))
-    for other_level in selected_levels:
-        qa_pairs.append({
-            "instruction": "",
-            "input": f"{name}是{other_level}级装备吗？",
-            "output": f"不是，{name}是{level}级装备，不是{other_level}级。"
-        })
-
-    # 3. 品质否定（如果有品质）
+    # 2. 品质否定（如果有品质）
     if quality:
         other_qualities = [q for q in ARMOR_QUALITY if q != quality]
         for other_quality in other_qualities:
