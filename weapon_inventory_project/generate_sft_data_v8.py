@@ -14,7 +14,7 @@ from pathlib import Path
 from collections import defaultdict
 
 # 品质等级排序（从高到低）
-QUALITY_ORDER = ["轩辕", "黑鹰", "铁爪", "卓越", "精制", "改进", "完好", "修复", "破损"]
+QUALITY_ORDER = ["轩辕", "卓越", "黑鹰", "铁爪", "精制", "改进", "完好", "修复", "破损"]
 
 # 枪类武器类型
 GUN_TYPES = ["狙击枪", "冲锋枪", "突击步枪", "射手步枪", "轻机枪", "霰弹枪", "手枪"]
@@ -267,6 +267,241 @@ def generate_limited_comparison_qa(gun: dict, guns_by_type: dict, guns_by_qualit
     return qa_pairs
 
 
+def generate_quality_definition_qa() -> list:
+    """生成品质定义和对比问答"""
+    qa_pairs = []
+
+    # 品质分类
+    HIGH_QUALITY = ["轩辕", "卓越", "黑鹰", "铁爪"]
+    NORMAL_QUALITY = ["精制", "改进", "完好"]
+    LOW_QUALITY = ["修复", "破损"]
+
+    # 1. 品质等级列表
+    quality_list = "、".join(QUALITY_ORDER)
+    qa_pairs.append({
+        "instruction": "",
+        "input": "武器有哪些品质等级？",
+        "output": f"武器品质从高到低分为：{quality_list}。"
+    })
+    qa_pairs.append({
+        "instruction": "",
+        "input": "武器品质有几种？",
+        "output": f"武器品质共有{len(QUALITY_ORDER)}种，从高到低分别是：{quality_list}。"
+    })
+    qa_pairs.append({
+        "instruction": "",
+        "input": "列出所有品质等级",
+        "output": f"品质等级从高到低：{quality_list}。"
+    })
+
+    # 1.5 品质分类问答
+    high_list = "、".join(HIGH_QUALITY)
+    normal_list = "、".join(NORMAL_QUALITY)
+    low_list = "、".join(LOW_QUALITY)
+
+    qa_pairs.append({
+        "instruction": "",
+        "input": "哪些是高品质？",
+        "output": f"高品质包括：{high_list}。"
+    })
+    qa_pairs.append({
+        "instruction": "",
+        "input": "高品质有哪些？",
+        "output": f"高品质有：{high_list}。"
+    })
+    qa_pairs.append({
+        "instruction": "",
+        "input": "哪些是普通品质？",
+        "output": f"普通品质包括：{normal_list}。"
+    })
+    qa_pairs.append({
+        "instruction": "",
+        "input": "普通品质有哪些？",
+        "output": f"普通品质有：{normal_list}。"
+    })
+    qa_pairs.append({
+        "instruction": "",
+        "input": "哪些是低品质？",
+        "output": f"低品质包括：{low_list}。"
+    })
+    qa_pairs.append({
+        "instruction": "",
+        "input": "低品质有哪些？",
+        "output": f"低品质有：{low_list}。"
+    })
+    qa_pairs.append({
+        "instruction": "",
+        "input": "品质是如何分类的？",
+        "output": f"品质分为三类：高品质（{high_list}）、普通品质（{normal_list}）、低品质（{low_list}）。"
+    })
+
+    # 每个品质属于哪个分类
+    for q in HIGH_QUALITY:
+        qa_pairs.append({
+            "instruction": "",
+            "input": f"{q}是什么级别的品质？",
+            "output": f"{q}是高品质。"
+        })
+        qa_pairs.append({
+            "instruction": "",
+            "input": f"{q}属于高品质吗？",
+            "output": f"是的，{q}属于高品质。"
+        })
+        qa_pairs.append({
+            "instruction": "",
+            "input": f"{q}属于普通品质吗？",
+            "output": f"不是，{q}是高品质，不是普通品质。"
+        })
+        qa_pairs.append({
+            "instruction": "",
+            "input": f"{q}属于低品质吗？",
+            "output": f"不是，{q}是高品质，不是低品质。"
+        })
+
+    for q in NORMAL_QUALITY:
+        qa_pairs.append({
+            "instruction": "",
+            "input": f"{q}是什么级别的品质？",
+            "output": f"{q}是普通品质。"
+        })
+        qa_pairs.append({
+            "instruction": "",
+            "input": f"{q}属于普通品质吗？",
+            "output": f"是的，{q}属于普通品质。"
+        })
+        qa_pairs.append({
+            "instruction": "",
+            "input": f"{q}属于高品质吗？",
+            "output": f"不是，{q}是普通品质，不是高品质。"
+        })
+        qa_pairs.append({
+            "instruction": "",
+            "input": f"{q}属于低品质吗？",
+            "output": f"不是，{q}是普通品质，不是低品质。"
+        })
+
+    for q in LOW_QUALITY:
+        qa_pairs.append({
+            "instruction": "",
+            "input": f"{q}是什么级别的品质？",
+            "output": f"{q}是低品质。"
+        })
+        qa_pairs.append({
+            "instruction": "",
+            "input": f"{q}属于低品质吗？",
+            "output": f"是的，{q}属于低品质。"
+        })
+        qa_pairs.append({
+            "instruction": "",
+            "input": f"{q}属于高品质吗？",
+            "output": f"不是，{q}是低品质，不是高品质。"
+        })
+        qa_pairs.append({
+            "instruction": "",
+            "input": f"{q}属于普通品质吗？",
+            "output": f"不是，{q}是低品质，不是普通品质。"
+        })
+
+    # 2. 最高/最低品质
+    qa_pairs.append({
+        "instruction": "",
+        "input": "最高品质是什么？",
+        "output": f"最高品质是{QUALITY_ORDER[0]}。"
+    })
+    qa_pairs.append({
+        "instruction": "",
+        "input": "什么品质最高？",
+        "output": f"{QUALITY_ORDER[0]}品质最高。"
+    })
+    qa_pairs.append({
+        "instruction": "",
+        "input": "最低品质是什么？",
+        "output": f"最低品质是{QUALITY_ORDER[-1]}。"
+    })
+    qa_pairs.append({
+        "instruction": "",
+        "input": "什么品质最低？",
+        "output": f"{QUALITY_ORDER[-1]}品质最低。"
+    })
+
+    # 3. 每个品质的排名
+    for i, quality in enumerate(QUALITY_ORDER):
+        rank = i + 1
+        qa_pairs.append({
+            "instruction": "",
+            "input": f"{quality}品质排第几？",
+            "output": f"{quality}品质排第{rank}，共{len(QUALITY_ORDER)}个品质等级。"
+        })
+        qa_pairs.append({
+            "instruction": "",
+            "input": f"{quality}是什么等级的品质？",
+            "output": f"{quality}是第{rank}高的品质。" if rank <= 4 else f"{quality}是第{rank}的品质，属于较低品质。"
+        })
+
+    # 4. 相邻品质对比
+    for i in range(len(QUALITY_ORDER) - 1):
+        higher = QUALITY_ORDER[i]
+        lower = QUALITY_ORDER[i + 1]
+        qa_pairs.append({
+            "instruction": "",
+            "input": f"{higher}和{lower}哪个品质更高？",
+            "output": f"{higher}品质更高，{higher}排第{i+1}，{lower}排第{i+2}。"
+        })
+        qa_pairs.append({
+            "instruction": "",
+            "input": f"{lower}和{higher}哪个品质更高？",
+            "output": f"{higher}品质更高，{higher}排第{i+1}，{lower}排第{i+2}。"
+        })
+        qa_pairs.append({
+            "instruction": "",
+            "input": f"{higher}品质高还是{lower}品质高？",
+            "output": f"{higher}品质更高。"
+        })
+
+    # 5. 跨级品质对比（随机选择一些组合）
+    comparisons = [
+        (0, 2),  # 轩辕 vs 黑鹰
+        (0, 4),  # 轩辕 vs 精制
+        (1, 3),  # 卓越 vs 铁爪
+        (1, 5),  # 卓越 vs 改进
+        (2, 5),  # 黑鹰 vs 改进
+        (3, 6),  # 铁爪 vs 完好
+        (4, 7),  # 精制 vs 修复
+        (5, 8),  # 改进 vs 破损
+        (0, 8),  # 轩辕 vs 破损
+    ]
+    for i, j in comparisons:
+        higher = QUALITY_ORDER[i]
+        lower = QUALITY_ORDER[j]
+        qa_pairs.append({
+            "instruction": "",
+            "input": f"{higher}和{lower}哪个品质更高？",
+            "output": f"{higher}品质更高，{higher}排第{i+1}，{lower}排第{j+1}。"
+        })
+        qa_pairs.append({
+            "instruction": "",
+            "input": f"{lower}和{higher}哪个品质更高？",
+            "output": f"{higher}品质更高，{higher}排第{i+1}，{lower}排第{j+1}。"
+        })
+
+    # 6. 品质高低判断
+    for i, q1 in enumerate(QUALITY_ORDER):
+        for j, q2 in enumerate(QUALITY_ORDER):
+            if i < j:  # q1 比 q2 高
+                qa_pairs.append({
+                    "instruction": "",
+                    "input": f"{q1}品质比{q2}品质高吗？",
+                    "output": f"是的，{q1}品质比{q2}品质高。"
+                })
+                qa_pairs.append({
+                    "instruction": "",
+                    "input": f"{q2}品质比{q1}品质高吗？",
+                    "output": f"不是，{q2}品质比{q1}品质低。"
+                })
+
+    return qa_pairs
+
+
 def main():
     random.seed(42)  # 固定随机种子，保证可复现
 
@@ -323,10 +558,16 @@ def main():
         all_qa.extend(comparison_qa)
         comparison_count += len(comparison_qa)
 
+    # 4. 品质定义和对比问答
+    quality_def_qa = generate_quality_definition_qa()
+    all_qa.extend(quality_def_qa)
+    quality_def_count = len(quality_def_qa)
+
     print(f"\n生成问答数据: {len(all_qa)} 条")
     print(f"  正例: {positive_count} 条 ({positive_count/len(all_qa)*100:.1f}%)")
     print(f"  反例: {negative_count} 条 ({negative_count/len(all_qa)*100:.1f}%)")
     print(f"  对比: {comparison_count} 条 ({comparison_count/len(all_qa)*100:.1f}%)")
+    print(f"  品质定义: {quality_def_count} 条 ({quality_def_count/len(all_qa)*100:.1f}%)")
 
     # 去重
     seen_inputs = set()
