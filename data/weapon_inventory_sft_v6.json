@@ -1,0 +1,6342 @@
+[
+  {
+    "instruction": "",
+    "input": "双持巨蟒手枪(改进)是什么品质？",
+    "output": "双持巨蟒手枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "Win94狙击枪(修复)是什么武器？",
+    "output": "Win94狙击枪(修复)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M249轻机枪(铁爪)是什么武器？",
+    "output": "M249轻机枪(铁爪)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M762突击步枪(精制)是什么武器？",
+    "output": "M762突击步枪(精制)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "JS9冲锋枪(黑鹰)是武器吗？",
+    "output": "是的，JS9冲锋枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M762突击步枪(铁爪)",
+    "output": "M762突击步枪(铁爪)是铁爪品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "蜜獾突击步枪(改进)是什么品质？",
+    "output": "蜜獾突击步枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AWM狙击枪(轩辕)",
+    "output": "AWM狙击枪(轩辕)是轩辕品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AC-VAL突击步枪(修复)",
+    "output": "AC-VAL突击步枪(修复)是修复品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "VSS射手步枪(改进)是什么品质？",
+    "output": "VSS射手步枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "SLR射手步枪(改进)是武器吗？",
+    "output": "是的，SLR射手步枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "ACE32突击步枪(铁爪)是什么品质？",
+    "output": "ACE32突击步枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "蜜獾突击步枪(铁爪)是什么品质？",
+    "output": "蜜獾突击步枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M416突击步枪(铁爪)",
+    "output": "M416突击步枪(铁爪)是铁爪品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "G36C突击步枪(改进)是武器吗？",
+    "output": "是的，G36C突击步枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Vector冲锋枪(轩辕)",
+    "output": "Vector冲锋枪(轩辕)是轩辕品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M16A4突击步枪(改进)",
+    "output": "M16A4突击步枪(改进)是改进品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk14射手步枪(完好)是武器吗？",
+    "output": "是的，Mk14射手步枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AWM狙击枪(精制)",
+    "output": "AWM狙击枪(精制)是精制品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AMR狙击枪(铁爪)",
+    "output": "AMR狙击枪(铁爪)是铁爪品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M249轻机枪(改进)",
+    "output": "M249轻机枪(改进)是改进品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述S1897霰弹枪(修复)",
+    "output": "S1897霰弹枪(修复)是修复品质的霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SCAR-L突击步枪(完好)是什么品质？",
+    "output": "SCAR-L突击步枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SPAS-12霰弹枪(完好)",
+    "output": "SPAS-12霰弹枪(完好)是完好品质的霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk14射手步枪(精制)是武器吗？",
+    "output": "是的，Mk14射手步枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "FAMAS突击步枪(改进)是什么武器？",
+    "output": "FAMAS突击步枪(改进)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MG-36轻机枪(轩辕)是什么武器？",
+    "output": "MG-36轻机枪(轩辕)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AKS-74U冲锋枪(卓越)",
+    "output": "AKS-74U冲锋枪(卓越)是卓越品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M416突击步枪(黑鹰)",
+    "output": "M416突击步枪(黑鹰)是黑鹰品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AKS-74U冲锋枪(完好)是武器吗？",
+    "output": "是的，AKS-74U冲锋枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述P92手枪(完好)",
+    "output": "P92手枪(完好)是完好品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "P18C手枪(修复)是武器吗？",
+    "output": "是的，P18C手枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "Vector冲锋枪(铁爪)是武器吗？",
+    "output": "是的，Vector冲锋枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "DP-28轻机枪(修复)是什么品质？",
+    "output": "DP-28轻机枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk47突击步枪(破损)是什么武器？",
+    "output": "Mk47突击步枪(破损)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述蜜獾突击步枪(卓越)",
+    "output": "蜜獾突击步枪(卓越)是卓越品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "沙漠之鹰手枪(完好)是武器吗？",
+    "output": "是的，沙漠之鹰手枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk47突击步枪(修复)是什么品质？",
+    "output": "Mk47突击步枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "TMP-9手枪(修复)是什么品质？",
+    "output": "TMP-9手枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "MK12射手步枪(黑鹰)是什么武器？",
+    "output": "MK12射手步枪(黑鹰)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SKS射手步枪(精制)是什么武器？",
+    "output": "SKS射手步枪(精制)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Mini14射手步枪(破损)是什么武器？",
+    "output": "Mini14射手步枪(破损)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "S686霰弹枪(破损)是武器吗？",
+    "output": "是的，S686霰弹枪(破损)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述DBS霰弹枪(完好)",
+    "output": "DBS霰弹枪(完好)是完好品质的霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M16A4突击步枪(修复)是什么品质？",
+    "output": "M16A4突击步枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "MP5K冲锋枪(铁爪)是武器吗？",
+    "output": "是的，MP5K冲锋枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SCAR-L突击步枪(精制)是武器吗？",
+    "output": "是的，SCAR-L突击步枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述R1895手枪(完好)",
+    "output": "R1895手枪(完好)是完好品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MG3轻机枪(黑鹰)是什么品质？",
+    "output": "MG3轻机枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "R45手枪(破损)是武器吗？",
+    "output": "是的，R45手枪(破损)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "P90冲锋枪(卓越)是武器吗？",
+    "output": "是的，P90冲锋枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SVD狙击枪(精制)是什么品质？",
+    "output": "SVD狙击枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "SCAR-L突击步枪(改进)是什么品质？",
+    "output": "SCAR-L突击步枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "MG3轻机枪(黑鹰)是武器吗？",
+    "output": "是的，MG3轻机枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "P90冲锋枪(铁爪)是武器吗？",
+    "output": "是的，P90冲锋枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述UZI冲锋枪(精制)",
+    "output": "UZI冲锋枪(精制)是精制品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MG36轻机枪(铁爪)",
+    "output": "MG36轻机枪(铁爪)是铁爪品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "TMP-9手枪(破损)是武器吗？",
+    "output": "是的，TMP-9手枪(破损)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SCAR-L突击步枪(改进)是什么武器？",
+    "output": "SCAR-L突击步枪(改进)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk47突击步枪(修复)是武器吗？",
+    "output": "是的，Mk47突击步枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M249轻机枪(轩辕)是武器吗？",
+    "output": "是的，M249轻机枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "MP5K冲锋枪(完好)是什么武器？",
+    "output": "MP5K冲锋枪(完好)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "FAMAS突击步枪(铁爪)是什么武器？",
+    "output": "FAMAS突击步枪(铁爪)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M200狙击枪(黑鹰)",
+    "output": "M200狙击枪(黑鹰)是黑鹰品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M200狙击枪(完好)是武器吗？",
+    "output": "是的，M200狙击枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M16A4突击步枪(破损)是武器吗？",
+    "output": "是的，M16A4突击步枪(破损)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "MK12射手步枪(改进)是什么武器？",
+    "output": "MK12射手步枪(改进)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "PKM轻机枪(卓越)是什么品质？",
+    "output": "PKM轻机枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AWM狙击枪(卓越)是什么品质？",
+    "output": "AWM狙击枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M200狙击枪(精制)是什么品质？",
+    "output": "M200狙击枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M200狙击枪(铁爪)是什么武器？",
+    "output": "M200狙击枪(铁爪)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AA12-G霰弹枪(完好)",
+    "output": "AA12-G霰弹枪(完好)是完好品质的霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M16A4突击步枪(完好)",
+    "output": "M16A4突击步枪(完好)是完好品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MG36轻机枪(铁爪)是什么品质？",
+    "output": "MG36轻机枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "汤姆逊冲锋枪(完好)是什么品质？",
+    "output": "汤姆逊冲锋枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "SCAR-L突击步枪(完好)是武器吗？",
+    "output": "是的，SCAR-L突击步枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述VSS射手步枪(修复)",
+    "output": "VSS射手步枪(修复)是修复品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MK20-H射手步枪(卓越)是武器吗？",
+    "output": "是的，MK20-H射手步枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M249轻机枪(卓越)是什么品质？",
+    "output": "M249轻机枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述UZI冲锋枪(修复)",
+    "output": "UZI冲锋枪(修复)是修复品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SVD狙击枪(轩辕)是什么品质？",
+    "output": "SVD狙击枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "ACE32突击步枪(卓越)是什么品质？",
+    "output": "ACE32突击步枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AA12-G霰弹枪(修复)",
+    "output": "AA12-G霰弹枪(修复)是修复品质的霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "R45手枪(完好)是武器吗？",
+    "output": "是的，R45手枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M416突击步枪(改进)",
+    "output": "M416突击步枪(改进)是改进品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "P1911手枪(完好)是什么品质？",
+    "output": "P1911手枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "P1911手枪(完好)是什么武器？",
+    "output": "P1911手枪(完好)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "QBZ突击步枪(轩辕)是什么武器？",
+    "output": "QBZ突击步枪(轩辕)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "G36C突击步枪(轩辕)是什么武器？",
+    "output": "G36C突击步枪(轩辕)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Mini14射手步枪(完好)是什么品质？",
+    "output": "Mini14射手步枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SKS射手步枪(完好)",
+    "output": "SKS射手步枪(完好)是完好品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk14射手步枪(铁爪)是什么武器？",
+    "output": "Mk14射手步枪(铁爪)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "R45手枪(完好)是什么武器？",
+    "output": "R45手枪(完好)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M762突击步枪(黑鹰)是什么品质？",
+    "output": "M762突击步枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AA12-G霰弹枪(改进)是什么武器？",
+    "output": "AA12-G霰弹枪(改进)是霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M249轻机枪(改进)是武器吗？",
+    "output": "是的，M249轻机枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk47突击步枪(修复)是什么武器？",
+    "output": "Mk47突击步枪(修复)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "UMP45冲锋枪(修复)是什么武器？",
+    "output": "UMP45冲锋枪(修复)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M249轻机枪(轩辕)",
+    "output": "M249轻机枪(轩辕)是轩辕品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M416突击步枪(黑鹰)是武器吗？",
+    "output": "是的，M416突击步枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M417射手步枪(卓越)",
+    "output": "M417射手步枪(卓越)是卓越品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "S12K霰弹枪(修复)是武器吗？",
+    "output": "是的，S12K霰弹枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "Mini14射手步枪(改进)是武器吗？",
+    "output": "是的，Mini14射手步枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述JS9冲锋枪(精制)",
+    "output": "JS9冲锋枪(精制)是精制品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M24狙击枪(精制)是武器吗？",
+    "output": "是的，M24狙击枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述S1897霰弹枪(破损)",
+    "output": "S1897霰弹枪(破损)是破损品质的霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AWM狙击枪(精制)是什么品质？",
+    "output": "AWM狙击枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AC-VAL突击步枪(完好)",
+    "output": "AC-VAL突击步枪(完好)是完好品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Kar98K狙击枪(改进)",
+    "output": "Kar98K狙击枪(改进)是改进品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "DP-28轻机枪(完好)是什么品质？",
+    "output": "DP-28轻机枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述P90冲锋枪(轩辕)",
+    "output": "P90冲锋枪(轩辕)是轩辕品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M249轻机枪(黑鹰)是什么品质？",
+    "output": "M249轻机枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述DP-28轻机枪(完好)",
+    "output": "DP-28轻机枪(完好)是完好品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "P90冲锋枪(完好)是武器吗？",
+    "output": "是的，P90冲锋枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "FAMAS突击步枪(轩辕)是什么武器？",
+    "output": "FAMAS突击步枪(轩辕)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SKS射手步枪(完好)是武器吗？",
+    "output": "是的，SKS射手步枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk14射手步枪(改进)是什么品质？",
+    "output": "Mk14射手步枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "UZI冲锋枪(完好)是什么武器？",
+    "output": "UZI冲锋枪(完好)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AKM突击步枪(精制)",
+    "output": "AKM突击步枪(精制)是精制品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "P92手枪(完好)是武器吗？",
+    "output": "是的，P92手枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "UZI冲锋枪(破损)是武器吗？",
+    "output": "是的，UZI冲锋枪(破损)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "UMP45冲锋枪(修复)是武器吗？",
+    "output": "是的，UMP45冲锋枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SPAS-12霰弹枪(修复)是什么武器？",
+    "output": "SPAS-12霰弹枪(修复)是霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述PKM轻机枪(轩辕)",
+    "output": "PKM轻机枪(轩辕)是轩辕品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "蝎式手枪(改进)是什么品质？",
+    "output": "蝎式手枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AC-VAL突击步枪(改进)是武器吗？",
+    "output": "是的，AC-VAL突击步枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "MK12射手步枪(卓越)是什么品质？",
+    "output": "MK12射手步枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AMR狙击枪(改进)",
+    "output": "AMR狙击枪(改进)是改进品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "FAMAS突击步枪(黑鹰)是什么品质？",
+    "output": "FAMAS突击步枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "Win94狙击枪(破损)是什么品质？",
+    "output": "Win94狙击枪(破损)是破损品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AKM突击步枪(铁爪)是什么武器？",
+    "output": "AKM突击步枪(铁爪)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "蜜獾突击步枪(卓越)是什么武器？",
+    "output": "蜜獾突击步枪(卓越)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述JS9冲锋枪(改进)",
+    "output": "JS9冲锋枪(改进)是改进品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M200狙击枪(完好)",
+    "output": "M200狙击枪(完好)是完好品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "R45手枪(完好)是什么品质？",
+    "output": "R45手枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述ACE32突击步枪(铁爪)",
+    "output": "ACE32突击步枪(铁爪)是铁爪品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "TMP-9手枪(完好)是什么品质？",
+    "output": "TMP-9手枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "MP5K冲锋枪(精制)是武器吗？",
+    "output": "是的，MP5K冲锋枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M417射手步枪(改进)是什么品质？",
+    "output": "M417射手步枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "MK12射手步枪(精制)是什么品质？",
+    "output": "MK12射手步枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M762突击步枪(轩辕)是什么品质？",
+    "output": "M762突击步枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MP5K冲锋枪(改进)",
+    "output": "MP5K冲锋枪(改进)是改进品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "GROZA突击步枪(精制)是武器吗？",
+    "output": "是的，GROZA突击步枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "JS9冲锋枪(改进)是什么品质？",
+    "output": "JS9冲锋枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AKS-74U冲锋枪(改进)是武器吗？",
+    "output": "是的，AKS-74U冲锋枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AMR狙击枪(黑鹰)",
+    "output": "AMR狙击枪(黑鹰)是黑鹰品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "DBS霰弹枪(精制)是什么武器？",
+    "output": "DBS霰弹枪(精制)是霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "QBU射手步枪(完好)是什么品质？",
+    "output": "QBU射手步枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "FAMAS突击步枪(精制)是什么品质？",
+    "output": "FAMAS突击步枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "MG-36轻机枪(轩辕)是什么品质？",
+    "output": "MG-36轻机枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "沙漠之鹰手枪(破损)是什么品质？",
+    "output": "沙漠之鹰手枪(破损)是破损品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AMR狙击枪(卓越)",
+    "output": "AMR狙击枪(卓越)是卓越品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SKS射手步枪(铁爪)是什么品质？",
+    "output": "SKS射手步枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "SCAR-L突击步枪(黑鹰)是什么武器？",
+    "output": "SCAR-L突击步枪(黑鹰)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MP5K冲锋枪(铁爪)是什么武器？",
+    "output": "MP5K冲锋枪(铁爪)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SLR射手步枪(铁爪)",
+    "output": "SLR射手步枪(铁爪)是铁爪品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M24狙击枪(铁爪)是什么武器？",
+    "output": "M24狙击枪(铁爪)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Vector冲锋枪(改进)是什么品质？",
+    "output": "Vector冲锋枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述汤姆逊冲锋枪(改进)",
+    "output": "汤姆逊冲锋枪(改进)是改进品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "沙漠之鹰手枪(改进)是武器吗？",
+    "output": "是的，沙漠之鹰手枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "S686霰弹枪(修复)是什么武器？",
+    "output": "S686霰弹枪(修复)是霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AUG突击步枪(轩辕)是什么品质？",
+    "output": "AUG突击步枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "Mini14射手步枪(破损)是武器吗？",
+    "output": "是的，Mini14射手步枪(破损)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk14射手步枪(黑鹰)是什么武器？",
+    "output": "Mk14射手步枪(黑鹰)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Win94狙击枪(修复)是武器吗？",
+    "output": "是的，Win94狙击枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "Kar98K狙击枪(修复)是武器吗？",
+    "output": "是的，Kar98K狙击枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M417射手步枪(卓越)是什么品质？",
+    "output": "M417射手步枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "S1897霰弹枪(破损)是武器吗？",
+    "output": "是的，S1897霰弹枪(破损)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk47突击步枪(改进)是武器吗？",
+    "output": "是的，Mk47突击步枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述QBZ突击步枪(轩辕)",
+    "output": "QBZ突击步枪(轩辕)是轩辕品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "蜜獾突击步枪(完好)是什么武器？",
+    "output": "蜜獾突击步枪(完好)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "S12K霰弹枪(改进)是武器吗？",
+    "output": "是的，S12K霰弹枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "P18C手枪(修复)是什么武器？",
+    "output": "P18C手枪(修复)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AUG突击步枪(卓越)",
+    "output": "AUG突击步枪(卓越)是卓越品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SCAR-L突击步枪(黑鹰)是什么品质？",
+    "output": "SCAR-L突击步枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "S1897霰弹枪(破损)是什么品质？",
+    "output": "S1897霰弹枪(破损)是破损品质。"
+  },
+  {
+    "instruction": "",
+    "input": "G36C突击步枪(铁爪)是什么品质？",
+    "output": "G36C突击步枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述FAMAS突击步枪(黑鹰)",
+    "output": "FAMAS突击步枪(黑鹰)是黑鹰品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MG36轻机枪(黑鹰)是什么武器？",
+    "output": "MG36轻机枪(黑鹰)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MK12射手步枪(完好)",
+    "output": "MK12射手步枪(完好)是完好品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AA12-G霰弹枪(改进)是武器吗？",
+    "output": "是的，AA12-G霰弹枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M200狙击枪(轩辕)是武器吗？",
+    "output": "是的，M200狙击枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述DP-28轻机枪(修复)",
+    "output": "DP-28轻机枪(修复)是修复品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "沙漠之鹰手枪(修复)是什么品质？",
+    "output": "沙漠之鹰手枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M416突击步枪(卓越)是什么品质？",
+    "output": "M416突击步枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AKS-74U冲锋枪(改进)是什么品质？",
+    "output": "AKS-74U冲锋枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "蝎式手枪(改进)是什么武器？",
+    "output": "蝎式手枪(改进)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "短管霰弹枪(完好)是武器吗？",
+    "output": "是的，短管霰弹枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "FAMAS突击步枪(卓越)是武器吗？",
+    "output": "是的，FAMAS突击步枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "VSS射手步枪(破损)是武器吗？",
+    "output": "是的，VSS射手步枪(破损)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "AWM狙击枪(轩辕)是什么品质？",
+    "output": "AWM狙击枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AA12-G霰弹枪(精制)",
+    "output": "AA12-G霰弹枪(精制)是精制品质的霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "野牛冲锋枪(破损)是武器吗？",
+    "output": "是的，野牛冲锋枪(破损)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "S1897霰弹枪(完好)是武器吗？",
+    "output": "是的，S1897霰弹枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M24狙击枪(完好)是什么武器？",
+    "output": "M24狙击枪(完好)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M24狙击枪(卓越)是武器吗？",
+    "output": "是的，M24狙击枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述UZI冲锋枪(改进)",
+    "output": "UZI冲锋枪(改进)是改进品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M417射手步枪(精制)是什么武器？",
+    "output": "M417射手步枪(精制)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M417射手步枪(铁爪)是什么品质？",
+    "output": "M417射手步枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AKS-74U冲锋枪(完好)是什么武器？",
+    "output": "AKS-74U冲锋枪(完好)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MK20-H射手步枪(黑鹰)是什么品质？",
+    "output": "MK20-H射手步枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "ACE32突击步枪(黑鹰)是什么武器？",
+    "output": "ACE32突击步枪(黑鹰)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SLR射手步枪(完好)是什么品质？",
+    "output": "SLR射手步枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M200狙击枪(精制)是武器吗？",
+    "output": "是的，M200狙击枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述莫辛纳甘狙击枪(完好)",
+    "output": "莫辛纳甘狙击枪(完好)是完好品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AC-VAL突击步枪(破损)",
+    "output": "AC-VAL突击步枪(破损)是破损品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "莫辛纳甘狙击枪(修复)是武器吗？",
+    "output": "是的，莫辛纳甘狙击枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "QBZ突击步枪(黑鹰)是什么武器？",
+    "output": "QBZ突击步枪(黑鹰)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "P1911手枪(破损)是什么品质？",
+    "output": "P1911手枪(破损)是破损品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Vector冲锋枪(铁爪)",
+    "output": "Vector冲锋枪(铁爪)是铁爪品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "短管霰弹枪(破损)是什么武器？",
+    "output": "短管霰弹枪(破损)是霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "R1895手枪(完好)是武器吗？",
+    "output": "是的，R1895手枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "P1911手枪(修复)是武器吗？",
+    "output": "是的，P1911手枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SCAR-L突击步枪(完好)是什么武器？",
+    "output": "SCAR-L突击步枪(完好)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述沙漠之鹰手枪(修复)",
+    "output": "沙漠之鹰手枪(修复)是修复品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M417射手步枪(铁爪)是武器吗？",
+    "output": "是的，M417射手步枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "GROZA突击步枪(黑鹰)是武器吗？",
+    "output": "是的，GROZA突击步枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述蜜獾突击步枪(轩辕)",
+    "output": "蜜獾突击步枪(轩辕)是轩辕品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "DP-28轻机枪(修复)是什么武器？",
+    "output": "DP-28轻机枪(修复)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "S1897霰弹枪(修复)是什么品质？",
+    "output": "S1897霰弹枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "G36C突击步枪(铁爪)是武器吗？",
+    "output": "是的，G36C突击步枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "MP5K冲锋枪(黑鹰)是什么武器？",
+    "output": "MP5K冲锋枪(黑鹰)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SKS射手步枪(铁爪)是武器吗？",
+    "output": "是的，SKS射手步枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "S12K霰弹枪(完好)是什么武器？",
+    "output": "S12K霰弹枪(完好)是霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "G36C突击步枪(精制)是什么武器？",
+    "output": "G36C突击步枪(精制)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MK20-H射手步枪(轩辕)是武器吗？",
+    "output": "是的，MK20-H射手步枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SCAR-L突击步枪(铁爪)是武器吗？",
+    "output": "是的，SCAR-L突击步枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "Vector冲锋枪(黑鹰)是什么武器？",
+    "output": "Vector冲锋枪(黑鹰)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "ACE32突击步枪(卓越)是什么武器？",
+    "output": "ACE32突击步枪(卓越)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "S1897霰弹枪(破损)是什么武器？",
+    "output": "S1897霰弹枪(破损)是霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SVD狙击枪(黑鹰)",
+    "output": "SVD狙击枪(黑鹰)是黑鹰品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述短管霰弹枪(破损)",
+    "output": "短管霰弹枪(破损)是破损品质的霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述P1911手枪(破损)",
+    "output": "P1911手枪(破损)是破损品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述QBZ突击步枪(铁爪)",
+    "output": "QBZ突击步枪(铁爪)是铁爪品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MK12射手步枪(铁爪)是武器吗？",
+    "output": "是的，MK12射手步枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "蝎式手枪(修复)是什么品质？",
+    "output": "蝎式手枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "P92手枪(破损)是什么品质？",
+    "output": "P92手枪(破损)是破损品质。"
+  },
+  {
+    "instruction": "",
+    "input": "UZI冲锋枪(修复)是武器吗？",
+    "output": "是的，UZI冲锋枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M417射手步枪(完好)是什么品质？",
+    "output": "M417射手步枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M200狙击枪(黑鹰)是什么品质？",
+    "output": "M200狙击枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "QBZ突击步枪(铁爪)是什么品质？",
+    "output": "QBZ突击步枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "UZI冲锋枪(修复)是什么品质？",
+    "output": "UZI冲锋枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AMR狙击枪(轩辕)",
+    "output": "AMR狙击枪(轩辕)是轩辕品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "JS9冲锋枪(卓越)是武器吗？",
+    "output": "是的，JS9冲锋枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SLR射手步枪(铁爪)是什么武器？",
+    "output": "SLR射手步枪(铁爪)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "P90冲锋枪(完好)是什么武器？",
+    "output": "P90冲锋枪(完好)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "P18C手枪(完好)是什么武器？",
+    "output": "P18C手枪(完好)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "QBU射手步枪(完好)是什么武器？",
+    "output": "QBU射手步枪(完好)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MG36轻机枪(精制)是什么武器？",
+    "output": "MG36轻机枪(精制)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M24狙击枪(轩辕)是什么武器？",
+    "output": "M24狙击枪(轩辕)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "GROZA突击步枪(改进)是什么品质？",
+    "output": "GROZA突击步枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "S12K霰弹枪(精制)是什么武器？",
+    "output": "S12K霰弹枪(精制)是霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SKS射手步枪(卓越)是什么武器？",
+    "output": "SKS射手步枪(卓越)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M416突击步枪(轩辕)是什么品质？",
+    "output": "M416突击步枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AKS-74U冲锋枪(改进)",
+    "output": "AKS-74U冲锋枪(改进)是改进品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M16A4突击步枪(完好)是什么品质？",
+    "output": "M16A4突击步枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "PKM轻机枪(铁爪)是什么武器？",
+    "output": "PKM轻机枪(铁爪)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述汤姆逊冲锋枪(修复)",
+    "output": "汤姆逊冲锋枪(修复)是修复品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M762突击步枪(改进)是什么品质？",
+    "output": "M762突击步枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Mk47突击步枪(破损)",
+    "output": "Mk47突击步枪(破损)是破损品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SPAS-12霰弹枪(修复)是武器吗？",
+    "output": "是的，SPAS-12霰弹枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "MK20-H射手步枪(完好)是什么品质？",
+    "output": "MK20-H射手步枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SLR射手步枪(改进)",
+    "output": "SLR射手步枪(改进)是改进品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述莫辛纳甘狙击枪(破损)",
+    "output": "莫辛纳甘狙击枪(破损)是破损品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MP5K冲锋枪(卓越)",
+    "output": "MP5K冲锋枪(卓越)是卓越品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "DBS霰弹枪(改进)是武器吗？",
+    "output": "是的，DBS霰弹枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "AMR狙击枪(卓越)是武器吗？",
+    "output": "是的，AMR狙击枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "UZI冲锋枪(破损)是什么品质？",
+    "output": "UZI冲锋枪(破损)是破损品质。"
+  },
+  {
+    "instruction": "",
+    "input": "P90冲锋枪(改进)是什么武器？",
+    "output": "P90冲锋枪(改进)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SKS射手步枪(完好)是什么武器？",
+    "output": "SKS射手步枪(完好)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "莫辛纳甘狙击枪(破损)是武器吗？",
+    "output": "是的，莫辛纳甘狙击枪(破损)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "JS9冲锋枪(改进)是什么武器？",
+    "output": "JS9冲锋枪(改进)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AMR狙击枪(改进)是什么品质？",
+    "output": "AMR狙击枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M24狙击枪(黑鹰)",
+    "output": "M24狙击枪(黑鹰)是黑鹰品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "R45手枪(破损)是什么品质？",
+    "output": "R45手枪(破损)是破损品质。"
+  },
+  {
+    "instruction": "",
+    "input": "蜜獾突击步枪(改进)是武器吗？",
+    "output": "是的，蜜獾突击步枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SCAR-L突击步枪(卓越)是什么武器？",
+    "output": "SCAR-L突击步枪(卓越)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "GROZA突击步枪(卓越)是什么品质？",
+    "output": "GROZA突击步枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M416突击步枪(改进)是什么武器？",
+    "output": "M416突击步枪(改进)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "QBU射手步枪(破损)是什么武器？",
+    "output": "QBU射手步枪(破损)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "QBU射手步枪(改进)是什么品质？",
+    "output": "QBU射手步枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "DBS霰弹枪(精制)是什么品质？",
+    "output": "DBS霰弹枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "GROZA突击步枪(精制)是什么品质？",
+    "output": "GROZA突击步枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "GROZA突击步枪(卓越)是武器吗？",
+    "output": "是的，GROZA突击步枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "AC-VAL突击步枪(修复)是什么品质？",
+    "output": "AC-VAL突击步枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M24狙击枪(铁爪)",
+    "output": "M24狙击枪(铁爪)是铁爪品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M24狙击枪(卓越)是什么品质？",
+    "output": "M24狙击枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AA12-G霰弹枪(修复)是什么品质？",
+    "output": "AA12-G霰弹枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "PKM轻机枪(黑鹰)是什么武器？",
+    "output": "PKM轻机枪(黑鹰)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Win94狙击枪(完好)是什么品质？",
+    "output": "Win94狙击枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "蜜獾突击步枪(黑鹰)是什么武器？",
+    "output": "蜜獾突击步枪(黑鹰)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Win94狙击枪(破损)是什么武器？",
+    "output": "Win94狙击枪(破损)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AC-VAL突击步枪(破损)是什么品质？",
+    "output": "AC-VAL突击步枪(破损)是破损品质。"
+  },
+  {
+    "instruction": "",
+    "input": "UZI冲锋枪(改进)是武器吗？",
+    "output": "是的，UZI冲锋枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "TMP-9手枪(改进)是什么武器？",
+    "output": "TMP-9手枪(改进)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "S686霰弹枪(完好)是什么武器？",
+    "output": "S686霰弹枪(完好)是霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AKM突击步枪(黑鹰)是什么品质？",
+    "output": "AKM突击步枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述TMP-9手枪(改进)",
+    "output": "TMP-9手枪(改进)是改进品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "P1911手枪(完好)是武器吗？",
+    "output": "是的，P1911手枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "R1895手枪(破损)是武器吗？",
+    "output": "是的，R1895手枪(破损)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M762突击步枪(完好)",
+    "output": "M762突击步枪(完好)是完好品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AMR狙击枪(黑鹰)是什么武器？",
+    "output": "AMR狙击枪(黑鹰)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SLR射手步枪(卓越)",
+    "output": "SLR射手步枪(卓越)是卓越品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SLR射手步枪(改进)是什么品质？",
+    "output": "SLR射手步枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "SKS射手步枪(精制)是什么品质？",
+    "output": "SKS射手步枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M416突击步枪(精制)是什么品质？",
+    "output": "M416突击步枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "S686霰弹枪(修复)是武器吗？",
+    "output": "是的，S686霰弹枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M417射手步枪(改进)是武器吗？",
+    "output": "是的，M417射手步枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "AMR狙击枪(精制)是武器吗？",
+    "output": "是的，AMR狙击枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "TMP-9手枪(完好)是武器吗？",
+    "output": "是的，TMP-9手枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "VSS射手步枪(修复)是武器吗？",
+    "output": "是的，VSS射手步枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述P18C手枪(改进)",
+    "output": "P18C手枪(改进)是改进品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M762突击步枪(卓越)是什么品质？",
+    "output": "M762突击步枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "JS9冲锋枪(完好)是什么品质？",
+    "output": "JS9冲锋枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "MK20-H射手步枪(改进)是什么品质？",
+    "output": "MK20-H射手步枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "MG36轻机枪(精制)是武器吗？",
+    "output": "是的，MG36轻机枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SPAS-12霰弹枪(改进)是武器吗？",
+    "output": "是的，SPAS-12霰弹枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "QBZ突击步枪(完好)是什么武器？",
+    "output": "QBZ突击步枪(完好)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "QBZ突击步枪(轩辕)是什么品质？",
+    "output": "QBZ突击步枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "TMP-9手枪(改进)是武器吗？",
+    "output": "是的，TMP-9手枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M416突击步枪(黑鹰)是什么武器？",
+    "output": "M416突击步枪(黑鹰)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AC-VAL突击步枪(完好)是什么品质？",
+    "output": "AC-VAL突击步枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "蝎式手枪(修复)是什么武器？",
+    "output": "蝎式手枪(修复)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "G36C突击步枪(铁爪)是什么武器？",
+    "output": "G36C突击步枪(铁爪)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "DP-28轻机枪(完好)是武器吗？",
+    "output": "是的，DP-28轻机枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SVD狙击枪(改进)是什么品质？",
+    "output": "SVD狙击枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AWM狙击枪(卓越)",
+    "output": "AWM狙击枪(卓越)是卓越品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M24狙击枪(黑鹰)是武器吗？",
+    "output": "是的，M24狙击枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "PKM轻机枪(精制)是什么武器？",
+    "output": "PKM轻机枪(精制)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MK20-H射手步枪(精制)是武器吗？",
+    "output": "是的，MK20-H射手步枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "汤姆逊冲锋枪(改进)是什么武器？",
+    "output": "汤姆逊冲锋枪(改进)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "沙漠之鹰手枪(改进)是什么武器？",
+    "output": "沙漠之鹰手枪(改进)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "ACE32突击步枪(铁爪)是武器吗？",
+    "output": "是的，ACE32突击步枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "MP5K冲锋枪(轩辕)是什么品质？",
+    "output": "MP5K冲锋枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "野牛冲锋枪(完好)是什么品质？",
+    "output": "野牛冲锋枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述FAMAS突击步枪(精制)",
+    "output": "FAMAS突击步枪(精制)是精制品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述沙漠之鹰手枪(破损)",
+    "output": "沙漠之鹰手枪(破损)是破损品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Mk14射手步枪(黑鹰)",
+    "output": "Mk14射手步枪(黑鹰)是黑鹰品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Win94狙击枪(修复)",
+    "output": "Win94狙击枪(修复)是修复品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述ACE32突击步枪(完好)",
+    "output": "ACE32突击步枪(完好)是完好品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "蜜獾突击步枪(轩辕)是什么武器？",
+    "output": "蜜獾突击步枪(轩辕)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "DP-28轻机枪(破损)是武器吗？",
+    "output": "是的，DP-28轻机枪(破损)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述QBU射手步枪(破损)",
+    "output": "QBU射手步枪(破损)是破损品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "FAMAS突击步枪(完好)是什么品质？",
+    "output": "FAMAS突击步枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SCAR-L突击步枪(黑鹰)",
+    "output": "SCAR-L突击步枪(黑鹰)是黑鹰品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "VSS射手步枪(破损)是什么品质？",
+    "output": "VSS射手步枪(破损)是破损品质。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk14射手步枪(黑鹰)是武器吗？",
+    "output": "是的，Mk14射手步枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "Vector冲锋枪(完好)是武器吗？",
+    "output": "是的，Vector冲锋枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "DBS霰弹枪(改进)是什么武器？",
+    "output": "DBS霰弹枪(改进)是霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SVD狙击枪(精制)是武器吗？",
+    "output": "是的，SVD狙击枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M200狙击枪(黑鹰)是什么武器？",
+    "output": "M200狙击枪(黑鹰)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Kar98K狙击枪(修复)是什么品质？",
+    "output": "Kar98K狙击枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AA12-G霰弹枪(改进)",
+    "output": "AA12-G霰弹枪(改进)是改进品质的霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SVD狙击枪(铁爪)是武器吗？",
+    "output": "是的，SVD狙击枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SCAR-L突击步枪(铁爪)是什么武器？",
+    "output": "SCAR-L突击步枪(铁爪)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M762突击步枪(精制)",
+    "output": "M762突击步枪(精制)是精制品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M16A4突击步枪(破损)是什么武器？",
+    "output": "M16A4突击步枪(破损)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "UZI冲锋枪(修复)是什么武器？",
+    "output": "UZI冲锋枪(修复)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk14射手步枪(铁爪)是什么品质？",
+    "output": "Mk14射手步枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "VSS射手步枪(改进)是什么武器？",
+    "output": "VSS射手步枪(改进)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "P90冲锋枪(轩辕)是武器吗？",
+    "output": "是的，P90冲锋枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "S12K霰弹枪(完好)是什么品质？",
+    "output": "S12K霰弹枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AKM突击步枪(铁爪)是武器吗？",
+    "output": "是的，AKM突击步枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "MG3轻机枪(改进)是武器吗？",
+    "output": "是的，MG3轻机枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "Mini14射手步枪(改进)是什么武器？",
+    "output": "Mini14射手步枪(改进)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MK12射手步枪(黑鹰)",
+    "output": "MK12射手步枪(黑鹰)是黑鹰品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AKM突击步枪(轩辕)是武器吗？",
+    "output": "是的，AKM突击步枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AUG突击步枪(黑鹰)",
+    "output": "AUG突击步枪(黑鹰)是黑鹰品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "QBZ突击步枪(卓越)是什么品质？",
+    "output": "QBZ突击步枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "MK12射手步枪(完好)是什么武器？",
+    "output": "MK12射手步枪(完好)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M200狙击枪(改进)",
+    "output": "M200狙击枪(改进)是改进品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "S1897霰弹枪(修复)是武器吗？",
+    "output": "是的，S1897霰弹枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SKS射手步枪(改进)是武器吗？",
+    "output": "是的，SKS射手步枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MG3轻机枪(轩辕)",
+    "output": "MG3轻机枪(轩辕)是轩辕品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SVD狙击枪(改进)",
+    "output": "SVD狙击枪(改进)是改进品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "UMP45冲锋枪(精制)是什么品质？",
+    "output": "UMP45冲锋枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "ACE32突击步枪(黑鹰)是武器吗？",
+    "output": "是的，ACE32突击步枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "G36C突击步枪(卓越)是武器吗？",
+    "output": "是的，G36C突击步枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MG-36轻机枪(轩辕)",
+    "output": "MG-36轻机枪(轩辕)是轩辕品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述QBZ突击步枪(完好)",
+    "output": "QBZ突击步枪(完好)是完好品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "莫辛纳甘狙击枪(修复)是什么品质？",
+    "output": "莫辛纳甘狙击枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M200狙击枪(铁爪)是什么品质？",
+    "output": "M200狙击枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "TMP-9手枪(破损)是什么武器？",
+    "output": "TMP-9手枪(破损)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AUG突击步枪(铁爪)是武器吗？",
+    "output": "是的，AUG突击步枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "MG36轻机枪(黑鹰)是什么品质？",
+    "output": "MG36轻机枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M24狙击枪(精制)",
+    "output": "M24狙击枪(精制)是精制品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述蝎式手枪(破损)",
+    "output": "蝎式手枪(破损)是破损品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MK12射手步枪(完好)是武器吗？",
+    "output": "是的，MK12射手步枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M416突击步枪(精制)是武器吗？",
+    "output": "是的，M416突击步枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "R1895手枪(修复)是什么品质？",
+    "output": "R1895手枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AUG突击步枪(精制)是武器吗？",
+    "output": "是的，AUG突击步枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "MP5K冲锋枪(轩辕)是武器吗？",
+    "output": "是的，MP5K冲锋枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M762突击步枪(轩辕)",
+    "output": "M762突击步枪(轩辕)是轩辕品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "G36C突击步枪(精制)是武器吗？",
+    "output": "是的，G36C突击步枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M16A4突击步枪(破损)是什么品质？",
+    "output": "M16A4突击步枪(破损)是破损品质。"
+  },
+  {
+    "instruction": "",
+    "input": "ACE32突击步枪(精制)是什么武器？",
+    "output": "ACE32突击步枪(精制)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MG36轻机枪(卓越)",
+    "output": "MG36轻机枪(卓越)是卓越品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "蝎式手枪(完好)是什么武器？",
+    "output": "蝎式手枪(完好)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AUG突击步枪(轩辕)是什么武器？",
+    "output": "AUG突击步枪(轩辕)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MP5K冲锋枪(完好)",
+    "output": "MP5K冲锋枪(完好)是完好品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MK20-H射手步枪(卓越)是什么品质？",
+    "output": "MK20-H射手步枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "SVD狙击枪(精制)是什么武器？",
+    "output": "SVD狙击枪(精制)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AKS-74U冲锋枪(黑鹰)是什么武器？",
+    "output": "AKS-74U冲锋枪(黑鹰)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "ACE32突击步枪(完好)是什么武器？",
+    "output": "ACE32突击步枪(完好)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Kar98K狙击枪(修复)",
+    "output": "Kar98K狙击枪(修复)是修复品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M16A4突击步枪(改进)是什么武器？",
+    "output": "M16A4突击步枪(改进)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M16A4突击步枪(完好)是什么武器？",
+    "output": "M16A4突击步枪(完好)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述ACE32突击步枪(黑鹰)",
+    "output": "ACE32突击步枪(黑鹰)是黑鹰品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述蝎式手枪(完好)",
+    "output": "蝎式手枪(完好)是完好品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AUG突击步枪(改进)是武器吗？",
+    "output": "是的，AUG突击步枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M200狙击枪(改进)是武器吗？",
+    "output": "是的，M200狙击枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SVD狙击枪(改进)是武器吗？",
+    "output": "是的，SVD狙击枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M762突击步枪(完好)是武器吗？",
+    "output": "是的，M762突击步枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M416突击步枪(完好)是什么品质？",
+    "output": "M416突击步枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "QBZ突击步枪(完好)是武器吗？",
+    "output": "是的，QBZ突击步枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "P90冲锋枪(黑鹰)是武器吗？",
+    "output": "是的，P90冲锋枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述JS9冲锋枪(卓越)",
+    "output": "JS9冲锋枪(卓越)是卓越品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M249轻机枪(黑鹰)",
+    "output": "M249轻机枪(黑鹰)是黑鹰品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "S686霰弹枪(修复)是什么品质？",
+    "output": "S686霰弹枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "VSS射手步枪(修复)是什么品质？",
+    "output": "VSS射手步枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "SVD狙击枪(黑鹰)是什么品质？",
+    "output": "SVD狙击枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "蜜獾突击步枪(黑鹰)是什么品质？",
+    "output": "蜜獾突击步枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "G36C突击步枪(黑鹰)是什么品质？",
+    "output": "G36C突击步枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "P1911手枪(修复)是什么武器？",
+    "output": "P1911手枪(修复)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M24狙击枪(轩辕)是什么品质？",
+    "output": "M24狙击枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MK20-H射手步枪(铁爪)",
+    "output": "MK20-H射手步枪(铁爪)是铁爪品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AC-VAL突击步枪(修复)是什么武器？",
+    "output": "AC-VAL突击步枪(修复)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述蜜獾突击步枪(完好)",
+    "output": "蜜獾突击步枪(完好)是完好品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AUG突击步枪(卓越)是武器吗？",
+    "output": "是的，AUG突击步枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述QBZ突击步枪(改进)",
+    "output": "QBZ突击步枪(改进)是改进品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "TMP-9手枪(破损)是什么品质？",
+    "output": "TMP-9手枪(破损)是破损品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Mk14射手步枪(改进)",
+    "output": "Mk14射手步枪(改进)是改进品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述蜜獾突击步枪(铁爪)",
+    "output": "蜜獾突击步枪(铁爪)是铁爪品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MK12射手步枪(卓越)是什么武器？",
+    "output": "MK12射手步枪(卓越)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MG36轻机枪(黑鹰)是武器吗？",
+    "output": "是的，MG36轻机枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "蜜獾突击步枪(精制)是什么品质？",
+    "output": "蜜獾突击步枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M249轻机枪(轩辕)是什么武器？",
+    "output": "M249轻机枪(轩辕)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SKS射手步枪(卓越)是武器吗？",
+    "output": "是的，SKS射手步枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "Mini14射手步枪(修复)是什么品质？",
+    "output": "Mini14射手步枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M24狙击枪(精制)是什么武器？",
+    "output": "M24狙击枪(精制)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SLR射手步枪(精制)是武器吗？",
+    "output": "是的，SLR射手步枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "蝎式手枪(完好)是什么品质？",
+    "output": "蝎式手枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AKM突击步枪(轩辕)是什么武器？",
+    "output": "AKM突击步枪(轩辕)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Mk14射手步枪(卓越)",
+    "output": "Mk14射手步枪(卓越)是卓越品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "FAMAS突击步枪(铁爪)是什么品质？",
+    "output": "FAMAS突击步枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M24狙击枪(轩辕)",
+    "output": "M24狙击枪(轩辕)是轩辕品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk14射手步枪(改进)是武器吗？",
+    "output": "是的，Mk14射手步枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M24狙击枪(铁爪)是什么品质？",
+    "output": "M24狙击枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk14射手步枪(卓越)是什么品质？",
+    "output": "Mk14射手步枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "QBZ突击步枪(精制)是武器吗？",
+    "output": "是的，QBZ突击步枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AWM狙击枪(铁爪)",
+    "output": "AWM狙击枪(铁爪)是铁爪品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M416突击步枪(轩辕)是武器吗？",
+    "output": "是的，M416突击步枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "QBZ突击步枪(黑鹰)是什么品质？",
+    "output": "QBZ突击步枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AUG突击步枪(铁爪)是什么武器？",
+    "output": "AUG突击步枪(铁爪)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述P90冲锋枪(完好)",
+    "output": "P90冲锋枪(完好)是完好品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M417射手步枪(黑鹰)",
+    "output": "M417射手步枪(黑鹰)是黑鹰品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "蜜獾突击步枪(轩辕)是武器吗？",
+    "output": "是的，蜜獾突击步枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "UZI冲锋枪(改进)是什么品质？",
+    "output": "UZI冲锋枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk14射手步枪(改进)是什么武器？",
+    "output": "Mk14射手步枪(改进)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MK12射手步枪(改进)是武器吗？",
+    "output": "是的，MK12射手步枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M417射手步枪(精制)是武器吗？",
+    "output": "是的，M417射手步枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "QBZ突击步枪(改进)是武器吗？",
+    "output": "是的，QBZ突击步枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AKM突击步枪(完好)",
+    "output": "AKM突击步枪(完好)是完好品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "P18C手枪(破损)是什么品质？",
+    "output": "P18C手枪(破损)是破损品质。"
+  },
+  {
+    "instruction": "",
+    "input": "SPAS-12霰弹枪(改进)是什么武器？",
+    "output": "SPAS-12霰弹枪(改进)是霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MP5K冲锋枪(完好)是什么品质？",
+    "output": "MP5K冲锋枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AMR狙击枪(铁爪)是武器吗？",
+    "output": "是的，AMR狙击枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "FAMAS突击步枪(精制)是武器吗？",
+    "output": "是的，FAMAS突击步枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M417射手步枪(精制)",
+    "output": "M417射手步枪(精制)是精制品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MK12射手步枪(铁爪)是什么武器？",
+    "output": "MK12射手步枪(铁爪)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "野牛冲锋枪(破损)是什么武器？",
+    "output": "野牛冲锋枪(破损)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AMR狙击枪(精制)是什么品质？",
+    "output": "AMR狙击枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "MP5K冲锋枪(黑鹰)是武器吗？",
+    "output": "是的，MP5K冲锋枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MK12射手步枪(改进)",
+    "output": "MK12射手步枪(改进)是改进品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M762突击步枪(黑鹰)是武器吗？",
+    "output": "是的，M762突击步枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "MP5K冲锋枪(精制)是什么武器？",
+    "output": "MP5K冲锋枪(精制)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MG36轻机枪(改进)是什么品质？",
+    "output": "MG36轻机枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "GROZA突击步枪(黑鹰)是什么武器？",
+    "output": "GROZA突击步枪(黑鹰)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述FAMAS突击步枪(轩辕)",
+    "output": "FAMAS突击步枪(轩辕)是轩辕品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "DP-28轻机枪(破损)是什么品质？",
+    "output": "DP-28轻机枪(破损)是破损品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Mk14射手步枪(铁爪)",
+    "output": "Mk14射手步枪(铁爪)是铁爪品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "QBZ突击步枪(卓越)是什么武器？",
+    "output": "QBZ突击步枪(卓越)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SCAR-L突击步枪(轩辕)是武器吗？",
+    "output": "是的，SCAR-L突击步枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SPAS-12霰弹枪(完好)是武器吗？",
+    "output": "是的，SPAS-12霰弹枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "MK20-H射手步枪(改进)是武器吗？",
+    "output": "是的，MK20-H射手步枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M16A4突击步枪(完好)是武器吗？",
+    "output": "是的，M16A4突击步枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SVD狙击枪(黑鹰)是什么武器？",
+    "output": "SVD狙击枪(黑鹰)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "S686霰弹枪(破损)是什么武器？",
+    "output": "S686霰弹枪(破损)是霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M416突击步枪(铁爪)是什么品质？",
+    "output": "M416突击步枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述ACE32突击步枪(精制)",
+    "output": "ACE32突击步枪(精制)是精制品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MG36轻机枪(铁爪)是什么武器？",
+    "output": "MG36轻机枪(铁爪)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M762突击步枪(黑鹰)是什么武器？",
+    "output": "M762突击步枪(黑鹰)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述GROZA突击步枪(精制)",
+    "output": "GROZA突击步枪(精制)是精制品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AMR狙击枪(黑鹰)是武器吗？",
+    "output": "是的，AMR狙击枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述DBS霰弹枪(改进)",
+    "output": "DBS霰弹枪(改进)是改进品质的霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SKS射手步枪(铁爪)",
+    "output": "SKS射手步枪(铁爪)是铁爪品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "QBU射手步枪(修复)是什么品质？",
+    "output": "QBU射手步枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M417射手步枪(黑鹰)是武器吗？",
+    "output": "是的，M417射手步枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AWM狙击枪(黑鹰)",
+    "output": "AWM狙击枪(黑鹰)是黑鹰品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "QBZ突击步枪(卓越)是武器吗？",
+    "output": "是的，QBZ突击步枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "ACE32突击步枪(改进)是武器吗？",
+    "output": "是的，ACE32突击步枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M200狙击枪(完好)是什么品质？",
+    "output": "M200狙击枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "MG3轻机枪(轩辕)是什么武器？",
+    "output": "MG3轻机枪(轩辕)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SCAR-L突击步枪(铁爪)是什么品质？",
+    "output": "SCAR-L突击步枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "SLR射手步枪(轩辕)是武器吗？",
+    "output": "是的，SLR射手步枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "AMR狙击枪(改进)是武器吗？",
+    "output": "是的，AMR狙击枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M762突击步枪(卓越)是武器吗？",
+    "output": "是的，M762突击步枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "MP5K冲锋枪(改进)是武器吗？",
+    "output": "是的，MP5K冲锋枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "Mini14射手步枪(完好)是武器吗？",
+    "output": "是的，Mini14射手步枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述沙漠之鹰手枪(完好)",
+    "output": "沙漠之鹰手枪(完好)是完好品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述蜜獾突击步枪(精制)",
+    "output": "蜜獾突击步枪(精制)是精制品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AMR狙击枪(轩辕)是什么武器？",
+    "output": "AMR狙击枪(轩辕)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M416突击步枪(铁爪)是什么武器？",
+    "output": "M416突击步枪(铁爪)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "蜜獾突击步枪(改进)是什么武器？",
+    "output": "蜜獾突击步枪(改进)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MG36轻机枪(精制)是什么品质？",
+    "output": "MG36轻机枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "蜜獾突击步枪(精制)是武器吗？",
+    "output": "是的，蜜獾突击步枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述UMP45冲锋枪(破损)",
+    "output": "UMP45冲锋枪(破损)是破损品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述G36C突击步枪(完好)",
+    "output": "G36C突击步枪(完好)是完好品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AMR狙击枪(精制)",
+    "output": "AMR狙击枪(精制)是精制品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AKS-74U冲锋枪(铁爪)是武器吗？",
+    "output": "是的，AKS-74U冲锋枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述P92手枪(修复)",
+    "output": "P92手枪(修复)是修复品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AWM狙击枪(改进)是武器吗？",
+    "output": "是的，AWM狙击枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M24狙击枪(完好)是什么品质？",
+    "output": "M24狙击枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AMR狙击枪(卓越)是什么品质？",
+    "output": "AMR狙击枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Vector冲锋枪(卓越)",
+    "output": "Vector冲锋枪(卓越)是卓越品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述UMP45冲锋枪(修复)",
+    "output": "UMP45冲锋枪(修复)是修复品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M16A4突击步枪(破损)",
+    "output": "M16A4突击步枪(破损)是破损品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述UZI冲锋枪(完好)",
+    "output": "UZI冲锋枪(完好)是完好品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M417射手步枪(铁爪)是什么武器？",
+    "output": "M417射手步枪(铁爪)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SLR射手步枪(精制)是什么品质？",
+    "output": "SLR射手步枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M416突击步枪(轩辕)是什么武器？",
+    "output": "M416突击步枪(轩辕)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AWM狙击枪(精制)是武器吗？",
+    "output": "是的，AWM狙击枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M762突击步枪(铁爪)是什么武器？",
+    "output": "M762突击步枪(铁爪)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk14射手步枪(完好)是什么品质？",
+    "output": "Mk14射手步枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M24狙击枪(精制)是什么品质？",
+    "output": "M24狙击枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MG36轻机枪(改进)",
+    "output": "MG36轻机枪(改进)是改进品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MK12射手步枪(完好)是什么品质？",
+    "output": "MK12射手步枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "G36C突击步枪(改进)是什么武器？",
+    "output": "G36C突击步枪(改进)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "G36C突击步枪(完好)是什么品质？",
+    "output": "G36C突击步枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述PKM轻机枪(铁爪)",
+    "output": "PKM轻机枪(铁爪)是铁爪品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MG3轻机枪(改进)是什么品质？",
+    "output": "MG3轻机枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "Vector冲锋枪(黑鹰)是什么品质？",
+    "output": "Vector冲锋枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "蝎式手枪(改进)是武器吗？",
+    "output": "是的，蝎式手枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "PKM轻机枪(改进)是什么武器？",
+    "output": "PKM轻机枪(改进)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AUG突击步枪(黑鹰)是武器吗？",
+    "output": "是的，AUG突击步枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SPAS-12霰弹枪(修复)",
+    "output": "SPAS-12霰弹枪(修复)是修复品质的霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M416突击步枪(改进)是什么品质？",
+    "output": "M416突击步枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M762突击步枪(精制)是武器吗？",
+    "output": "是的，M762突击步枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "莫辛纳甘狙击枪(完好)是什么品质？",
+    "output": "莫辛纳甘狙击枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "QBU射手步枪(改进)是什么武器？",
+    "output": "QBU射手步枪(改进)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "P90冲锋枪(黑鹰)是什么武器？",
+    "output": "P90冲锋枪(黑鹰)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AMR狙击枪(轩辕)是什么品质？",
+    "output": "AMR狙击枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "UZI冲锋枪(精制)是武器吗？",
+    "output": "是的，UZI冲锋枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M200狙击枪(轩辕)是什么品质？",
+    "output": "M200狙击枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "SCAR-L突击步枪(黑鹰)是武器吗？",
+    "output": "是的，SCAR-L突击步枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "R1895手枪(破损)是什么武器？",
+    "output": "R1895手枪(破损)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AKS-74U冲锋枪(卓越)是什么武器？",
+    "output": "AKS-74U冲锋枪(卓越)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "QBZ突击步枪(完好)是什么品质？",
+    "output": "QBZ突击步枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述S12K霰弹枪(精制)",
+    "output": "S12K霰弹枪(精制)是精制品质的霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AUG突击步枪(轩辕)",
+    "output": "AUG突击步枪(轩辕)是轩辕品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "P92手枪(完好)是什么品质？",
+    "output": "P92手枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AUG突击步枪(改进)是什么武器？",
+    "output": "AUG突击步枪(改进)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "汤姆逊冲锋枪(改进)是武器吗？",
+    "output": "是的，汤姆逊冲锋枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SCAR-L突击步枪(完好)",
+    "output": "SCAR-L突击步枪(完好)是完好品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述FAMAS突击步枪(改进)",
+    "output": "FAMAS突击步枪(改进)是改进品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M416突击步枪(改进)是武器吗？",
+    "output": "是的，M416突击步枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M249轻机枪(精制)是什么武器？",
+    "output": "M249轻机枪(精制)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "P92手枪(修复)是武器吗？",
+    "output": "是的，P92手枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SCAR-L突击步枪(轩辕)是什么武器？",
+    "output": "SCAR-L突击步枪(轩辕)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AKM突击步枪(改进)是武器吗？",
+    "output": "是的，AKM突击步枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "MP5K冲锋枪(黑鹰)是什么品质？",
+    "output": "MP5K冲锋枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk14射手步枪(精制)是什么武器？",
+    "output": "Mk14射手步枪(精制)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述蜜獾突击步枪(改进)",
+    "output": "蜜獾突击步枪(改进)是改进品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "JS9冲锋枪(黑鹰)是什么武器？",
+    "output": "JS9冲锋枪(黑鹰)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Win94狙击枪(修复)是什么品质？",
+    "output": "Win94狙击枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "UMP45冲锋枪(精制)是什么武器？",
+    "output": "UMP45冲锋枪(精制)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MK20-H射手步枪(轩辕)是什么武器？",
+    "output": "MK20-H射手步枪(轩辕)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述S686霰弹枪(破损)",
+    "output": "S686霰弹枪(破损)是破损品质的霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述双持巨蟒手枪(改进)",
+    "output": "双持巨蟒手枪(改进)是改进品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SKS射手步枪(轩辕)是什么武器？",
+    "output": "SKS射手步枪(轩辕)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "S12K霰弹枪(精制)是什么品质？",
+    "output": "S12K霰弹枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "Mini14射手步枪(完好)是什么武器？",
+    "output": "Mini14射手步枪(完好)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Vector冲锋枪(卓越)是什么品质？",
+    "output": "Vector冲锋枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "G36C突击步枪(轩辕)是武器吗？",
+    "output": "是的，G36C突击步枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SVD狙击枪(轩辕)",
+    "output": "SVD狙击枪(轩辕)是轩辕品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MG36轻机枪(改进)是武器吗？",
+    "output": "是的，MG36轻机枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Mk14射手步枪(精制)",
+    "output": "Mk14射手步枪(精制)是精制品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M762突击步枪(轩辕)是什么武器？",
+    "output": "M762突击步枪(轩辕)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M416突击步枪(精制)是什么武器？",
+    "output": "M416突击步枪(精制)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AA12-G霰弹枪(修复)是什么武器？",
+    "output": "AA12-G霰弹枪(修复)是霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MK12射手步枪(卓越)",
+    "output": "MK12射手步枪(卓越)是卓越品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MG3轻机枪(精制)是什么武器？",
+    "output": "MG3轻机枪(精制)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SLR射手步枪(铁爪)是什么品质？",
+    "output": "SLR射手步枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AUG突击步枪(精制)是什么武器？",
+    "output": "AUG突击步枪(精制)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SLR射手步枪(轩辕)",
+    "output": "SLR射手步枪(轩辕)是轩辕品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "蜜獾突击步枪(完好)是武器吗？",
+    "output": "是的，蜜獾突击步枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "AWM狙击枪(黑鹰)是什么武器？",
+    "output": "AWM狙击枪(黑鹰)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SKS射手步枪(黑鹰)是武器吗？",
+    "output": "是的，SKS射手步枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "AC-VAL突击步枪(完好)是什么武器？",
+    "output": "AC-VAL突击步枪(完好)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SKS射手步枪(铁爪)是什么武器？",
+    "output": "SKS射手步枪(铁爪)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SLR射手步枪(黑鹰)是什么武器？",
+    "output": "SLR射手步枪(黑鹰)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SLR射手步枪(轩辕)是什么武器？",
+    "output": "SLR射手步枪(轩辕)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk47突击步枪(完好)是什么武器？",
+    "output": "Mk47突击步枪(完好)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SCAR-L突击步枪(改进)是武器吗？",
+    "output": "是的，SCAR-L突击步枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "R45手枪(修复)是什么武器？",
+    "output": "R45手枪(修复)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AC-VAL突击步枪(改进)是什么武器？",
+    "output": "AC-VAL突击步枪(改进)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "汤姆逊冲锋枪(破损)是什么品质？",
+    "output": "汤姆逊冲锋枪(破损)是破损品质。"
+  },
+  {
+    "instruction": "",
+    "input": "DBS霰弹枪(完好)是什么品质？",
+    "output": "DBS霰弹枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "MK12射手步枪(黑鹰)是什么品质？",
+    "output": "MK12射手步枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "MK20-H射手步枪(铁爪)是什么武器？",
+    "output": "MK20-H射手步枪(铁爪)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "G36C突击步枪(黑鹰)是什么武器？",
+    "output": "G36C突击步枪(黑鹰)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "R1895手枪(完好)是什么武器？",
+    "output": "R1895手枪(完好)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "FAMAS突击步枪(卓越)是什么武器？",
+    "output": "FAMAS突击步枪(卓越)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M417射手步枪(卓越)是武器吗？",
+    "output": "是的，M417射手步枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述GROZA突击步枪(卓越)",
+    "output": "GROZA突击步枪(卓越)是卓越品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述UZI冲锋枪(破损)",
+    "output": "UZI冲锋枪(破损)是破损品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MK20-H射手步枪(卓越)是什么武器？",
+    "output": "MK20-H射手步枪(卓越)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Mk47突击步枪(修复)",
+    "output": "Mk47突击步枪(修复)是修复品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SVD狙击枪(精制)",
+    "output": "SVD狙击枪(精制)是精制品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AMR狙击枪(轩辕)是武器吗？",
+    "output": "是的，AMR狙击枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SCAR-L突击步枪(卓越)是什么品质？",
+    "output": "SCAR-L突击步枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk47突击步枪(破损)是武器吗？",
+    "output": "是的，Mk47突击步枪(破损)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "汤姆逊冲锋枪(完好)是什么武器？",
+    "output": "汤姆逊冲锋枪(完好)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "沙漠之鹰手枪(修复)是武器吗？",
+    "output": "是的，沙漠之鹰手枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SPAS-12霰弹枪(精制)是什么武器？",
+    "output": "SPAS-12霰弹枪(精制)是霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述R1895手枪(修复)",
+    "output": "R1895手枪(修复)是修复品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Mini14射手步枪(改进)",
+    "output": "Mini14射手步枪(改进)是改进品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述QBZ突击步枪(黑鹰)",
+    "output": "QBZ突击步枪(黑鹰)是黑鹰品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk14射手步枪(黑鹰)是什么品质？",
+    "output": "Mk14射手步枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Mini14射手步枪(破损)",
+    "output": "Mini14射手步枪(破损)是破损品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SCAR-L突击步枪(卓越)",
+    "output": "SCAR-L突击步枪(卓越)是卓越品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "G36C突击步枪(改进)是什么品质？",
+    "output": "G36C突击步枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述P18C手枪(修复)",
+    "output": "P18C手枪(修复)是修复品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AWM狙击枪(黑鹰)是武器吗？",
+    "output": "是的，AWM狙击枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AKS-74U冲锋枪(铁爪)",
+    "output": "AKS-74U冲锋枪(铁爪)是铁爪品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述莫辛纳甘狙击枪(修复)",
+    "output": "莫辛纳甘狙击枪(修复)是修复品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "GROZA突击步枪(铁爪)是武器吗？",
+    "output": "是的，GROZA突击步枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "P90冲锋枪(改进)是什么品质？",
+    "output": "P90冲锋枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "莫辛纳甘狙击枪(完好)是武器吗？",
+    "output": "是的，莫辛纳甘狙击枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "AWM狙击枪(改进)是什么武器？",
+    "output": "AWM狙击枪(改进)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "P90冲锋枪(铁爪)是什么品质？",
+    "output": "P90冲锋枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AUG突击步枪(改进)是什么品质？",
+    "output": "AUG突击步枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M416突击步枪(铁爪)是武器吗？",
+    "output": "是的，M416突击步枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SCAR-L突击步枪(铁爪)",
+    "output": "SCAR-L突击步枪(铁爪)是铁爪品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "UMP45冲锋枪(破损)是什么武器？",
+    "output": "UMP45冲锋枪(破损)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SLR射手步枪(黑鹰)是什么品质？",
+    "output": "SLR射手步枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AKM突击步枪(铁爪)",
+    "output": "AKM突击步枪(铁爪)是铁爪品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "GROZA突击步枪(铁爪)是什么品质？",
+    "output": "GROZA突击步枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AKM突击步枪(卓越)是武器吗？",
+    "output": "是的，AKM突击步枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "FAMAS突击步枪(完好)是武器吗？",
+    "output": "是的，FAMAS突击步枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "P1911手枪(修复)是什么品质？",
+    "output": "P1911手枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AUG突击步枪(铁爪)",
+    "output": "AUG突击步枪(铁爪)是铁爪品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Vector冲锋枪(黑鹰)是武器吗？",
+    "output": "是的，Vector冲锋枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述GROZA突击步枪(改进)",
+    "output": "GROZA突击步枪(改进)是改进品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AWM狙击枪(轩辕)是武器吗？",
+    "output": "是的，AWM狙击枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M16A4突击步枪(修复)是什么武器？",
+    "output": "M16A4突击步枪(修复)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk14射手步枪(精制)是什么品质？",
+    "output": "Mk14射手步枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "R1895手枪(破损)是什么品质？",
+    "output": "R1895手枪(破损)是破损品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SKS射手步枪(改进)",
+    "output": "SKS射手步枪(改进)是改进品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M762突击步枪(改进)是什么武器？",
+    "output": "M762突击步枪(改进)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "JS9冲锋枪(精制)是什么武器？",
+    "output": "JS9冲锋枪(精制)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Kar98K狙击枪(完好)",
+    "output": "Kar98K狙击枪(完好)是完好品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Mini14射手步枪(修复)",
+    "output": "Mini14射手步枪(修复)是修复品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "沙漠之鹰手枪(破损)是武器吗？",
+    "output": "是的，沙漠之鹰手枪(破损)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "沙漠之鹰手枪(完好)是什么武器？",
+    "output": "沙漠之鹰手枪(完好)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "JS9冲锋枪(黑鹰)是什么品质？",
+    "output": "JS9冲锋枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "GROZA突击步枪(改进)是什么武器？",
+    "output": "GROZA突击步枪(改进)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AKM突击步枪(改进)是什么品质？",
+    "output": "AKM突击步枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述蝎式手枪(修复)",
+    "output": "蝎式手枪(修复)是修复品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AA12-G霰弹枪(精制)是什么品质？",
+    "output": "AA12-G霰弹枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "SLR射手步枪(精制)是什么武器？",
+    "output": "SLR射手步枪(精制)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "UMP45冲锋枪(精制)是武器吗？",
+    "output": "是的，UMP45冲锋枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "Mini14射手步枪(修复)是武器吗？",
+    "output": "是的，Mini14射手步枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M24狙击枪(轩辕)是武器吗？",
+    "output": "是的，M24狙击枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "汤姆逊冲锋枪(修复)是什么武器？",
+    "output": "汤姆逊冲锋枪(修复)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "P92手枪(破损)是什么武器？",
+    "output": "P92手枪(破损)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MG36轻机枪(卓越)是什么品质？",
+    "output": "MG36轻机枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "P92手枪(完好)是什么武器？",
+    "output": "P92手枪(完好)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AUG突击步枪(精制)",
+    "output": "AUG突击步枪(精制)是精制品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AKS-74U冲锋枪(精制)是什么品质？",
+    "output": "AKS-74U冲锋枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "S1897霰弹枪(完好)是什么品质？",
+    "output": "S1897霰弹枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "UMP45冲锋枪(完好)是什么武器？",
+    "output": "UMP45冲锋枪(完好)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "汤姆逊冲锋枪(修复)是武器吗？",
+    "output": "是的，汤姆逊冲锋枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "AA12-G霰弹枪(改进)是什么品质？",
+    "output": "AA12-G霰弹枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "SLR射手步枪(完好)是什么武器？",
+    "output": "SLR射手步枪(完好)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "PKM轻机枪(改进)是武器吗？",
+    "output": "是的，PKM轻机枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "FAMAS突击步枪(卓越)是什么品质？",
+    "output": "FAMAS突击步枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "UMP45冲锋枪(破损)是什么品质？",
+    "output": "UMP45冲锋枪(破损)是破损品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述汤姆逊冲锋枪(破损)",
+    "output": "汤姆逊冲锋枪(破损)是破损品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MG3轻机枪(黑鹰)",
+    "output": "MG3轻机枪(黑鹰)是黑鹰品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M417射手步枪(精制)是什么品质？",
+    "output": "M417射手步枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "JS9冲锋枪(轩辕)是什么品质？",
+    "output": "JS9冲锋枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk47突击步枪(改进)是什么武器？",
+    "output": "Mk47突击步枪(改进)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "短管霰弹枪(修复)是什么武器？",
+    "output": "短管霰弹枪(修复)是霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "P90冲锋枪(黑鹰)是什么品质？",
+    "output": "P90冲锋枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "短管霰弹枪(完好)是什么品质？",
+    "output": "短管霰弹枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "DBS霰弹枪(精制)是武器吗？",
+    "output": "是的，DBS霰弹枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "AA12-G霰弹枪(精制)是什么武器？",
+    "output": "AA12-G霰弹枪(精制)是霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M762突击步枪(铁爪)是什么品质？",
+    "output": "M762突击步枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "SVD狙击枪(卓越)是武器吗？",
+    "output": "是的，SVD狙击枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "MP5K冲锋枪(卓越)是什么品质？",
+    "output": "MP5K冲锋枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述野牛冲锋枪(破损)",
+    "output": "野牛冲锋枪(破损)是破损品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SKS射手步枪(黑鹰)是什么武器？",
+    "output": "SKS射手步枪(黑鹰)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SLR射手步枪(卓越)是什么品质？",
+    "output": "SLR射手步枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "MG3轻机枪(卓越)是什么武器？",
+    "output": "MG3轻机枪(卓越)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M200狙击枪(卓越)是武器吗？",
+    "output": "是的，M200狙击枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AKM突击步枪(轩辕)",
+    "output": "AKM突击步枪(轩辕)是轩辕品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "R1895手枪(修复)是武器吗？",
+    "output": "是的，R1895手枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "AUG突击步枪(黑鹰)是什么武器？",
+    "output": "AUG突击步枪(黑鹰)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AWM狙击枪(黑鹰)是什么品质？",
+    "output": "AWM狙击枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "JS9冲锋枪(轩辕)是什么武器？",
+    "output": "JS9冲锋枪(轩辕)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M249轻机枪(精制)是武器吗？",
+    "output": "是的，M249轻机枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M762突击步枪(黑鹰)",
+    "output": "M762突击步枪(黑鹰)是黑鹰品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Mini14射手步枪(修复)是什么武器？",
+    "output": "Mini14射手步枪(修复)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AKS-74U冲锋枪(卓越)是什么品质？",
+    "output": "AKS-74U冲锋枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SVD狙击枪(卓越)",
+    "output": "SVD狙击枪(卓越)是卓越品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "P90冲锋枪(卓越)是什么品质？",
+    "output": "P90冲锋枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "P90冲锋枪(改进)是武器吗？",
+    "output": "是的，P90冲锋枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述JS9冲锋枪(完好)",
+    "output": "JS9冲锋枪(完好)是完好品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "G36C突击步枪(卓越)是什么品质？",
+    "output": "G36C突击步枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AKM突击步枪(黑鹰)是武器吗？",
+    "output": "是的，AKM突击步枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MK12射手步枪(精制)",
+    "output": "MK12射手步枪(精制)是精制品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M200狙击枪(改进)是什么武器？",
+    "output": "M200狙击枪(改进)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述PKM轻机枪(卓越)",
+    "output": "PKM轻机枪(卓越)是卓越品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Win94狙击枪(完好)是什么武器？",
+    "output": "Win94狙击枪(完好)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "PKM轻机枪(轩辕)是什么品质？",
+    "output": "PKM轻机枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "SPAS-12霰弹枪(修复)是什么品质？",
+    "output": "SPAS-12霰弹枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "SKS射手步枪(精制)是武器吗？",
+    "output": "是的，SKS射手步枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Mk14射手步枪(轩辕)",
+    "output": "Mk14射手步枪(轩辕)是轩辕品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MP5K冲锋枪(改进)是什么武器？",
+    "output": "MP5K冲锋枪(改进)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "UMP45冲锋枪(完好)是武器吗？",
+    "output": "是的，UMP45冲锋枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Mk14射手步枪(完好)",
+    "output": "Mk14射手步枪(完好)是完好品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "蜜獾突击步枪(轩辕)是什么品质？",
+    "output": "蜜獾突击步枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "双持巨蟒手枪(完好)是什么武器？",
+    "output": "双持巨蟒手枪(完好)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "VSS射手步枪(改进)是武器吗？",
+    "output": "是的，VSS射手步枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MK12射手步枪(轩辕)",
+    "output": "MK12射手步枪(轩辕)是轩辕品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Kar98K狙击枪(改进)是武器吗？",
+    "output": "是的，Kar98K狙击枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述ACE32突击步枪(轩辕)",
+    "output": "ACE32突击步枪(轩辕)是轩辕品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M200狙击枪(铁爪)是武器吗？",
+    "output": "是的，M200狙击枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SKS射手步枪(改进)是什么武器？",
+    "output": "SKS射手步枪(改进)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MK20-H射手步枪(精制)",
+    "output": "MK20-H射手步枪(精制)是精制品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MP5K冲锋枪(精制)是什么品质？",
+    "output": "MP5K冲锋枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AKM突击步枪(卓越)是什么品质？",
+    "output": "AKM突击步枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "Mini14射手步枪(破损)是什么品质？",
+    "output": "Mini14射手步枪(破损)是破损品质。"
+  },
+  {
+    "instruction": "",
+    "input": "SLR射手步枪(卓越)是什么武器？",
+    "output": "SLR射手步枪(卓越)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "S1897霰弹枪(完好)是什么武器？",
+    "output": "S1897霰弹枪(完好)是霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MK12射手步枪(精制)是武器吗？",
+    "output": "是的，MK12射手步枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "MG3轻机枪(精制)是武器吗？",
+    "output": "是的，MG3轻机枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述R45手枪(修复)",
+    "output": "R45手枪(修复)是修复品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MK12射手步枪(轩辕)是什么品质？",
+    "output": "MK12射手步枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述PKM轻机枪(改进)",
+    "output": "PKM轻机枪(改进)是改进品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MK12射手步枪(卓越)是武器吗？",
+    "output": "是的，MK12射手步枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk14射手步枪(轩辕)是武器吗？",
+    "output": "是的，Mk14射手步枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M24狙击枪(卓越)",
+    "output": "M24狙击枪(卓越)是卓越品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M762突击步枪(卓越)",
+    "output": "M762突击步枪(卓越)是卓越品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述PKM轻机枪(黑鹰)",
+    "output": "PKM轻机枪(黑鹰)是黑鹰品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M762突击步枪(改进)",
+    "output": "M762突击步枪(改进)是改进品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述G36C突击步枪(精制)",
+    "output": "G36C突击步枪(精制)是精制品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AUG突击步枪(改进)",
+    "output": "AUG突击步枪(改进)是改进品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "双持巨蟒手枪(改进)是什么武器？",
+    "output": "双持巨蟒手枪(改进)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AKM突击步枪(卓越)",
+    "output": "AKM突击步枪(卓越)是卓越品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "UMP45冲锋枪(改进)是武器吗？",
+    "output": "是的，UMP45冲锋枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Vector冲锋枪(完好)",
+    "output": "Vector冲锋枪(完好)是完好品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AA12-G霰弹枪(精制)是武器吗？",
+    "output": "是的，AA12-G霰弹枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M200狙击枪(铁爪)",
+    "output": "M200狙击枪(铁爪)是铁爪品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AKS-74U冲锋枪(精制)",
+    "output": "AKS-74U冲锋枪(精制)是精制品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M417射手步枪(黑鹰)是什么武器？",
+    "output": "M417射手步枪(黑鹰)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述QBZ突击步枪(卓越)",
+    "output": "QBZ突击步枪(卓越)是卓越品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AWM狙击枪(精制)是什么武器？",
+    "output": "AWM狙击枪(精制)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "ACE32突击步枪(精制)是武器吗？",
+    "output": "是的，ACE32突击步枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "AA12-G霰弹枪(修复)是武器吗？",
+    "output": "是的，AA12-G霰弹枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "P92手枪(修复)是什么武器？",
+    "output": "P92手枪(修复)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "S12K霰弹枪(修复)是什么武器？",
+    "output": "S12K霰弹枪(修复)是霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "G36C突击步枪(卓越)是什么武器？",
+    "output": "G36C突击步枪(卓越)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述ACE32突击步枪(改进)",
+    "output": "ACE32突击步枪(改进)是改进品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MP5K冲锋枪(精制)",
+    "output": "MP5K冲锋枪(精制)是精制品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MP5K冲锋枪(改进)是什么品质？",
+    "output": "MP5K冲锋枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "VSS射手步枪(修复)是什么武器？",
+    "output": "VSS射手步枪(修复)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MG3轻机枪(铁爪)",
+    "output": "MG3轻机枪(铁爪)是铁爪品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M417射手步枪(卓越)是什么武器？",
+    "output": "M417射手步枪(卓越)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SLR射手步枪(完好)",
+    "output": "SLR射手步枪(完好)是完好品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述VSS射手步枪(破损)",
+    "output": "VSS射手步枪(破损)是破损品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "R45手枪(修复)是什么品质？",
+    "output": "R45手枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AKS-74U冲锋枪(黑鹰)",
+    "output": "AKS-74U冲锋枪(黑鹰)是黑鹰品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "ACE32突击步枪(改进)是什么品质？",
+    "output": "ACE32突击步枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "Vector冲锋枪(完好)是什么武器？",
+    "output": "Vector冲锋枪(完好)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M249轻机枪(卓越)是武器吗？",
+    "output": "是的，M249轻机枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "P90冲锋枪(卓越)是什么武器？",
+    "output": "P90冲锋枪(卓越)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "UMP45冲锋枪(破损)是武器吗？",
+    "output": "是的，UMP45冲锋枪(破损)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "PKM轻机枪(卓越)是什么武器？",
+    "output": "PKM轻机枪(卓越)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MG36轻机枪(卓越)是什么武器？",
+    "output": "MG36轻机枪(卓越)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SPAS-12霰弹枪(改进)是什么品质？",
+    "output": "SPAS-12霰弹枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "SPAS-12霰弹枪(精制)是什么品质？",
+    "output": "SPAS-12霰弹枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AC-VAL突击步枪(破损)是武器吗？",
+    "output": "是的，AC-VAL突击步枪(破损)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "S686霰弹枪(破损)是什么品质？",
+    "output": "S686霰弹枪(破损)是破损品质。"
+  },
+  {
+    "instruction": "",
+    "input": "MG3轻机枪(精制)是什么品质？",
+    "output": "MG3轻机枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "短管霰弹枪(破损)是什么品质？",
+    "output": "短管霰弹枪(破损)是破损品质。"
+  },
+  {
+    "instruction": "",
+    "input": "MG-36轻机枪(轩辕)是武器吗？",
+    "output": "是的，MG-36轻机枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "沙漠之鹰手枪(完好)是什么品质？",
+    "output": "沙漠之鹰手枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Win94狙击枪(完好)",
+    "output": "Win94狙击枪(完好)是完好品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "双持巨蟒手枪(完好)是武器吗？",
+    "output": "是的，双持巨蟒手枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "QBU射手步枪(破损)是武器吗？",
+    "output": "是的，QBU射手步枪(破损)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "PKM轻机枪(改进)是什么品质？",
+    "output": "PKM轻机枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述P90冲锋枪(黑鹰)",
+    "output": "P90冲锋枪(黑鹰)是黑鹰品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MG3轻机枪(改进)是什么武器？",
+    "output": "MG3轻机枪(改进)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述VSS射手步枪(完好)",
+    "output": "VSS射手步枪(完好)是完好品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SLR射手步枪(黑鹰)",
+    "output": "SLR射手步枪(黑鹰)是黑鹰品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AMR狙击枪(铁爪)是什么武器？",
+    "output": "AMR狙击枪(铁爪)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "ACE32突击步枪(轩辕)是什么品质？",
+    "output": "ACE32突击步枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M24狙击枪(改进)",
+    "output": "M24狙击枪(改进)是改进品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "莫辛纳甘狙击枪(破损)是什么品质？",
+    "output": "莫辛纳甘狙击枪(破损)是破损品质。"
+  },
+  {
+    "instruction": "",
+    "input": "SLR射手步枪(铁爪)是武器吗？",
+    "output": "是的，SLR射手步枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "TMP-9手枪(改进)是什么品质？",
+    "output": "TMP-9手枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "S12K霰弹枪(完好)是武器吗？",
+    "output": "是的，S12K霰弹枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "AC-VAL突击步枪(改进)是什么品质？",
+    "output": "AC-VAL突击步枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M417射手步枪(改进)",
+    "output": "M417射手步枪(改进)是改进品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "FAMAS突击步枪(铁爪)是武器吗？",
+    "output": "是的，FAMAS突击步枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述G36C突击步枪(铁爪)",
+    "output": "G36C突击步枪(铁爪)是铁爪品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "ACE32突击步枪(精制)是什么品质？",
+    "output": "ACE32突击步枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AA12-G霰弹枪(完好)是什么武器？",
+    "output": "AA12-G霰弹枪(完好)是霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "ACE32突击步枪(卓越)是武器吗？",
+    "output": "是的，ACE32突击步枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "S12K霰弹枪(精制)是武器吗？",
+    "output": "是的，S12K霰弹枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "PKM轻机枪(卓越)是武器吗？",
+    "output": "是的，PKM轻机枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M24狙击枪(黑鹰)是什么品质？",
+    "output": "M24狙击枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "蜜獾突击步枪(卓越)是什么品质？",
+    "output": "蜜獾突击步枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AKS-74U冲锋枪(完好)",
+    "output": "AKS-74U冲锋枪(完好)是完好品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MK12射手步枪(轩辕)是什么武器？",
+    "output": "MK12射手步枪(轩辕)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "S12K霰弹枪(修复)是什么品质？",
+    "output": "S12K霰弹枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "GROZA突击步枪(改进)是武器吗？",
+    "output": "是的，GROZA突击步枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "GROZA突击步枪(黑鹰)是什么品质？",
+    "output": "GROZA突击步枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "GROZA突击步枪(铁爪)是什么武器？",
+    "output": "GROZA突击步枪(铁爪)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述P1911手枪(完好)",
+    "output": "P1911手枪(完好)是完好品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "PKM轻机枪(精制)是武器吗？",
+    "output": "是的，PKM轻机枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Mini14射手步枪(完好)",
+    "output": "Mini14射手步枪(完好)是完好品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "PKM轻机枪(铁爪)是武器吗？",
+    "output": "是的，PKM轻机枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SCAR-L突击步枪(改进)",
+    "output": "SCAR-L突击步枪(改进)是改进品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "UZI冲锋枪(完好)是什么品质？",
+    "output": "UZI冲锋枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk14射手步枪(卓越)是武器吗？",
+    "output": "是的，Mk14射手步枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SCAR-L突击步枪(轩辕)是什么品质？",
+    "output": "SCAR-L突击步枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述FAMAS突击步枪(卓越)",
+    "output": "FAMAS突击步枪(卓越)是卓越品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M762突击步枪(轩辕)是武器吗？",
+    "output": "是的，M762突击步枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "DBS霰弹枪(修复)是什么品质？",
+    "output": "DBS霰弹枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "SKS射手步枪(黑鹰)是什么品质？",
+    "output": "SKS射手步枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "MP5K冲锋枪(铁爪)是什么品质？",
+    "output": "MP5K冲锋枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "S1897霰弹枪(修复)是什么武器？",
+    "output": "S1897霰弹枪(修复)是霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AC-VAL突击步枪(改进)",
+    "output": "AC-VAL突击步枪(改进)是改进品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述P90冲锋枪(铁爪)",
+    "output": "P90冲锋枪(铁爪)是铁爪品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述GROZA突击步枪(轩辕)",
+    "output": "GROZA突击步枪(轩辕)是轩辕品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "DP-28轻机枪(破损)是什么武器？",
+    "output": "DP-28轻机枪(破损)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "ACE32突击步枪(轩辕)是什么武器？",
+    "output": "ACE32突击步枪(轩辕)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SVD狙击枪(黑鹰)是武器吗？",
+    "output": "是的，SVD狙击枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M416突击步枪(卓越)",
+    "output": "M416突击步枪(卓越)是卓越品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "FAMAS突击步枪(轩辕)是什么品质？",
+    "output": "FAMAS突击步枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AKM突击步枪(黑鹰)是什么武器？",
+    "output": "AKM突击步枪(黑鹰)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "S686霰弹枪(完好)是什么品质？",
+    "output": "S686霰弹枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "MG3轻机枪(卓越)是武器吗？",
+    "output": "是的，MG3轻机枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "G36C突击步枪(完好)是武器吗？",
+    "output": "是的，G36C突击步枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述TMP-9手枪(破损)",
+    "output": "TMP-9手枪(破损)是破损品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AKS-74U冲锋枪(完好)是什么品质？",
+    "output": "AKS-74U冲锋枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "UZI冲锋枪(精制)是什么武器？",
+    "output": "UZI冲锋枪(精制)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AMR狙击枪(黑鹰)是什么品质？",
+    "output": "AMR狙击枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述S686霰弹枪(完好)",
+    "output": "S686霰弹枪(完好)是完好品质的霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "DBS霰弹枪(完好)是武器吗？",
+    "output": "是的，DBS霰弹枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MP5K冲锋枪(铁爪)",
+    "output": "MP5K冲锋枪(铁爪)是铁爪品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SKS射手步枪(卓越)是什么品质？",
+    "output": "SKS射手步枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "蜜獾突击步枪(铁爪)是什么武器？",
+    "output": "蜜獾突击步枪(铁爪)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M249轻机枪(黑鹰)是武器吗？",
+    "output": "是的，M249轻机枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M416突击步枪(黑鹰)是什么品质？",
+    "output": "M416突击步枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AKM突击步枪(黑鹰)",
+    "output": "AKM突击步枪(黑鹰)是黑鹰品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M417射手步枪(轩辕)是武器吗？",
+    "output": "是的，M417射手步枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "短管霰弹枪(修复)是武器吗？",
+    "output": "是的，短管霰弹枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SCAR-L突击步枪(卓越)是武器吗？",
+    "output": "是的，SCAR-L突击步枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "MG3轻机枪(黑鹰)是什么武器？",
+    "output": "MG3轻机枪(黑鹰)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "ACE32突击步枪(完好)是什么品质？",
+    "output": "ACE32突击步枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "短管霰弹枪(破损)是武器吗？",
+    "output": "是的，短管霰弹枪(破损)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "AKS-74U冲锋枪(黑鹰)是武器吗？",
+    "output": "是的，AKS-74U冲锋枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M249轻机枪(精制)是什么品质？",
+    "output": "M249轻机枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M200狙击枪(卓越)是什么武器？",
+    "output": "M200狙击枪(卓越)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述PKM轻机枪(精制)",
+    "output": "PKM轻机枪(精制)是精制品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MK12射手步枪(黑鹰)是武器吗？",
+    "output": "是的，MK12射手步枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SLR射手步枪(精制)",
+    "output": "SLR射手步枪(精制)是精制品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "G36C突击步枪(黑鹰)是武器吗？",
+    "output": "是的，G36C突击步枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "JS9冲锋枪(精制)是武器吗？",
+    "output": "是的，JS9冲锋枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MP5K冲锋枪(轩辕)",
+    "output": "MP5K冲锋枪(轩辕)是轩辕品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "汤姆逊冲锋枪(完好)是武器吗？",
+    "output": "是的，汤姆逊冲锋枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "MP5K冲锋枪(卓越)是什么武器？",
+    "output": "MP5K冲锋枪(卓越)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "蝎式手枪(破损)是什么品质？",
+    "output": "蝎式手枪(破损)是破损品质。"
+  },
+  {
+    "instruction": "",
+    "input": "QBU射手步枪(修复)是武器吗？",
+    "output": "是的，QBU射手步枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "MK20-H射手步枪(黑鹰)是武器吗？",
+    "output": "是的，MK20-H射手步枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "蝎式手枪(破损)是什么武器？",
+    "output": "蝎式手枪(破损)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SKS射手步枪(卓越)",
+    "output": "SKS射手步枪(卓越)是卓越品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Mk47突击步枪(改进)",
+    "output": "Mk47突击步枪(改进)是改进品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述P90冲锋枪(精制)",
+    "output": "P90冲锋枪(精制)是精制品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MP5K冲锋枪(黑鹰)",
+    "output": "MP5K冲锋枪(黑鹰)是黑鹰品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AC-VAL突击步枪(精制)",
+    "output": "AC-VAL突击步枪(精制)是精制品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "短管霰弹枪(完好)是什么武器？",
+    "output": "短管霰弹枪(完好)是霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述FAMAS突击步枪(铁爪)",
+    "output": "FAMAS突击步枪(铁爪)是铁爪品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MK20-H射手步枪(改进)是什么武器？",
+    "output": "MK20-H射手步枪(改进)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MK20-H射手步枪(铁爪)是什么品质？",
+    "output": "MK20-H射手步枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "JS9冲锋枪(轩辕)是武器吗？",
+    "output": "是的，JS9冲锋枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "AUG突击步枪(黑鹰)是什么品质？",
+    "output": "AUG突击步枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M417射手步枪(完好)是什么武器？",
+    "output": "M417射手步枪(完好)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MP5K冲锋枪(完好)是武器吗？",
+    "output": "是的，MP5K冲锋枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "AMR狙击枪(卓越)是什么武器？",
+    "output": "AMR狙击枪(卓越)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SKS射手步枪(轩辕)是什么品质？",
+    "output": "SKS射手步枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk47突击步枪(完好)是什么品质？",
+    "output": "Mk47突击步枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "FAMAS突击步枪(轩辕)是武器吗？",
+    "output": "是的，FAMAS突击步枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "MK20-H射手步枪(精制)是什么品质？",
+    "output": "MK20-H射手步枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AKM突击步枪(轩辕)是什么品质？",
+    "output": "AKM突击步枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AKM突击步枪(完好)是什么武器？",
+    "output": "AKM突击步枪(完好)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "JS9冲锋枪(完好)是武器吗？",
+    "output": "是的，JS9冲锋枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "双持巨蟒手枪(改进)是武器吗？",
+    "output": "是的，双持巨蟒手枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Vector冲锋枪(黑鹰)",
+    "output": "Vector冲锋枪(黑鹰)是黑鹰品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M762突击步枪(卓越)是什么武器？",
+    "output": "M762突击步枪(卓越)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "GROZA突击步枪(精制)是什么武器？",
+    "output": "GROZA突击步枪(精制)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MP5K冲锋枪(卓越)是武器吗？",
+    "output": "是的，MP5K冲锋枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SKS射手步枪(轩辕)",
+    "output": "SKS射手步枪(轩辕)是轩辕品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk47突击步枪(破损)是什么品质？",
+    "output": "Mk47突击步枪(破损)是破损品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AC-VAL突击步枪(精制)是什么品质？",
+    "output": "AC-VAL突击步枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M762突击步枪(铁爪)是武器吗？",
+    "output": "是的，M762突击步枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "双持巨蟒手枪(修复)是什么武器？",
+    "output": "双持巨蟒手枪(修复)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "TMP-9手枪(完好)是什么武器？",
+    "output": "TMP-9手枪(完好)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk14射手步枪(轩辕)是什么武器？",
+    "output": "Mk14射手步枪(轩辕)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M416突击步枪(卓越)是什么武器？",
+    "output": "M416突击步枪(卓越)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "VSS射手步枪(完好)是什么品质？",
+    "output": "VSS射手步枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "Kar98K狙击枪(完好)是什么品质？",
+    "output": "Kar98K狙击枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M249轻机枪(铁爪)是武器吗？",
+    "output": "是的，M249轻机枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MG3轻机枪(精制)",
+    "output": "MG3轻机枪(精制)是精制品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "P1911手枪(破损)是武器吗？",
+    "output": "是的，P1911手枪(破损)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "AC-VAL突击步枪(精制)是武器吗？",
+    "output": "是的，AC-VAL突击步枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "莫辛纳甘狙击枪(修复)是什么武器？",
+    "output": "莫辛纳甘狙击枪(修复)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "野牛冲锋枪(完好)是什么武器？",
+    "output": "野牛冲锋枪(完好)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AKM突击步枪(改进)",
+    "output": "AKM突击步枪(改进)是改进品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "PKM轻机枪(黑鹰)是什么品质？",
+    "output": "PKM轻机枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "蜜獾突击步枪(黑鹰)是武器吗？",
+    "output": "是的，蜜獾突击步枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "Vector冲锋枪(精制)是武器吗？",
+    "output": "是的，Vector冲锋枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "UMP45冲锋枪(修复)是什么品质？",
+    "output": "UMP45冲锋枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述G36C突击步枪(黑鹰)",
+    "output": "G36C突击步枪(黑鹰)是黑鹰品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MP5K冲锋枪(轩辕)是什么武器？",
+    "output": "MP5K冲锋枪(轩辕)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MG3轻机枪(铁爪)是什么武器？",
+    "output": "MG3轻机枪(铁爪)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述R45手枪(完好)",
+    "output": "R45手枪(完好)是完好品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "汤姆逊冲锋枪(破损)是什么武器？",
+    "output": "汤姆逊冲锋枪(破损)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MK20-H射手步枪(完好)",
+    "output": "MK20-H射手步枪(完好)是完好品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SVD狙击枪(铁爪)是什么武器？",
+    "output": "SVD狙击枪(铁爪)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "S12K霰弹枪(改进)是什么武器？",
+    "output": "S12K霰弹枪(改进)是霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Kar98K狙击枪(修复)是什么武器？",
+    "output": "Kar98K狙击枪(修复)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk14射手步枪(卓越)是什么武器？",
+    "output": "Mk14射手步枪(卓越)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述野牛冲锋枪(修复)",
+    "output": "野牛冲锋枪(修复)是修复品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "PKM轻机枪(轩辕)是什么武器？",
+    "output": "PKM轻机枪(轩辕)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Vector冲锋枪(轩辕)是武器吗？",
+    "output": "是的，Vector冲锋枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述VSS射手步枪(改进)",
+    "output": "VSS射手步枪(改进)是改进品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M417射手步枪(轩辕)是什么品质？",
+    "output": "M417射手步枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "P18C手枪(破损)是什么武器？",
+    "output": "P18C手枪(破损)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述P18C手枪(破损)",
+    "output": "P18C手枪(破损)是破损品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M249轻机枪(卓越)",
+    "output": "M249轻机枪(卓越)是卓越品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "汤姆逊冲锋枪(修复)是什么品质？",
+    "output": "汤姆逊冲锋枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "P90冲锋枪(铁爪)是什么武器？",
+    "output": "P90冲锋枪(铁爪)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "ACE32突击步枪(完好)是武器吗？",
+    "output": "是的，ACE32突击步枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SLR射手步枪(完好)是武器吗？",
+    "output": "是的，SLR射手步枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "蜜獾突击步枪(铁爪)是武器吗？",
+    "output": "是的，蜜獾突击步枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MK20-H射手步枪(改进)",
+    "output": "MK20-H射手步枪(改进)是改进品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MK20-H射手步枪(完好)是什么武器？",
+    "output": "MK20-H射手步枪(完好)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SKS射手步枪(精制)",
+    "output": "SKS射手步枪(精制)是精制品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AMR狙击枪(精制)是什么武器？",
+    "output": "AMR狙击枪(精制)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "蝎式手枪(破损)是武器吗？",
+    "output": "是的，蝎式手枪(破损)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "FAMAS突击步枪(完好)是什么武器？",
+    "output": "FAMAS突击步枪(完好)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M417射手步枪(轩辕)是什么武器？",
+    "output": "M417射手步枪(轩辕)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述UMP45冲锋枪(精制)",
+    "output": "UMP45冲锋枪(精制)是精制品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AKS-74U冲锋枪(精制)是武器吗？",
+    "output": "是的，AKS-74U冲锋枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M762突击步枪(完好)是什么品质？",
+    "output": "M762突击步枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "Vector冲锋枪(改进)是什么武器？",
+    "output": "Vector冲锋枪(改进)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "DBS霰弹枪(修复)是什么武器？",
+    "output": "DBS霰弹枪(修复)是霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M24狙击枪(卓越)是什么武器？",
+    "output": "M24狙击枪(卓越)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AA12-G霰弹枪(完好)是什么品质？",
+    "output": "AA12-G霰弹枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "野牛冲锋枪(修复)是什么品质？",
+    "output": "野牛冲锋枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AWM狙击枪(卓越)是武器吗？",
+    "output": "是的，AWM狙击枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "MK20-H射手步枪(轩辕)是什么品质？",
+    "output": "MK20-H射手步枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "野牛冲锋枪(破损)是什么品质？",
+    "output": "野牛冲锋枪(破损)是破损品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M200狙击枪(黑鹰)是武器吗？",
+    "output": "是的，M200狙击枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SLR射手步枪(卓越)是武器吗？",
+    "output": "是的，SLR射手步枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SLR射手步枪(改进)是什么武器？",
+    "output": "SLR射手步枪(改进)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M416突击步枪(精制)",
+    "output": "M416突击步枪(精制)是精制品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "GROZA突击步枪(轩辕)是武器吗？",
+    "output": "是的，GROZA突击步枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "G36C突击步枪(精制)是什么品质？",
+    "output": "G36C突击步枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "R1895手枪(完好)是什么品质？",
+    "output": "R1895手枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "蝎式手枪(修复)是武器吗？",
+    "output": "是的，蝎式手枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "QBZ突击步枪(黑鹰)是武器吗？",
+    "output": "是的，QBZ突击步枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "Mini14射手步枪(改进)是什么品质？",
+    "output": "Mini14射手步枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "QBU射手步枪(完好)是武器吗？",
+    "output": "是的，QBU射手步枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SKS射手步枪(完好)是什么品质？",
+    "output": "SKS射手步枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M416突击步枪(卓越)是武器吗？",
+    "output": "是的，M416突击步枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "P18C手枪(改进)是什么品质？",
+    "output": "P18C手枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AKM突击步枪(完好)是武器吗？",
+    "output": "是的，AKM突击步枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M200狙击枪(完好)是什么武器？",
+    "output": "M200狙击枪(完好)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "汤姆逊冲锋枪(破损)是武器吗？",
+    "output": "是的，汤姆逊冲锋枪(破损)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M416突击步枪(完好)是什么武器？",
+    "output": "M416突击步枪(完好)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Vector冲锋枪(改进)是武器吗？",
+    "output": "是的，Vector冲锋枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "JS9冲锋枪(精制)是什么品质？",
+    "output": "JS9冲锋枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AUG突击步枪(精制)是什么品质？",
+    "output": "AUG突击步枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "P1911手枪(破损)是什么武器？",
+    "output": "P1911手枪(破损)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SKS射手步枪(改进)是什么品质？",
+    "output": "SKS射手步枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AC-VAL突击步枪(修复)是武器吗？",
+    "output": "是的，AC-VAL突击步枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M417射手步枪(铁爪)",
+    "output": "M417射手步枪(铁爪)是铁爪品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AWM狙击枪(铁爪)是什么武器？",
+    "output": "AWM狙击枪(铁爪)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M24狙击枪(改进)是武器吗？",
+    "output": "是的，M24狙击枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述S12K霰弹枪(改进)",
+    "output": "S12K霰弹枪(改进)是改进品质的霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "QBZ突击步枪(铁爪)是武器吗？",
+    "output": "是的，QBZ突击步枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M200狙击枪(改进)是什么品质？",
+    "output": "M200狙击枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M200狙击枪(精制)",
+    "output": "M200狙击枪(精制)是精制品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "QBZ突击步枪(精制)是什么品质？",
+    "output": "QBZ突击步枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AWM狙击枪(卓越)是什么武器？",
+    "output": "AWM狙击枪(卓越)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AA12-G霰弹枪(完好)是武器吗？",
+    "output": "是的，AA12-G霰弹枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "AWM狙击枪(铁爪)是什么品质？",
+    "output": "AWM狙击枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "MK12射手步枪(改进)是什么品质？",
+    "output": "MK12射手步枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述AWM狙击枪(改进)",
+    "output": "AWM狙击枪(改进)是改进品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AWM狙击枪(铁爪)是武器吗？",
+    "output": "是的，AWM狙击枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "蜜獾突击步枪(完好)是什么品质？",
+    "output": "蜜獾突击步枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "莫辛纳甘狙击枪(破损)是什么武器？",
+    "output": "莫辛纳甘狙击枪(破损)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MG3轻机枪(铁爪)是武器吗？",
+    "output": "是的，MG3轻机枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述G36C突击步枪(卓越)",
+    "output": "G36C突击步枪(卓越)是卓越品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "PKM轻机枪(精制)是什么品质？",
+    "output": "PKM轻机枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "SLR射手步枪(轩辕)是什么品质？",
+    "output": "SLR射手步枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "沙漠之鹰手枪(改进)是什么品质？",
+    "output": "沙漠之鹰手枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述P1911手枪(修复)",
+    "output": "P1911手枪(修复)是修复品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M249轻机枪(黑鹰)是什么武器？",
+    "output": "M249轻机枪(黑鹰)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "P90冲锋枪(精制)是什么品质？",
+    "output": "P90冲锋枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "SCAR-L突击步枪(精制)是什么品质？",
+    "output": "SCAR-L突击步枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AUG突击步枪(铁爪)是什么品质？",
+    "output": "AUG突击步枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "MK12射手步枪(轩辕)是武器吗？",
+    "output": "是的，MK12射手步枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "VSS射手步枪(完好)是武器吗？",
+    "output": "是的，VSS射手步枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "VSS射手步枪(完好)是什么武器？",
+    "output": "VSS射手步枪(完好)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "GROZA突击步枪(轩辕)是什么武器？",
+    "output": "GROZA突击步枪(轩辕)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述G36C突击步枪(轩辕)",
+    "output": "G36C突击步枪(轩辕)是轩辕品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "UMP45冲锋枪(改进)是什么武器？",
+    "output": "UMP45冲锋枪(改进)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Vector冲锋枪(精制)是什么品质？",
+    "output": "Vector冲锋枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "MG36轻机枪(铁爪)是武器吗？",
+    "output": "是的，MG36轻机枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "MG36轻机枪(改进)是什么武器？",
+    "output": "MG36轻机枪(改进)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "DBS霰弹枪(修复)是武器吗？",
+    "output": "是的，DBS霰弹枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "UZI冲锋枪(改进)是什么武器？",
+    "output": "UZI冲锋枪(改进)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M24狙击枪(改进)是什么武器？",
+    "output": "M24狙击枪(改进)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M249轻机枪(卓越)是什么武器？",
+    "output": "M249轻机枪(卓越)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M762突击步枪(精制)是什么品质？",
+    "output": "M762突击步枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M24狙击枪(完好)",
+    "output": "M24狙击枪(完好)是完好品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M16A4突击步枪(修复)是武器吗？",
+    "output": "是的，M16A4突击步枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "ACE32突击步枪(铁爪)是什么武器？",
+    "output": "ACE32突击步枪(铁爪)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MK12射手步枪(铁爪)是什么品质？",
+    "output": "MK12射手步枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AUG突击步枪(轩辕)是武器吗？",
+    "output": "是的，AUG突击步枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述GROZA突击步枪(铁爪)",
+    "output": "GROZA突击步枪(铁爪)是铁爪品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "P18C手枪(改进)是什么武器？",
+    "output": "P18C手枪(改进)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述蜜獾突击步枪(黑鹰)",
+    "output": "蜜獾突击步枪(黑鹰)是黑鹰品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M762突击步枪(完好)是什么武器？",
+    "output": "M762突击步枪(完好)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述P18C手枪(完好)",
+    "output": "P18C手枪(完好)是完好品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述G36C突击步枪(改进)",
+    "output": "G36C突击步枪(改进)是改进品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "双持巨蟒手枪(完好)是什么品质？",
+    "output": "双持巨蟒手枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "沙漠之鹰手枪(破损)是什么武器？",
+    "output": "沙漠之鹰手枪(破损)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "P18C手枪(改进)是武器吗？",
+    "output": "是的，P18C手枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MK20-H射手步枪(黑鹰)",
+    "output": "MK20-H射手步枪(黑鹰)是黑鹰品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AC-VAL突击步枪(破损)是什么武器？",
+    "output": "AC-VAL突击步枪(破损)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AKS-74U冲锋枪(改进)是什么武器？",
+    "output": "AKS-74U冲锋枪(改进)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Vector冲锋枪(改进)",
+    "output": "Vector冲锋枪(改进)是改进品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Kar98K狙击枪(完好)是什么武器？",
+    "output": "Kar98K狙击枪(完好)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "QBZ突击步枪(轩辕)是武器吗？",
+    "output": "是的，QBZ突击步枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "AWM狙击枪(改进)是什么品质？",
+    "output": "AWM狙击枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "SPAS-12霰弹枪(完好)是什么武器？",
+    "output": "SPAS-12霰弹枪(完好)是霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SPAS-12霰弹枪(精制)是武器吗？",
+    "output": "是的，SPAS-12霰弹枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MK20-H射手步枪(卓越)",
+    "output": "MK20-H射手步枪(卓越)是卓越品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "DBS霰弹枪(完好)是什么武器？",
+    "output": "DBS霰弹枪(完好)是霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "QBU射手步枪(修复)是什么武器？",
+    "output": "QBU射手步枪(修复)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述P90冲锋枪(卓越)",
+    "output": "P90冲锋枪(卓越)是卓越品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "QBZ突击步枪(改进)是什么武器？",
+    "output": "QBZ突击步枪(改进)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述DP-28轻机枪(破损)",
+    "output": "DP-28轻机枪(破损)是破损品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "VSS射手步枪(破损)是什么武器？",
+    "output": "VSS射手步枪(破损)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SCAR-L突击步枪(轩辕)",
+    "output": "SCAR-L突击步枪(轩辕)是轩辕品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "R45手枪(修复)是武器吗？",
+    "output": "是的，R45手枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "AKM突击步枪(完好)是什么品质？",
+    "output": "AKM突击步枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AKM突击步枪(精制)是什么品质？",
+    "output": "AKM突击步枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "ACE32突击步枪(改进)是什么武器？",
+    "output": "ACE32突击步枪(改进)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "短管霰弹枪(修复)是什么品质？",
+    "output": "短管霰弹枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述双持巨蟒手枪(完好)",
+    "output": "双持巨蟒手枪(完好)是完好品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "UMP45冲锋枪(完好)是什么品质？",
+    "output": "UMP45冲锋枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "MG3轻机枪(轩辕)是什么品质？",
+    "output": "MG3轻机枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "QBZ突击步枪(改进)是什么品质？",
+    "output": "QBZ突击步枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "MK20-H射手步枪(黑鹰)是什么武器？",
+    "output": "MK20-H射手步枪(黑鹰)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AWM狙击枪(轩辕)是什么武器？",
+    "output": "AWM狙击枪(轩辕)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述汤姆逊冲锋枪(完好)",
+    "output": "汤姆逊冲锋枪(完好)是完好品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk14射手步枪(轩辕)是什么品质？",
+    "output": "Mk14射手步枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述QBU射手步枪(修复)",
+    "output": "QBU射手步枪(修复)是修复品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述野牛冲锋枪(完好)",
+    "output": "野牛冲锋枪(完好)是完好品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述S12K霰弹枪(修复)",
+    "output": "S12K霰弹枪(修复)是修复品质的霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "FAMAS突击步枪(黑鹰)是武器吗？",
+    "output": "是的，FAMAS突击步枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述沙漠之鹰手枪(改进)",
+    "output": "沙漠之鹰手枪(改进)是改进品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述QBU射手步枪(改进)",
+    "output": "QBU射手步枪(改进)是改进品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Vector冲锋枪(精制)",
+    "output": "Vector冲锋枪(精制)是精制品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SKS射手步枪(黑鹰)",
+    "output": "SKS射手步枪(黑鹰)是黑鹰品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MG36轻机枪(黑鹰)",
+    "output": "MG36轻机枪(黑鹰)是黑鹰品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "JS9冲锋枪(改进)是武器吗？",
+    "output": "是的，JS9冲锋枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SVD狙击枪(改进)是什么武器？",
+    "output": "SVD狙击枪(改进)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "ACE32突击步枪(黑鹰)是什么品质？",
+    "output": "ACE32突击步枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "汤姆逊冲锋枪(改进)是什么品质？",
+    "output": "汤姆逊冲锋枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M249轻机枪(改进)是什么品质？",
+    "output": "M249轻机枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "野牛冲锋枪(修复)是什么武器？",
+    "output": "野牛冲锋枪(修复)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Vector冲锋枪(铁爪)是什么武器？",
+    "output": "Vector冲锋枪(铁爪)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SVD狙击枪(轩辕)是武器吗？",
+    "output": "是的，SVD狙击枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "AKM突击步枪(精制)是武器吗？",
+    "output": "是的，AKM突击步枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "S686霰弹枪(完好)是武器吗？",
+    "output": "是的，S686霰弹枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "Kar98K狙击枪(完好)是武器吗？",
+    "output": "是的，Kar98K狙击枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述UMP45冲锋枪(完好)",
+    "output": "UMP45冲锋枪(完好)是完好品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述蝎式手枪(改进)",
+    "output": "蝎式手枪(改进)是改进品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Win94狙击枪(破损)是武器吗？",
+    "output": "是的，Win94狙击枪(破损)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "P90冲锋枪(轩辕)是什么武器？",
+    "output": "P90冲锋枪(轩辕)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SVD狙击枪(卓越)是什么武器？",
+    "output": "SVD狙击枪(卓越)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M16A4突击步枪(改进)是武器吗？",
+    "output": "是的，M16A4突击步枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述S1897霰弹枪(完好)",
+    "output": "S1897霰弹枪(完好)是完好品质的霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M249轻机枪(精制)",
+    "output": "M249轻机枪(精制)是精制品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Vector冲锋枪(铁爪)是什么品质？",
+    "output": "Vector冲锋枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述P92手枪(破损)",
+    "output": "P92手枪(破损)是破损品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MG3轻机枪(轩辕)是武器吗？",
+    "output": "是的，MG3轻机枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M200狙击枪(轩辕)是什么武器？",
+    "output": "M200狙击枪(轩辕)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MK20-H射手步枪(完好)是武器吗？",
+    "output": "是的，MK20-H射手步枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M416突击步枪(轩辕)",
+    "output": "M416突击步枪(轩辕)是轩辕品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "JS9冲锋枪(卓越)是什么品质？",
+    "output": "JS9冲锋枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述UMP45冲锋枪(改进)",
+    "output": "UMP45冲锋枪(改进)是改进品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MG36轻机枪(精制)",
+    "output": "MG36轻机枪(精制)是精制品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MG36轻机枪(卓越)是武器吗？",
+    "output": "是的，MG36轻机枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "MK20-H射手步枪(铁爪)是武器吗？",
+    "output": "是的，MK20-H射手步枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "M24狙击枪(黑鹰)是什么武器？",
+    "output": "M24狙击枪(黑鹰)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "FAMAS突击步枪(改进)是什么品质？",
+    "output": "FAMAS突击步枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AKS-74U冲锋枪(铁爪)是什么武器？",
+    "output": "AKS-74U冲锋枪(铁爪)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SVD狙击枪(轩辕)是什么武器？",
+    "output": "SVD狙击枪(轩辕)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述GROZA突击步枪(黑鹰)",
+    "output": "GROZA突击步枪(黑鹰)是黑鹰品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M200狙击枪(卓越)是什么品质？",
+    "output": "M200狙击枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M249轻机枪(轩辕)是什么品质？",
+    "output": "M249轻机枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述JS9冲锋枪(轩辕)",
+    "output": "JS9冲锋枪(轩辕)是轩辕品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "R1895手枪(修复)是什么武器？",
+    "output": "R1895手枪(修复)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SLR射手步枪(黑鹰)是武器吗？",
+    "output": "是的，SLR射手步枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "JS9冲锋枪(铁爪)是什么武器？",
+    "output": "JS9冲锋枪(铁爪)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MG3轻机枪(铁爪)是什么品质？",
+    "output": "MG3轻机枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "UZI冲锋枪(精制)是什么品质？",
+    "output": "UZI冲锋枪(精制)是精制品质。"
+  },
+  {
+    "instruction": "",
+    "input": "P18C手枪(完好)是武器吗？",
+    "output": "是的，P18C手枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "JS9冲锋枪(卓越)是什么武器？",
+    "output": "JS9冲锋枪(卓越)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "R45手枪(破损)是什么武器？",
+    "output": "R45手枪(破损)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AC-VAL突击步枪(完好)是武器吗？",
+    "output": "是的，AC-VAL突击步枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "P18C手枪(破损)是武器吗？",
+    "output": "是的，P18C手枪(破损)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述JS9冲锋枪(黑鹰)",
+    "output": "JS9冲锋枪(黑鹰)是黑鹰品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "P90冲锋枪(精制)是什么武器？",
+    "output": "P90冲锋枪(精制)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Kar98K狙击枪(改进)是什么武器？",
+    "output": "Kar98K狙击枪(改进)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "DP-28轻机枪(修复)是武器吗？",
+    "output": "是的，DP-28轻机枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SCAR-L突击步枪(精制)是什么武器？",
+    "output": "SCAR-L突击步枪(精制)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "沙漠之鹰手枪(修复)是什么武器？",
+    "output": "沙漠之鹰手枪(修复)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "GROZA突击步枪(轩辕)是什么品质？",
+    "output": "GROZA突击步枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk14射手步枪(完好)是什么武器？",
+    "output": "Mk14射手步枪(完好)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述P90冲锋枪(改进)",
+    "output": "P90冲锋枪(改进)是改进品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "G36C突击步枪(轩辕)是什么品质？",
+    "output": "G36C突击步枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "S12K霰弹枪(改进)是什么品质？",
+    "output": "S12K霰弹枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "UZI冲锋枪(破损)是什么武器？",
+    "output": "UZI冲锋枪(破损)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M249轻机枪(铁爪)是什么品质？",
+    "output": "M249轻机枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "QBZ突击步枪(精制)是什么武器？",
+    "output": "QBZ突击步枪(精制)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述ACE32突击步枪(卓越)",
+    "output": "ACE32突击步枪(卓越)是卓越品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M200狙击枪(卓越)",
+    "output": "M200狙击枪(卓越)是卓越品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "TMP-9手枪(修复)是武器吗？",
+    "output": "是的，TMP-9手枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "SVD狙击枪(卓越)是什么品质？",
+    "output": "SVD狙击枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "SPAS-12霰弹枪(完好)是什么品质？",
+    "output": "SPAS-12霰弹枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SPAS-12霰弹枪(改进)",
+    "output": "SPAS-12霰弹枪(改进)是改进品质的霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AKS-74U冲锋枪(精制)是什么武器？",
+    "output": "AKS-74U冲锋枪(精制)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述TMP-9手枪(修复)",
+    "output": "TMP-9手枪(修复)是修复品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M417射手步枪(黑鹰)是什么品质？",
+    "output": "M417射手步枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AKM突击步枪(铁爪)是什么品质？",
+    "output": "AKM突击步枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk14射手步枪(铁爪)是武器吗？",
+    "output": "是的，Mk14射手步枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "野牛冲锋枪(修复)是武器吗？",
+    "output": "是的，野牛冲锋枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "UMP45冲锋枪(改进)是什么品质？",
+    "output": "UMP45冲锋枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AKM突击步枪(卓越)是什么武器？",
+    "output": "AKM突击步枪(卓越)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "SKS射手步枪(轩辕)是武器吗？",
+    "output": "是的，SKS射手步枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "P90冲锋枪(轩辕)是什么品质？",
+    "output": "P90冲锋枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "DP-28轻机枪(完好)是什么武器？",
+    "output": "DP-28轻机枪(完好)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "P18C手枪(完好)是什么品质？",
+    "output": "P18C手枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M16A4突击步枪(改进)是什么品质？",
+    "output": "M16A4突击步枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "G36C突击步枪(完好)是什么武器？",
+    "output": "G36C突击步枪(完好)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MK12射手步枪(铁爪)",
+    "output": "MK12射手步枪(铁爪)是铁爪品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MK20-H射手步枪(轩辕)",
+    "output": "MK20-H射手步枪(轩辕)是轩辕品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M24狙击枪(完好)是武器吗？",
+    "output": "是的，M24狙击枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk47突击步枪(完好)是武器吗？",
+    "output": "是的，Mk47突击步枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "P92手枪(修复)是什么品质？",
+    "output": "P92手枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M417射手步枪(完好)是武器吗？",
+    "output": "是的，M417射手步枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述QBU射手步枪(完好)",
+    "output": "QBU射手步枪(完好)是完好品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "MG3轻机枪(卓越)是什么品质？",
+    "output": "MG3轻机枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AKS-74U冲锋枪(铁爪)是什么品质？",
+    "output": "AKS-74U冲锋枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "Vector冲锋枪(完好)是什么品质？",
+    "output": "Vector冲锋枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述JS9冲锋枪(铁爪)",
+    "output": "JS9冲锋枪(铁爪)是铁爪品质的冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述双持巨蟒手枪(修复)",
+    "output": "双持巨蟒手枪(修复)是修复品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述FAMAS突击步枪(完好)",
+    "output": "FAMAS突击步枪(完好)是完好品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Vector冲锋枪(轩辕)是什么品质？",
+    "output": "Vector冲锋枪(轩辕)是轩辕品质。"
+  },
+  {
+    "instruction": "",
+    "input": "AUG突击步枪(卓越)是什么武器？",
+    "output": "AUG突击步枪(卓越)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述S12K霰弹枪(完好)",
+    "output": "S12K霰弹枪(完好)是完好品质的霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "TMP-9手枪(修复)是什么武器？",
+    "output": "TMP-9手枪(修复)是手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "JS9冲锋枪(铁爪)是武器吗？",
+    "output": "是的，JS9冲锋枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "Kar98K狙击枪(改进)是什么品质？",
+    "output": "Kar98K狙击枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "QBU射手步枪(改进)是武器吗？",
+    "output": "是的，QBU射手步枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "AMR狙击枪(铁爪)是什么品质？",
+    "output": "AMR狙击枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "MK20-H射手步枪(精制)是什么武器？",
+    "output": "MK20-H射手步枪(精制)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M416突击步枪(完好)",
+    "output": "M416突击步枪(完好)是完好品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述短管霰弹枪(修复)",
+    "output": "短管霰弹枪(修复)是修复品质的霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M416突击步枪(完好)是武器吗？",
+    "output": "是的，M416突击步枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M249轻机枪(铁爪)",
+    "output": "M249轻机枪(铁爪)是铁爪品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "双持巨蟒手枪(修复)是武器吗？",
+    "output": "是的，双持巨蟒手枪(修复)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "AMR狙击枪(改进)是什么武器？",
+    "output": "AMR狙击枪(改进)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M24狙击枪(铁爪)是武器吗？",
+    "output": "是的，M24狙击枪(铁爪)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "P90冲锋枪(精制)是武器吗？",
+    "output": "是的，P90冲锋枪(精制)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "GROZA突击步枪(卓越)是什么武器？",
+    "output": "GROZA突击步枪(卓越)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AUG突击步枪(卓越)是什么品质？",
+    "output": "AUG突击步枪(卓越)是卓越品质。"
+  },
+  {
+    "instruction": "",
+    "input": "MK12射手步枪(精制)是什么武器？",
+    "output": "MK12射手步枪(精制)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SVD狙击枪(铁爪)",
+    "output": "SVD狙击枪(铁爪)是铁爪品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "P92手枪(破损)是武器吗？",
+    "output": "是的，P92手枪(破损)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "Vector冲锋枪(卓越)是什么武器？",
+    "output": "Vector冲锋枪(卓越)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AKS-74U冲锋枪(卓越)是武器吗？",
+    "output": "是的，AKS-74U冲锋枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述S686霰弹枪(修复)",
+    "output": "S686霰弹枪(修复)是修复品质的霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "JS9冲锋枪(完好)是什么武器？",
+    "output": "JS9冲锋枪(完好)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M417射手步枪(完好)",
+    "output": "M417射手步枪(完好)是完好品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "FAMAS突击步枪(黑鹰)是什么武器？",
+    "output": "FAMAS突击步枪(黑鹰)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M24狙击枪(改进)是什么品质？",
+    "output": "M24狙击枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M417射手步枪(轩辕)",
+    "output": "M417射手步枪(轩辕)是轩辕品质的射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述DBS霰弹枪(修复)",
+    "output": "DBS霰弹枪(修复)是修复品质的霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M762突击步枪(改进)是武器吗？",
+    "output": "是的，M762突击步枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "Vector冲锋枪(精制)是什么武器？",
+    "output": "Vector冲锋枪(精制)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MG3轻机枪(改进)",
+    "output": "MG3轻机枪(改进)是改进品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "蜜獾突击步枪(精制)是什么武器？",
+    "output": "蜜獾突击步枪(精制)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Vector冲锋枪(卓越)是武器吗？",
+    "output": "是的，Vector冲锋枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "PKM轻机枪(轩辕)是武器吗？",
+    "output": "是的，PKM轻机枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SPAS-12霰弹枪(精制)",
+    "output": "SPAS-12霰弹枪(精制)是精制品质的霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Win94狙击枪(破损)",
+    "output": "Win94狙击枪(破损)是破损品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述R1895手枪(破损)",
+    "output": "R1895手枪(破损)是破损品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "M249轻机枪(改进)是什么武器？",
+    "output": "M249轻机枪(改进)是轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "P90冲锋枪(完好)是什么品质？",
+    "output": "P90冲锋枪(完好)是完好品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M200狙击枪(精制)是什么武器？",
+    "output": "M200狙击枪(精制)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述Mk47突击步枪(完好)",
+    "output": "Mk47突击步枪(完好)是完好品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "PKM轻机枪(铁爪)是什么品质？",
+    "output": "PKM轻机枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "SVD狙击枪(铁爪)是什么品质？",
+    "output": "SVD狙击枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M16A4突击步枪(修复)",
+    "output": "M16A4突击步枪(修复)是修复品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "P18C手枪(修复)是什么品质？",
+    "output": "P18C手枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "莫辛纳甘狙击枪(完好)是什么武器？",
+    "output": "莫辛纳甘狙击枪(完好)是狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "FAMAS突击步枪(改进)是武器吗？",
+    "output": "是的，FAMAS突击步枪(改进)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "QBZ突击步枪(铁爪)是什么武器？",
+    "output": "QBZ突击步枪(铁爪)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述TMP-9手枪(完好)",
+    "output": "TMP-9手枪(完好)是完好品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "DBS霰弹枪(改进)是什么品质？",
+    "output": "DBS霰弹枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述QBZ突击步枪(精制)",
+    "output": "QBZ突击步枪(精制)是精制品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "蜜獾突击步枪(卓越)是武器吗？",
+    "output": "是的，蜜獾突击步枪(卓越)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "Vector冲锋枪(轩辕)是什么武器？",
+    "output": "Vector冲锋枪(轩辕)是冲锋枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述R45手枪(破损)",
+    "output": "R45手枪(破损)是破损品质的手枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AKS-74U冲锋枪(黑鹰)是什么品质？",
+    "output": "AKS-74U冲锋枪(黑鹰)是黑鹰品质。"
+  },
+  {
+    "instruction": "",
+    "input": "QBU射手步枪(破损)是什么品质？",
+    "output": "QBU射手步枪(破损)是破损品质。"
+  },
+  {
+    "instruction": "",
+    "input": "ACE32突击步枪(轩辕)是武器吗？",
+    "output": "是的，ACE32突击步枪(轩辕)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "JS9冲锋枪(铁爪)是什么品质？",
+    "output": "JS9冲锋枪(铁爪)是铁爪品质。"
+  },
+  {
+    "instruction": "",
+    "input": "M417射手步枪(改进)是什么武器？",
+    "output": "M417射手步枪(改进)是射手步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述短管霰弹枪(完好)",
+    "output": "短管霰弹枪(完好)是完好品质的霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "描述DBS霰弹枪(精制)",
+    "output": "DBS霰弹枪(精制)是精制品质的霰弹枪。"
+  },
+  {
+    "instruction": "",
+    "input": "PKM轻机枪(黑鹰)是武器吗？",
+    "output": "是的，PKM轻机枪(黑鹰)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "AKM突击步枪(改进)是什么武器？",
+    "output": "AKM突击步枪(改进)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "AKM突击步枪(精制)是什么武器？",
+    "output": "AKM突击步枪(精制)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "双持巨蟒手枪(修复)是什么品质？",
+    "output": "双持巨蟒手枪(修复)是修复品质。"
+  },
+  {
+    "instruction": "",
+    "input": "描述M200狙击枪(轩辕)",
+    "output": "M200狙击枪(轩辕)是轩辕品质的狙击枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Mk47突击步枪(改进)是什么品质？",
+    "output": "Mk47突击步枪(改进)是改进品质。"
+  },
+  {
+    "instruction": "",
+    "input": "UZI冲锋枪(完好)是武器吗？",
+    "output": "是的，UZI冲锋枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "蝎式手枪(完好)是武器吗？",
+    "output": "是的，蝎式手枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "AC-VAL突击步枪(精制)是什么武器？",
+    "output": "AC-VAL突击步枪(精制)是突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "野牛冲锋枪(完好)是武器吗？",
+    "output": "是的，野牛冲锋枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述SCAR-L突击步枪(精制)",
+    "output": "SCAR-L突击步枪(精制)是精制品质的突击步枪。"
+  },
+  {
+    "instruction": "",
+    "input": "Win94狙击枪(完好)是武器吗？",
+    "output": "是的，Win94狙击枪(完好)是武器。"
+  },
+  {
+    "instruction": "",
+    "input": "描述MG3轻机枪(卓越)",
+    "output": "MG3轻机枪(卓越)是卓越品质的轻机枪。"
+  },
+  {
+    "instruction": "",
+    "input": "FAMAS突击步枪(精制)是什么武器？",
+    "output": "FAMAS突击步枪(精制)是突击步枪。"
+  }
+]
