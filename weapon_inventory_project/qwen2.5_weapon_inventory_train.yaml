@@ -16,7 +16,7 @@ lora_target: all
 additional_target: embed_tokens,lm_head
 
 ### 数据集配置
-dataset: weapon_inventory_sft_v3
+dataset: weapon_inventory_sft_v4
 template: qwen
 cutoff_len: 2048
 overwrite_cache: true
