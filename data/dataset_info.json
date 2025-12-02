@@ -15,6 +15,14 @@
       "response": "output"
     }
   },
+  "weapon_inventory_sft_v3": {
+    "file_name": "weapon_inventory_sft_v3.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
   "identity": {
     "file_name": "identity.json"
   },
