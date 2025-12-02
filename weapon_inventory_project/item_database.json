@@ -1,0 +1,2551 @@
+{
+  "weapons": {
+    "狙击枪": [
+      {
+        "name": "AMR狙击枪(卓越)",
+        "model": "AMR",
+        "quality": "卓越"
+      },
+      {
+        "name": "AMR狙击枪(卓越)",
+        "model": "AMR",
+        "quality": "卓越"
+      },
+      {
+        "name": "AMR狙击枪(黑鹰)",
+        "model": "AMR",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "AMR狙击枪(铁爪)",
+        "model": "AMR",
+        "quality": "铁爪"
+      },
+      {
+        "name": "AMR狙击枪(黑鹰)",
+        "model": "AMR",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "AMR狙击枪(铁爪)",
+        "model": "AMR",
+        "quality": "铁爪"
+      },
+      {
+        "name": "AMR狙击枪(轩辕)",
+        "model": "AMR",
+        "quality": "轩辕"
+      },
+      {
+        "name": "AMR狙击枪(轩辕)",
+        "model": "AMR",
+        "quality": "轩辕"
+      },
+      {
+        "name": "AMR狙击枪(精制)",
+        "model": "AMR",
+        "quality": "精制"
+      },
+      {
+        "name": "AWM狙击枪(卓越)",
+        "model": "AWM",
+        "quality": "卓越"
+      },
+      {
+        "name": "AWM狙击枪(卓越)",
+        "model": "AWM",
+        "quality": "卓越"
+      },
+      {
+        "name": "AWM狙击枪(黑鹰)",
+        "model": "AWM",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "AWM狙击枪(铁爪)",
+        "model": "AWM",
+        "quality": "铁爪"
+      },
+      {
+        "name": "SVD狙击枪(卓越)",
+        "model": "SVD",
+        "quality": "卓越"
+      },
+      {
+        "name": "SVD狙击枪(卓越)",
+        "model": "SVD",
+        "quality": "卓越"
+      },
+      {
+        "name": "SVD狙击枪(黑鹰)",
+        "model": "SVD",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "SVD狙击枪(铁爪)",
+        "model": "SVD",
+        "quality": "铁爪"
+      },
+      {
+        "name": "SVD狙击枪(黑鹰)",
+        "model": "SVD",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "SVD狙击枪(铁爪)",
+        "model": "SVD",
+        "quality": "铁爪"
+      },
+      {
+        "name": "AWM狙击枪(黑鹰)",
+        "model": "AWM",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "AWM狙击枪(铁爪)",
+        "model": "AWM",
+        "quality": "铁爪"
+      },
+      {
+        "name": "AWM狙击枪(轩辕)",
+        "model": "AWM",
+        "quality": "轩辕"
+      },
+      {
+        "name": "SVD狙击枪(轩辕)",
+        "model": "SVD",
+        "quality": "轩辕"
+      },
+      {
+        "name": "SVD狙击枪(轩辕)",
+        "model": "SVD",
+        "quality": "轩辕"
+      },
+      {
+        "name": "AWM狙击枪(轩辕)",
+        "model": "AWM",
+        "quality": "轩辕"
+      },
+      {
+        "name": "M200狙击枪(卓越)",
+        "model": "M200",
+        "quality": "卓越"
+      },
+      {
+        "name": "M200狙击枪(卓越)",
+        "model": "M200",
+        "quality": "卓越"
+      },
+      {
+        "name": "M200狙击枪(黑鹰)",
+        "model": "M200",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "M200狙击枪(铁爪)",
+        "model": "M200",
+        "quality": "铁爪"
+      },
+      {
+        "name": "M200狙击枪(黑鹰)",
+        "model": "M200",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "M200狙击枪(铁爪)",
+        "model": "M200",
+        "quality": "铁爪"
+      },
+      {
+        "name": "M200狙击枪(轩辕)",
+        "model": "M200",
+        "quality": "轩辕"
+      },
+      {
+        "name": "M200狙击枪(轩辕)",
+        "model": "M200",
+        "quality": "轩辕"
+      },
+      {
+        "name": "AWM狙击枪(精制)",
+        "model": "AWM",
+        "quality": "精制"
+      },
+      {
+        "name": "SVD狙击枪(精制)",
+        "model": "SVD",
+        "quality": "精制"
+      },
+      {
+        "name": "M24狙击枪(卓越)",
+        "model": "M24",
+        "quality": "卓越"
+      },
+      {
+        "name": "M24狙击枪(卓越)",
+        "model": "M24",
+        "quality": "卓越"
+      },
+      {
+        "name": "M24狙击枪(黑鹰)",
+        "model": "M24",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "M24狙击枪(铁爪)",
+        "model": "M24",
+        "quality": "铁爪"
+      },
+      {
+        "name": "M24狙击枪(黑鹰)",
+        "model": "M24",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "M24狙击枪(铁爪)",
+        "model": "M24",
+        "quality": "铁爪"
+      },
+      {
+        "name": "M24狙击枪(轩辕)",
+        "model": "M24",
+        "quality": "轩辕"
+      },
+      {
+        "name": "M24狙击枪(轩辕)",
+        "model": "M24",
+        "quality": "轩辕"
+      },
+      {
+        "name": "AMR狙击枪(改进)",
+        "model": "AMR",
+        "quality": "改进"
+      },
+      {
+        "name": "M200狙击枪(精制)",
+        "model": "M200",
+        "quality": "精制"
+      },
+      {
+        "name": "M24狙击枪(精制)",
+        "model": "M24",
+        "quality": "精制"
+      },
+      {
+        "name": "AWM狙击枪(改进)",
+        "model": "AWM",
+        "quality": "改进"
+      },
+      {
+        "name": "SVD狙击枪(改进)",
+        "model": "SVD",
+        "quality": "改进"
+      },
+      {
+        "name": "M200狙击枪(改进)",
+        "model": "M200",
+        "quality": "改进"
+      },
+      {
+        "name": "Kar98K狙击枪(改进)",
+        "model": "Kar98K",
+        "quality": "改进"
+      },
+      {
+        "name": "M24狙击枪(改进)",
+        "model": "M24",
+        "quality": "改进"
+      },
+      {
+        "name": "M200狙击枪(完好)",
+        "model": "M200",
+        "quality": "完好"
+      },
+      {
+        "name": "M24狙击枪(完好)",
+        "model": "M24",
+        "quality": "完好"
+      },
+      {
+        "name": "Kar98K狙击枪(完好)",
+        "model": "Kar98K",
+        "quality": "完好"
+      },
+      {
+        "name": "莫辛纳甘狙击枪(完好)",
+        "model": "莫辛纳甘",
+        "quality": "完好"
+      },
+      {
+        "name": "Win94狙击枪(完好)",
+        "model": "Win94",
+        "quality": "完好"
+      },
+      {
+        "name": "Kar98K狙击枪(修复)",
+        "model": "Kar98K",
+        "quality": "修复"
+      },
+      {
+        "name": "莫辛纳甘狙击枪(修复)",
+        "model": "莫辛纳甘",
+        "quality": "修复"
+      },
+      {
+        "name": "Win94狙击枪(修复)",
+        "model": "Win94",
+        "quality": "修复"
+      },
+      {
+        "name": "莫辛纳甘狙击枪(破损)",
+        "model": "莫辛纳甘",
+        "quality": "破损"
+      },
+      {
+        "name": "Win94狙击枪(破损)",
+        "model": "Win94",
+        "quality": "破损"
+      }
+    ],
+    "射手步枪": [
+      {
+        "name": "Mk14射手步枪(卓越)",
+        "model": "Mk14",
+        "quality": "卓越"
+      },
+      {
+        "name": "Mk14射手步枪(狂狼)",
+        "model": "Mk14",
+        "quality": null
+      },
+      {
+        "name": "Mk14射手步枪(鹰眼)",
+        "model": "Mk14",
+        "quality": null
+      },
+      {
+        "name": "Mk14射手步枪(黑鹰)",
+        "model": "Mk14",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "Mk14射手步枪(铁爪)",
+        "model": "Mk14",
+        "quality": "铁爪"
+      },
+      {
+        "name": "Mk14射手步枪(轩辕)",
+        "model": "Mk14",
+        "quality": "轩辕"
+      },
+      {
+        "name": "Mk14射手步枪(轩辕)",
+        "model": "Mk14",
+        "quality": "轩辕"
+      },
+      {
+        "name": "SKS射手步枪(卓越)",
+        "model": "SKS",
+        "quality": "卓越"
+      },
+      {
+        "name": "SKS射手步枪(卓越)",
+        "model": "SKS",
+        "quality": "卓越"
+      },
+      {
+        "name": "SKS射手步枪(黑鹰)",
+        "model": "SKS",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "SKS射手步枪(铁爪)",
+        "model": "SKS",
+        "quality": "铁爪"
+      },
+      {
+        "name": "SKS射手步枪(黑鹰)",
+        "model": "SKS",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "SKS射手步枪(铁爪)",
+        "model": "SKS",
+        "quality": "铁爪"
+      },
+      {
+        "name": "SKS射手步枪(轩辕)",
+        "model": "SKS",
+        "quality": "轩辕"
+      },
+      {
+        "name": "SKS射手步枪(轩辕)",
+        "model": "SKS",
+        "quality": "轩辕"
+      },
+      {
+        "name": "SLR射手步枪(卓越)",
+        "model": "SLR",
+        "quality": "卓越"
+      },
+      {
+        "name": "SLR射手步枪(狂狼)",
+        "model": "SLR",
+        "quality": null
+      },
+      {
+        "name": "SLR射手步枪(鹰眼)",
+        "model": "SLR",
+        "quality": null
+      },
+      {
+        "name": "M417射手步枪(卓越)",
+        "model": "M417",
+        "quality": "卓越"
+      },
+      {
+        "name": "M417射手步枪(狂狼)",
+        "model": "M417",
+        "quality": null
+      },
+      {
+        "name": "M417射手步枪(鹰眼)",
+        "model": "M417",
+        "quality": null
+      },
+      {
+        "name": "MK20-H射手步枪(卓越)",
+        "model": "MK20",
+        "quality": "卓越"
+      },
+      {
+        "name": "MK20-H射手步枪(狂狼)",
+        "model": "MK20",
+        "quality": null
+      },
+      {
+        "name": "MK20-H射手步枪(鹰眼)",
+        "model": "MK20",
+        "quality": null
+      },
+      {
+        "name": "MK12射手步枪(卓越)",
+        "model": "MK12",
+        "quality": "卓越"
+      },
+      {
+        "name": "MK12射手步枪(狂狼)",
+        "model": "MK12",
+        "quality": null
+      },
+      {
+        "name": "MK12射手步枪(鹰眼)",
+        "model": "MK12",
+        "quality": null
+      },
+      {
+        "name": "SLR射手步枪(黑鹰)",
+        "model": "SLR",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "SLR射手步枪(铁爪)",
+        "model": "SLR",
+        "quality": "铁爪"
+      },
+      {
+        "name": "M417射手步枪(黑鹰)",
+        "model": "M417",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "M417射手步枪(铁爪)",
+        "model": "M417",
+        "quality": "铁爪"
+      },
+      {
+        "name": "MK20-H射手步枪(黑鹰)",
+        "model": "MK20",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "MK20-H射手步枪(铁爪)",
+        "model": "MK20",
+        "quality": "铁爪"
+      },
+      {
+        "name": "MK12射手步枪(黑鹰)",
+        "model": "MK12",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "MK12射手步枪(铁爪)",
+        "model": "MK12",
+        "quality": "铁爪"
+      },
+      {
+        "name": "SLR射手步枪(轩辕)",
+        "model": "SLR",
+        "quality": "轩辕"
+      },
+      {
+        "name": "M417射手步枪(轩辕)",
+        "model": "M417",
+        "quality": "轩辕"
+      },
+      {
+        "name": "MK20-H射手步枪(轩辕)",
+        "model": "MK20",
+        "quality": "轩辕"
+      },
+      {
+        "name": "MK12射手步枪(轩辕)",
+        "model": "MK12",
+        "quality": "轩辕"
+      },
+      {
+        "name": "SLR射手步枪(轩辕)",
+        "model": "SLR",
+        "quality": "轩辕"
+      },
+      {
+        "name": "M417射手步枪(轩辕)",
+        "model": "M417",
+        "quality": "轩辕"
+      },
+      {
+        "name": "MK20-H射手步枪(轩辕)",
+        "model": "MK20",
+        "quality": "轩辕"
+      },
+      {
+        "name": "MK12射手步枪(轩辕)",
+        "model": "MK12",
+        "quality": "轩辕"
+      },
+      {
+        "name": "Mk14射手步枪(精制)",
+        "model": "Mk14",
+        "quality": "精制"
+      },
+      {
+        "name": "SKS射手步枪(精制)",
+        "model": "SKS",
+        "quality": "精制"
+      },
+      {
+        "name": "SLR射手步枪(精制)",
+        "model": "SLR",
+        "quality": "精制"
+      },
+      {
+        "name": "M417射手步枪(精制)",
+        "model": "M417",
+        "quality": "精制"
+      },
+      {
+        "name": "MK20-H射手步枪(精制)",
+        "model": "MK20",
+        "quality": "精制"
+      },
+      {
+        "name": "MK12射手步枪(精制)",
+        "model": "MK12",
+        "quality": "精制"
+      },
+      {
+        "name": "Mk14射手步枪(改进)",
+        "model": "Mk14",
+        "quality": "改进"
+      },
+      {
+        "name": "SKS射手步枪(改进)",
+        "model": "SKS",
+        "quality": "改进"
+      },
+      {
+        "name": "SLR射手步枪(改进)",
+        "model": "SLR",
+        "quality": "改进"
+      },
+      {
+        "name": "QBU射手步枪(改进)",
+        "model": "QBU",
+        "quality": "改进"
+      },
+      {
+        "name": "M417射手步枪(改进)",
+        "model": "M417",
+        "quality": "改进"
+      },
+      {
+        "name": "MK20-H射手步枪(改进)",
+        "model": "MK20",
+        "quality": "改进"
+      },
+      {
+        "name": "MK12射手步枪(改进)",
+        "model": "MK12",
+        "quality": "改进"
+      },
+      {
+        "name": "Mini14射手步枪(改进)",
+        "model": "Mini14",
+        "quality": "改进"
+      },
+      {
+        "name": "VSS射手步枪(改进)",
+        "model": "VSS",
+        "quality": "改进"
+      },
+      {
+        "name": "Mk14射手步枪(完好)",
+        "model": "Mk14",
+        "quality": "完好"
+      },
+      {
+        "name": "SKS射手步枪(完好)",
+        "model": "SKS",
+        "quality": "完好"
+      },
+      {
+        "name": "SLR射手步枪(完好)",
+        "model": "SLR",
+        "quality": "完好"
+      },
+      {
+        "name": "QBU射手步枪(完好)",
+        "model": "QBU",
+        "quality": "完好"
+      },
+      {
+        "name": "M417射手步枪(完好)",
+        "model": "M417",
+        "quality": "完好"
+      },
+      {
+        "name": "MK20-H射手步枪(完好)",
+        "model": "MK20",
+        "quality": "完好"
+      },
+      {
+        "name": "MK12射手步枪(完好)",
+        "model": "MK12",
+        "quality": "完好"
+      },
+      {
+        "name": "Mini14射手步枪(完好)",
+        "model": "Mini14",
+        "quality": "完好"
+      },
+      {
+        "name": "VSS射手步枪(完好)",
+        "model": "VSS",
+        "quality": "完好"
+      },
+      {
+        "name": "QBU射手步枪(修复)",
+        "model": "QBU",
+        "quality": "修复"
+      },
+      {
+        "name": "Mini14射手步枪(修复)",
+        "model": "Mini14",
+        "quality": "修复"
+      },
+      {
+        "name": "VSS射手步枪(修复)",
+        "model": "VSS",
+        "quality": "修复"
+      },
+      {
+        "name": "QBU射手步枪(破损)",
+        "model": "QBU",
+        "quality": "破损"
+      },
+      {
+        "name": "Mini14射手步枪(破损)",
+        "model": "Mini14",
+        "quality": "破损"
+      },
+      {
+        "name": "VSS射手步枪(破损)",
+        "model": "VSS",
+        "quality": "破损"
+      }
+    ],
+    "轻机枪": [
+      {
+        "name": "MG3轻机枪(卓越)",
+        "model": "MG3",
+        "quality": "卓越"
+      },
+      {
+        "name": "MG3轻机枪(卓越)",
+        "model": "MG3",
+        "quality": "卓越"
+      },
+      {
+        "name": "MG3轻机枪(黑鹰)",
+        "model": "MG3",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "MG3轻机枪(铁爪)",
+        "model": "MG3",
+        "quality": "铁爪"
+      },
+      {
+        "name": "MG3轻机枪(黑鹰)",
+        "model": "MG3",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "MG3轻机枪(铁爪)",
+        "model": "MG3",
+        "quality": "铁爪"
+      },
+      {
+        "name": "MG3轻机枪(轩辕)",
+        "model": "MG3",
+        "quality": "轩辕"
+      },
+      {
+        "name": "MG3轻机枪(轩辕)",
+        "model": "MG3",
+        "quality": "轩辕"
+      },
+      {
+        "name": "M249轻机枪(卓越)",
+        "model": "M249",
+        "quality": "卓越"
+      },
+      {
+        "name": "M249轻机枪(卓越)",
+        "model": "M249",
+        "quality": "卓越"
+      },
+      {
+        "name": "M249轻机枪(黑鹰)",
+        "model": "M249",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "M249轻机枪(铁爪)",
+        "model": "M249",
+        "quality": "铁爪"
+      },
+      {
+        "name": "PKM轻机枪(卓越)",
+        "model": "PKM",
+        "quality": "卓越"
+      },
+      {
+        "name": "PKM轻机枪(卓越)",
+        "model": "PKM",
+        "quality": "卓越"
+      },
+      {
+        "name": "PKM轻机枪(黑鹰)",
+        "model": "PKM",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "PKM轻机枪(铁爪)",
+        "model": "PKM",
+        "quality": "铁爪"
+      },
+      {
+        "name": "M249轻机枪(黑鹰)",
+        "model": "M249",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "M249轻机枪(铁爪)",
+        "model": "M249",
+        "quality": "铁爪"
+      },
+      {
+        "name": "PKM轻机枪(黑鹰)",
+        "model": "PKM",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "PKM轻机枪(铁爪)",
+        "model": "PKM",
+        "quality": "铁爪"
+      },
+      {
+        "name": "MG36轻机枪(卓越)",
+        "model": "MG36",
+        "quality": "卓越"
+      },
+      {
+        "name": "MG36轻机枪(黑鹰)",
+        "model": "MG36",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "MG36轻机枪(铁爪)",
+        "model": "MG36",
+        "quality": "铁爪"
+      },
+      {
+        "name": "MG36轻机枪(卓越)",
+        "model": "MG36",
+        "quality": "卓越"
+      },
+      {
+        "name": "MG36轻机枪(黑鹰)",
+        "model": "MG36",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "MG36轻机枪(铁爪)",
+        "model": "MG36",
+        "quality": "铁爪"
+      },
+      {
+        "name": "M249轻机枪(轩辕)",
+        "model": "M249",
+        "quality": "轩辕"
+      },
+      {
+        "name": "PKM轻机枪(轩辕)",
+        "model": "PKM",
+        "quality": "轩辕"
+      },
+      {
+        "name": "M249轻机枪(轩辕)",
+        "model": "M249",
+        "quality": "轩辕"
+      },
+      {
+        "name": "PKM轻机枪(轩辕)",
+        "model": "PKM",
+        "quality": "轩辕"
+      },
+      {
+        "name": "MG-36轻机枪(轩辕)",
+        "model": "MG",
+        "quality": "轩辕"
+      },
+      {
+        "name": "MG-36轻机枪(轩辕)",
+        "model": "MG",
+        "quality": "轩辕"
+      },
+      {
+        "name": "MG3轻机枪(精制)",
+        "model": "MG3",
+        "quality": "精制"
+      },
+      {
+        "name": "M249轻机枪(精制)",
+        "model": "M249",
+        "quality": "精制"
+      },
+      {
+        "name": "PKM轻机枪(精制)",
+        "model": "PKM",
+        "quality": "精制"
+      },
+      {
+        "name": "MG36轻机枪(精制)",
+        "model": "MG36",
+        "quality": "精制"
+      },
+      {
+        "name": "MG3轻机枪(改进)",
+        "model": "MG3",
+        "quality": "改进"
+      },
+      {
+        "name": "M249轻机枪(改进)",
+        "model": "M249",
+        "quality": "改进"
+      },
+      {
+        "name": "PKM轻机枪(改进)",
+        "model": "PKM",
+        "quality": "改进"
+      },
+      {
+        "name": "MG36轻机枪(改进)",
+        "model": "MG36",
+        "quality": "改进"
+      },
+      {
+        "name": "DP-28轻机枪(完好)",
+        "model": "DP",
+        "quality": "完好"
+      },
+      {
+        "name": "DP-28轻机枪(修复)",
+        "model": "DP",
+        "quality": "修复"
+      },
+      {
+        "name": "DP-28轻机枪(破损)",
+        "model": "DP",
+        "quality": "破损"
+      },
+      {
+        "name": "PKM轻机枪物资箱",
+        "model": "PKM物资箱",
+        "quality": null
+      }
+    ],
+    "霰弹枪": [
+      {
+        "name": "AA12-G霰弹枪·雪隼",
+        "model": "AA12",
+        "quality": null
+      },
+      {
+        "name": "DBS霰弹枪(精制)",
+        "model": "DBS",
+        "quality": "精制"
+      },
+      {
+        "name": "SPAS-12霰弹枪(精制)",
+        "model": "SPAS",
+        "quality": "精制"
+      },
+      {
+        "name": "AA12-G霰弹枪(精制)",
+        "model": "AA12",
+        "quality": "精制"
+      },
+      {
+        "name": "AA12-G霰弹枪游侠boss",
+        "model": "AA12",
+        "quality": null
+      },
+      {
+        "name": "S12K霰弹枪(精制)",
+        "model": "S12K",
+        "quality": "精制"
+      },
+      {
+        "name": "DBS霰弹枪(改进)",
+        "model": "DBS",
+        "quality": "改进"
+      },
+      {
+        "name": "SPAS-12霰弹枪(改进)",
+        "model": "SPAS",
+        "quality": "改进"
+      },
+      {
+        "name": "AA12-G霰弹枪(改进)",
+        "model": "AA12",
+        "quality": "改进"
+      },
+      {
+        "name": "S12K霰弹枪(改进)",
+        "model": "S12K",
+        "quality": "改进"
+      },
+      {
+        "name": "DBS霰弹枪(完好)",
+        "model": "DBS",
+        "quality": "完好"
+      },
+      {
+        "name": "SPAS-12霰弹枪(完好)",
+        "model": "SPAS",
+        "quality": "完好"
+      },
+      {
+        "name": "AA12-G霰弹枪(完好)",
+        "model": "AA12",
+        "quality": "完好"
+      },
+      {
+        "name": "S12K霰弹枪(完好)",
+        "model": "S12K",
+        "quality": "完好"
+      },
+      {
+        "name": "S1897霰弹枪(完好)",
+        "model": "S1897",
+        "quality": "完好"
+      },
+      {
+        "name": "S686霰弹枪(完好)",
+        "model": "S686",
+        "quality": "完好"
+      },
+      {
+        "name": "DBS霰弹枪(修复)",
+        "model": "DBS",
+        "quality": "修复"
+      },
+      {
+        "name": "SPAS-12霰弹枪(修复)",
+        "model": "SPAS",
+        "quality": "修复"
+      },
+      {
+        "name": "AA12-G霰弹枪(修复)",
+        "model": "AA12",
+        "quality": "修复"
+      },
+      {
+        "name": "短管霰弹枪(完好)",
+        "model": "短管",
+        "quality": "完好"
+      },
+      {
+        "name": "S12K霰弹枪(修复)",
+        "model": "S12K",
+        "quality": "修复"
+      },
+      {
+        "name": "S1897霰弹枪(修复)",
+        "model": "S1897",
+        "quality": "修复"
+      },
+      {
+        "name": "S686霰弹枪(修复)",
+        "model": "S686",
+        "quality": "修复"
+      },
+      {
+        "name": "短管霰弹枪(修复)",
+        "model": "短管",
+        "quality": "修复"
+      },
+      {
+        "name": "S1897霰弹枪(破损)",
+        "model": "S1897",
+        "quality": "破损"
+      },
+      {
+        "name": "S686霰弹枪(破损)",
+        "model": "S686",
+        "quality": "破损"
+      },
+      {
+        "name": "短管霰弹枪(破损)",
+        "model": "短管",
+        "quality": "破损"
+      }
+    ],
+    "冲锋枪": [
+      {
+        "name": "P90冲锋枪(卓越)",
+        "model": "P90",
+        "quality": "卓越"
+      },
+      {
+        "name": "P90冲锋枪(卓越)",
+        "model": "P90",
+        "quality": "卓越"
+      },
+      {
+        "name": "P90冲锋枪(黑鹰)",
+        "model": "P90",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "P90冲锋枪(铁爪)",
+        "model": "P90",
+        "quality": "铁爪"
+      },
+      {
+        "name": "P90冲锋枪(黑鹰)",
+        "model": "P90",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "P90冲锋枪(铁爪)",
+        "model": "P90",
+        "quality": "铁爪"
+      },
+      {
+        "name": "P90冲锋枪(轩辕)",
+        "model": "P90",
+        "quality": "轩辕"
+      },
+      {
+        "name": "P90冲锋枪(轩辕)",
+        "model": "P90",
+        "quality": "轩辕"
+      },
+      {
+        "name": "Vector冲锋枪(卓越)",
+        "model": "Vector",
+        "quality": "卓越"
+      },
+      {
+        "name": "Vector冲锋枪(卓越)",
+        "model": "Vector",
+        "quality": "卓越"
+      },
+      {
+        "name": "Vector冲锋枪(黑鹰)",
+        "model": "Vector",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "Vector冲锋枪(铁爪)",
+        "model": "Vector",
+        "quality": "铁爪"
+      },
+      {
+        "name": "Vector冲锋枪(黑鹰)",
+        "model": "Vector",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "Vector冲锋枪(铁爪)",
+        "model": "Vector",
+        "quality": "铁爪"
+      },
+      {
+        "name": "Vector冲锋枪(轩辕)",
+        "model": "Vector",
+        "quality": "轩辕"
+      },
+      {
+        "name": "Vector冲锋枪(轩辕)",
+        "model": "Vector",
+        "quality": "轩辕"
+      },
+      {
+        "name": "AKS-74U冲锋枪(卓越)",
+        "model": "AKS",
+        "quality": "卓越"
+      },
+      {
+        "name": "AKS-74U冲锋枪(卓越)",
+        "model": "AKS",
+        "quality": "卓越"
+      },
+      {
+        "name": "AKS-74U冲锋枪(铁爪)",
+        "model": "AKS",
+        "quality": "铁爪"
+      },
+      {
+        "name": "AKS-74U冲锋枪(黑鹰)",
+        "model": "AKS",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "JS9冲锋枪(卓越)",
+        "model": "JS9",
+        "quality": "卓越"
+      },
+      {
+        "name": "JS9冲锋枪(黑鹰)",
+        "model": "JS9",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "JS9冲锋枪(铁爪)",
+        "model": "JS9",
+        "quality": "铁爪"
+      },
+      {
+        "name": "JS9冲锋枪(轩辕)",
+        "model": "JS9",
+        "quality": "轩辕"
+      },
+      {
+        "name": "JS9冲锋枪(卓越)",
+        "model": "JS9",
+        "quality": "卓越"
+      },
+      {
+        "name": "JS9冲锋枪(黑鹰)",
+        "model": "JS9",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "JS9冲锋枪(铁爪)",
+        "model": "JS9",
+        "quality": "铁爪"
+      },
+      {
+        "name": "JS9冲锋枪(轩辕)",
+        "model": "JS9",
+        "quality": "轩辕"
+      },
+      {
+        "name": "P90冲锋枪(精制)",
+        "model": "P90",
+        "quality": "精制"
+      },
+      {
+        "name": "MP5K冲锋枪(卓越)",
+        "model": "MP5K",
+        "quality": "卓越"
+      },
+      {
+        "name": "MP5K冲锋枪(卓越)",
+        "model": "MP5K",
+        "quality": "卓越"
+      },
+      {
+        "name": "MP5K冲锋枪(黑鹰)",
+        "model": "MP5K",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "MP5K冲锋枪(铁爪)",
+        "model": "MP5K",
+        "quality": "铁爪"
+      },
+      {
+        "name": "MP5K冲锋枪(黑鹰)",
+        "model": "MP5K",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "MP5K冲锋枪(铁爪)",
+        "model": "MP5K",
+        "quality": "铁爪"
+      },
+      {
+        "name": "MP5K冲锋枪(轩辕)",
+        "model": "MP5K",
+        "quality": "轩辕"
+      },
+      {
+        "name": "MP5K冲锋枪(轩辕)",
+        "model": "MP5K",
+        "quality": "轩辕"
+      },
+      {
+        "name": "Vector冲锋枪(精制)",
+        "model": "Vector",
+        "quality": "精制"
+      },
+      {
+        "name": "AKS-74U冲锋枪(精制)",
+        "model": "AKS",
+        "quality": "精制"
+      },
+      {
+        "name": "JS9冲锋枪(精制)",
+        "model": "JS9",
+        "quality": "精制"
+      },
+      {
+        "name": "MP5K冲锋枪(精制)",
+        "model": "MP5K",
+        "quality": "精制"
+      },
+      {
+        "name": "P90冲锋枪(改进)",
+        "model": "P90",
+        "quality": "改进"
+      },
+      {
+        "name": "UZI冲锋枪(精制)",
+        "model": "UZI",
+        "quality": "精制"
+      },
+      {
+        "name": "UMP45冲锋枪(精制)",
+        "model": "UMP45",
+        "quality": "精制"
+      },
+      {
+        "name": "Vector冲锋枪(改进)",
+        "model": "Vector",
+        "quality": "改进"
+      },
+      {
+        "name": "JS9冲锋枪(改进)",
+        "model": "JS9",
+        "quality": "改进"
+      },
+      {
+        "name": "AKS-74U冲锋枪(改进)",
+        "model": "AKS",
+        "quality": "改进"
+      },
+      {
+        "name": "MP5K冲锋枪(改进)",
+        "model": "MP5K",
+        "quality": "改进"
+      },
+      {
+        "name": "UZI冲锋枪(改进)",
+        "model": "UZI",
+        "quality": "改进"
+      },
+      {
+        "name": "汤姆逊冲锋枪(改进)",
+        "model": "汤姆逊",
+        "quality": "改进"
+      },
+      {
+        "name": "UMP45冲锋枪(改进)",
+        "model": "UMP45",
+        "quality": "改进"
+      },
+      {
+        "name": "Vector冲锋枪(完好)",
+        "model": "Vector",
+        "quality": "完好"
+      },
+      {
+        "name": "JS9冲锋枪(完好)",
+        "model": "JS9",
+        "quality": "完好"
+      },
+      {
+        "name": "AKS-74U冲锋枪(完好)",
+        "model": "AKS",
+        "quality": "完好"
+      },
+      {
+        "name": "野牛冲锋枪(完好)",
+        "model": "野牛",
+        "quality": "完好"
+      },
+      {
+        "name": "MP5K冲锋枪(完好)",
+        "model": "MP5K",
+        "quality": "完好"
+      },
+      {
+        "name": "UZI冲锋枪(完好)",
+        "model": "UZI",
+        "quality": "完好"
+      },
+      {
+        "name": "汤姆逊冲锋枪(完好)",
+        "model": "汤姆逊",
+        "quality": "完好"
+      },
+      {
+        "name": "UMP45冲锋枪(完好)",
+        "model": "UMP45",
+        "quality": "完好"
+      },
+      {
+        "name": "野牛冲锋枪(修复)",
+        "model": "野牛",
+        "quality": "修复"
+      },
+      {
+        "name": "UZI冲锋枪(修复)",
+        "model": "UZI",
+        "quality": "修复"
+      },
+      {
+        "name": "汤姆逊冲锋枪(修复)",
+        "model": "汤姆逊",
+        "quality": "修复"
+      },
+      {
+        "name": "UMP45冲锋枪(修复)",
+        "model": "UMP45",
+        "quality": "修复"
+      },
+      {
+        "name": "野牛冲锋枪(破损)",
+        "model": "野牛",
+        "quality": "破损"
+      },
+      {
+        "name": "UZI冲锋枪(破损)",
+        "model": "UZI",
+        "quality": "破损"
+      },
+      {
+        "name": "汤姆逊冲锋枪(破损)",
+        "model": "汤姆逊",
+        "quality": "破损"
+      },
+      {
+        "name": "UMP45冲锋枪(破损)",
+        "model": "UMP45",
+        "quality": "破损"
+      },
+      {
+        "name": "P90冲锋枪(完好)",
+        "model": "P90",
+        "quality": "完好"
+      },
+      {
+        "name": "Vector冲锋枪物资箱",
+        "model": "Vector物资箱",
+        "quality": null
+      }
+    ],
+    "突击步枪": [
+      {
+        "name": "GROZA突击步枪(卓越)",
+        "model": "GROZA",
+        "quality": "卓越"
+      },
+      {
+        "name": "GROZA突击步枪(卓越)",
+        "model": "GROZA",
+        "quality": "卓越"
+      },
+      {
+        "name": "GROZA突击步枪·年兽",
+        "model": "GROZA",
+        "quality": null
+      },
+      {
+        "name": "GROZA突击步枪(黑鹰)",
+        "model": "GROZA",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "GROZA突击步枪(铁爪)",
+        "model": "GROZA",
+        "quality": "铁爪"
+      },
+      {
+        "name": "GROZA突击步枪(黑鹰)",
+        "model": "GROZA",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "GROZA突击步枪(铁爪)",
+        "model": "GROZA",
+        "quality": "铁爪"
+      },
+      {
+        "name": "GROZA突击步枪(轩辕)",
+        "model": "GROZA",
+        "quality": "轩辕"
+      },
+      {
+        "name": "GROZA突击步枪(轩辕)",
+        "model": "GROZA",
+        "quality": "轩辕"
+      },
+      {
+        "name": "AUG突击步枪(卓越)",
+        "model": "AUG",
+        "quality": "卓越"
+      },
+      {
+        "name": "AUG突击步枪(卓越)",
+        "model": "AUG",
+        "quality": "卓越"
+      },
+      {
+        "name": "AUG突击步枪(黑鹰)",
+        "model": "AUG",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "AUG突击步枪(铁爪)",
+        "model": "AUG",
+        "quality": "铁爪"
+      },
+      {
+        "name": "FAMAS突击步枪(卓越)",
+        "model": "FAMAS",
+        "quality": "卓越"
+      },
+      {
+        "name": "FAMAS突击步枪(卓越)",
+        "model": "FAMAS",
+        "quality": "卓越"
+      },
+      {
+        "name": "FAMAS突击步枪(黑鹰)",
+        "model": "FAMAS",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "FAMAS突击步枪(铁爪)",
+        "model": "FAMAS",
+        "quality": "铁爪"
+      },
+      {
+        "name": "AUG突击步枪(黑鹰)",
+        "model": "AUG",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "AUG突击步枪(铁爪)",
+        "model": "AUG",
+        "quality": "铁爪"
+      },
+      {
+        "name": "FAMAS突击步枪(黑鹰)",
+        "model": "FAMAS",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "FAMAS突击步枪(铁爪)",
+        "model": "FAMAS",
+        "quality": "铁爪"
+      },
+      {
+        "name": "AUG突击步枪(轩辕)",
+        "model": "AUG",
+        "quality": "轩辕"
+      },
+      {
+        "name": "FAMAS突击步枪(轩辕)",
+        "model": "FAMAS",
+        "quality": "轩辕"
+      },
+      {
+        "name": "AUG突击步枪(轩辕)",
+        "model": "AUG",
+        "quality": "轩辕"
+      },
+      {
+        "name": "FAMAS突击步枪(轩辕)",
+        "model": "FAMAS",
+        "quality": "轩辕"
+      },
+      {
+        "name": "M416突击步枪(铁爪)",
+        "model": "M416",
+        "quality": "铁爪"
+      },
+      {
+        "name": "M416突击步枪(卓越)",
+        "model": "M416",
+        "quality": "卓越"
+      },
+      {
+        "name": "M416突击步枪(卓越)",
+        "model": "M416",
+        "quality": "卓越"
+      },
+      {
+        "name": "M416突击步枪(黑鹰)",
+        "model": "M416",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "M762突击步枪(卓越)",
+        "model": "M762",
+        "quality": "卓越"
+      },
+      {
+        "name": "M762突击步枪(卓越)",
+        "model": "M762",
+        "quality": "卓越"
+      },
+      {
+        "name": "M762突击步枪(黑鹰)",
+        "model": "M762",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "M762突击步枪(铁爪)",
+        "model": "M762",
+        "quality": "铁爪"
+      },
+      {
+        "name": "M416突击步枪·卡德尔",
+        "model": "M416",
+        "quality": null
+      },
+      {
+        "name": "M416突击步枪(黑鹰)",
+        "model": "M416",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "M416突击步枪(铁爪)",
+        "model": "M416",
+        "quality": "铁爪"
+      },
+      {
+        "name": "M762突击步枪(黑鹰)",
+        "model": "M762",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "M762突击步枪(铁爪)",
+        "model": "M762",
+        "quality": "铁爪"
+      },
+      {
+        "name": "M416突击步枪(轩辕)",
+        "model": "M416",
+        "quality": "轩辕"
+      },
+      {
+        "name": "M762突击步枪(轩辕)",
+        "model": "M762",
+        "quality": "轩辕"
+      },
+      {
+        "name": "M416突击步枪(轩辕)",
+        "model": "M416",
+        "quality": "轩辕"
+      },
+      {
+        "name": "M762突击步枪(轩辕)",
+        "model": "M762",
+        "quality": "轩辕"
+      },
+      {
+        "name": "SCAR-L突击步枪(卓越)",
+        "model": "SCAR",
+        "quality": "卓越"
+      },
+      {
+        "name": "SCAR-L突击步枪(卓越)",
+        "model": "SCAR",
+        "quality": "卓越"
+      },
+      {
+        "name": "SCAR-L突击步枪(黑鹰)",
+        "model": "SCAR",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "SCAR-L突击步枪(铁爪)",
+        "model": "SCAR",
+        "quality": "铁爪"
+      },
+      {
+        "name": "QBZ突击步枪(卓越)",
+        "model": "QBZ",
+        "quality": "卓越"
+      },
+      {
+        "name": "QBZ突击步枪(卓越)",
+        "model": "QBZ",
+        "quality": "卓越"
+      },
+      {
+        "name": "QBZ突击步枪(黑鹰)",
+        "model": "QBZ",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "QBZ突击步枪(铁爪)",
+        "model": "QBZ",
+        "quality": "铁爪"
+      },
+      {
+        "name": "G36C突击步枪(卓越)",
+        "model": "G36C",
+        "quality": "卓越"
+      },
+      {
+        "name": "G36C突击步枪(卓越)",
+        "model": "G36C",
+        "quality": "卓越"
+      },
+      {
+        "name": "G36C突击步枪(黑鹰)",
+        "model": "G36C",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "G36C突击步枪(铁爪)",
+        "model": "G36C",
+        "quality": "铁爪"
+      },
+      {
+        "name": "SCAR-L突击步枪(黑鹰)",
+        "model": "SCAR",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "SCAR-L突击步枪(铁爪)",
+        "model": "SCAR",
+        "quality": "铁爪"
+      },
+      {
+        "name": "QBZ突击步枪(黑鹰)",
+        "model": "QBZ",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "QBZ突击步枪(铁爪)",
+        "model": "QBZ",
+        "quality": "铁爪"
+      },
+      {
+        "name": "G36C突击步枪(黑鹰)",
+        "model": "G36C",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "G36C突击步枪(铁爪)",
+        "model": "G36C",
+        "quality": "铁爪"
+      },
+      {
+        "name": "SCAR-L突击步枪(轩辕)",
+        "model": "SCAR",
+        "quality": "轩辕"
+      },
+      {
+        "name": "QBZ突击步枪(轩辕)",
+        "model": "QBZ",
+        "quality": "轩辕"
+      },
+      {
+        "name": "G36C突击步枪(轩辕)",
+        "model": "G36C",
+        "quality": "轩辕"
+      },
+      {
+        "name": "SCAR-L突击步枪(轩辕)",
+        "model": "SCAR",
+        "quality": "轩辕"
+      },
+      {
+        "name": "QBZ突击步枪(轩辕)",
+        "model": "QBZ",
+        "quality": "轩辕"
+      },
+      {
+        "name": "G36C突击步枪(轩辕)",
+        "model": "G36C",
+        "quality": "轩辕"
+      },
+      {
+        "name": "ACE32突击步枪(卓越)",
+        "model": "ACE32",
+        "quality": "卓越"
+      },
+      {
+        "name": "ACE32突击步枪(黑鹰)",
+        "model": "ACE32",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "ACE32突击步枪(铁爪)",
+        "model": "ACE32",
+        "quality": "铁爪"
+      },
+      {
+        "name": "ACE32突击步枪(轩辕)",
+        "model": "ACE32",
+        "quality": "轩辕"
+      },
+      {
+        "name": "ACE32突击步枪(卓越)",
+        "model": "ACE32",
+        "quality": "卓越"
+      },
+      {
+        "name": "ACE32突击步枪(黑鹰)",
+        "model": "ACE32",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "ACE32突击步枪(铁爪)",
+        "model": "ACE32",
+        "quality": "铁爪"
+      },
+      {
+        "name": "ACE32突击步枪(轩辕)",
+        "model": "ACE32",
+        "quality": "轩辕"
+      },
+      {
+        "name": "GROZA突击步枪(精制)",
+        "model": "GROZA",
+        "quality": "精制"
+      },
+      {
+        "name": "AKM突击步枪(卓越)",
+        "model": "AKM",
+        "quality": "卓越"
+      },
+      {
+        "name": "AKM突击步枪(卓越)",
+        "model": "AKM",
+        "quality": "卓越"
+      },
+      {
+        "name": "AKM突击步枪(黑鹰)",
+        "model": "AKM",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "AKM突击步枪(铁爪)",
+        "model": "AKM",
+        "quality": "铁爪"
+      },
+      {
+        "name": "蜜獾突击步枪(卓越)",
+        "model": "蜜獾",
+        "quality": "卓越"
+      },
+      {
+        "name": "蜜獾突击步枪(卓越)",
+        "model": "蜜獾",
+        "quality": "卓越"
+      },
+      {
+        "name": "蜜獾突击步枪(黑鹰)",
+        "model": "蜜獾",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "蜜獾突击步枪(铁爪)",
+        "model": "蜜獾",
+        "quality": "铁爪"
+      },
+      {
+        "name": "AKM突击步枪(黑鹰)",
+        "model": "AKM",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "AKM突击步枪(铁爪)",
+        "model": "AKM",
+        "quality": "铁爪"
+      },
+      {
+        "name": "蜜獾突击步枪(黑鹰)",
+        "model": "蜜獾",
+        "quality": "黑鹰"
+      },
+      {
+        "name": "蜜獾突击步枪(铁爪)",
+        "model": "蜜獾",
+        "quality": "铁爪"
+      },
+      {
+        "name": "AKM突击步枪(轩辕)",
+        "model": "AKM",
+        "quality": "轩辕"
+      },
+      {
+        "name": "蜜獾突击步枪(轩辕)",
+        "model": "蜜獾",
+        "quality": "轩辕"
+      },
+      {
+        "name": "AKM突击步枪(轩辕)",
+        "model": "AKM",
+        "quality": "轩辕"
+      },
+      {
+        "name": "蜜獾突击步枪(轩辕)",
+        "model": "蜜獾",
+        "quality": "轩辕"
+      },
+      {
+        "name": "AUG突击步枪(精制)",
+        "model": "AUG",
+        "quality": "精制"
+      },
+      {
+        "name": "FAMAS突击步枪(精制)",
+        "model": "FAMAS",
+        "quality": "精制"
+      },
+      {
+        "name": "M416突击步枪(精制)",
+        "model": "M416",
+        "quality": "精制"
+      },
+      {
+        "name": "M762突击步枪(精制)",
+        "model": "M762",
+        "quality": "精制"
+      },
+      {
+        "name": "ACE32突击步枪(精制)",
+        "model": "ACE32",
+        "quality": "精制"
+      },
+      {
+        "name": "SCAR-L突击步枪(精制)",
+        "model": "SCAR",
+        "quality": "精制"
+      },
+      {
+        "name": "QBZ突击步枪(精制)",
+        "model": "QBZ",
+        "quality": "精制"
+      },
+      {
+        "name": "G36C突击步枪(精制)",
+        "model": "G36C",
+        "quality": "精制"
+      },
+      {
+        "name": "AKM突击步枪(精制)",
+        "model": "AKM",
+        "quality": "精制"
+      },
+      {
+        "name": "蜜獾突击步枪(精制)",
+        "model": "蜜獾",
+        "quality": "精制"
+      },
+      {
+        "name": "GROZA突击步枪(改进)",
+        "model": "GROZA",
+        "quality": "改进"
+      },
+      {
+        "name": "AC-VAL突击步枪(精制)",
+        "model": "AC",
+        "quality": "精制"
+      },
+      {
+        "name": "AUG突击步枪(改进)",
+        "model": "AUG",
+        "quality": "改进"
+      },
+      {
+        "name": "FAMAS突击步枪(改进)",
+        "model": "FAMAS",
+        "quality": "改进"
+      },
+      {
+        "name": "M416突击步枪(改进)",
+        "model": "M416",
+        "quality": "改进"
+      },
+      {
+        "name": "M762突击步枪(改进)",
+        "model": "M762",
+        "quality": "改进"
+      },
+      {
+        "name": "ACE32突击步枪(改进)",
+        "model": "ACE32",
+        "quality": "改进"
+      },
+      {
+        "name": "SCAR-L突击步枪(改进)",
+        "model": "SCAR",
+        "quality": "改进"
+      },
+      {
+        "name": "QBZ突击步枪(改进)",
+        "model": "QBZ",
+        "quality": "改进"
+      },
+      {
+        "name": "G36C突击步枪(改进)",
+        "model": "G36C",
+        "quality": "改进"
+      },
+      {
+        "name": "AKM突击步枪(改进)",
+        "model": "AKM",
+        "quality": "改进"
+      },
+      {
+        "name": "蜜獾突击步枪(改进)",
+        "model": "蜜獾",
+        "quality": "改进"
+      },
+      {
+        "name": "Mk47突击步枪(改进)",
+        "model": "Mk47",
+        "quality": "改进"
+      },
+      {
+        "name": "M16A4突击步枪(改进)",
+        "model": "M16A4",
+        "quality": "改进"
+      },
+      {
+        "name": "AC-VAL突击步枪(改进)",
+        "model": "AC",
+        "quality": "改进"
+      },
+      {
+        "name": "M416突击步枪(完好)",
+        "model": "M416",
+        "quality": "完好"
+      },
+      {
+        "name": "M762突击步枪(完好)",
+        "model": "M762",
+        "quality": "完好"
+      },
+      {
+        "name": "SCAR-L突击步枪(完好)",
+        "model": "SCAR",
+        "quality": "完好"
+      },
+      {
+        "name": "QBZ突击步枪(完好)",
+        "model": "QBZ",
+        "quality": "完好"
+      },
+      {
+        "name": "G36C突击步枪(完好)",
+        "model": "G36C",
+        "quality": "完好"
+      },
+      {
+        "name": "ACE32突击步枪(完好)",
+        "model": "ACE32",
+        "quality": "完好"
+      },
+      {
+        "name": "AKM突击步枪(完好)",
+        "model": "AKM",
+        "quality": "完好"
+      },
+      {
+        "name": "蜜獾突击步枪(完好)",
+        "model": "蜜獾",
+        "quality": "完好"
+      },
+      {
+        "name": "Mk47突击步枪(完好)",
+        "model": "Mk47",
+        "quality": "完好"
+      },
+      {
+        "name": "M16A4突击步枪(完好)",
+        "model": "M16A4",
+        "quality": "完好"
+      },
+      {
+        "name": "AC-VAL突击步枪(完好)",
+        "model": "AC",
+        "quality": "完好"
+      },
+      {
+        "name": "Mk47突击步枪(修复)",
+        "model": "Mk47",
+        "quality": "修复"
+      },
+      {
+        "name": "M16A4突击步枪(修复)",
+        "model": "M16A4",
+        "quality": "修复"
+      },
+      {
+        "name": "AC-VAL突击步枪(修复)",
+        "model": "AC",
+        "quality": "修复"
+      },
+      {
+        "name": "Mk47突击步枪(破损)",
+        "model": "Mk47",
+        "quality": "破损"
+      },
+      {
+        "name": "M16A4突击步枪(破损)",
+        "model": "M16A4",
+        "quality": "破损"
+      },
+      {
+        "name": "AC-VAL突击步枪(破损)",
+        "model": "AC",
+        "quality": "破损"
+      },
+      {
+        "name": "FAMAS突击步枪(完好)",
+        "model": "FAMAS",
+        "quality": "完好"
+      },
+      {
+        "name": "M762突击步枪物资箱",
+        "model": "M762物资箱",
+        "quality": null
+      },
+      {
+        "name": "蜜獾突击步枪物资箱",
+        "model": "蜜獾物资箱",
+        "quality": null
+      },
+      {
+        "name": "M416突击步枪物资箱",
+        "model": "M416物资箱",
+        "quality": null
+      }
+    ],
+    "特殊武器": [
+      {
+        "name": "RPG-7火箭筒",
+        "model": "RPG",
+        "quality": null
+      },
+      {
+        "name": "榴弹发射器Boss",
+        "model": "榴弹发射器Boss",
+        "quality": null
+      },
+      {
+        "name": "手弩·银星",
+        "model": "手弩",
+        "quality": null
+      },
+      {
+        "name": "手持弩Boss",
+        "model": "手持弩Boss",
+        "quality": null
+      },
+      {
+        "name": "爆炸猎弓(玩家)",
+        "model": "爆炸猎弓",
+        "quality": null
+      },
+      {
+        "name": "十字弩(改进)",
+        "model": "十字弩",
+        "quality": "改进"
+      },
+      {
+        "name": "十字弩(完好)",
+        "model": "十字弩",
+        "quality": "完好"
+      },
+      {
+        "name": "下挂榴弹发射器",
+        "model": "下挂榴弹发射器",
+        "quality": null
+      },
+      {
+        "name": "下挂喷火器",
+        "model": "下挂喷火器",
+        "quality": null
+      },
+      {
+        "name": "M79榴弹发射器",
+        "model": "M79榴弹发射器",
+        "quality": null
+      },
+      {
+        "name": "十字弩(修复)",
+        "model": "十字弩",
+        "quality": "修复"
+      },
+      {
+        "name": "十字弩(破损)",
+        "model": "十字弩",
+        "quality": "破损"
+      },
+      {
+        "name": "爆炸猎弓(骑警Boss)",
+        "model": "爆炸猎弓",
+        "quality": null
+      },
+      {
+        "name": "损坏的榴弹炮",
+        "model": "损坏的榴弹炮",
+        "quality": null
+      },
+      {
+        "name": "榴弹发射器",
+        "model": "榴弹发射器",
+        "quality": null
+      }
+    ],
+    "手枪": [
+      {
+        "name": "沙漠之鹰手枪(改进)",
+        "model": "沙漠之鹰",
+        "quality": "改进"
+      },
+      {
+        "name": "蝎式手枪(改进)",
+        "model": "蝎式",
+        "quality": "改进"
+      },
+      {
+        "name": "TMP-9手枪(改进)",
+        "model": "TMP",
+        "quality": "改进"
+      },
+      {
+        "name": "P18C手枪(改进)",
+        "model": "P18C",
+        "quality": "改进"
+      },
+      {
+        "name": "双持巨蟒手枪(改进)",
+        "model": "双持巨蟒",
+        "quality": "改进"
+      },
+      {
+        "name": "沙漠之鹰手枪(完好)",
+        "model": "沙漠之鹰",
+        "quality": "完好"
+      },
+      {
+        "name": "蝎式手枪(完好)",
+        "model": "蝎式",
+        "quality": "完好"
+      },
+      {
+        "name": "TMP-9手枪(完好)",
+        "model": "TMP",
+        "quality": "完好"
+      },
+      {
+        "name": "P18C手枪(完好)",
+        "model": "P18C",
+        "quality": "完好"
+      },
+      {
+        "name": "P92手枪(完好)",
+        "model": "P92",
+        "quality": "完好"
+      },
+      {
+        "name": "R1895手枪(完好)",
+        "model": "R1895",
+        "quality": "完好"
+      },
+      {
+        "name": "R45手枪(完好)",
+        "model": "R45",
+        "quality": "完好"
+      },
+      {
+        "name": "双持巨蟒手枪(完好)",
+        "model": "双持巨蟒",
+        "quality": "完好"
+      },
+      {
+        "name": "P1911手枪(完好)",
+        "model": "P1911",
+        "quality": "完好"
+      },
+      {
+        "name": "沙漠之鹰手枪(修复)",
+        "model": "沙漠之鹰",
+        "quality": "修复"
+      },
+      {
+        "name": "蝎式手枪(修复)",
+        "model": "蝎式",
+        "quality": "修复"
+      },
+      {
+        "name": "TMP-9手枪(修复)",
+        "model": "TMP",
+        "quality": "修复"
+      },
+      {
+        "name": "P18C手枪(修复)",
+        "model": "P18C",
+        "quality": "修复"
+      },
+      {
+        "name": "P92手枪(修复)",
+        "model": "P92",
+        "quality": "修复"
+      },
+      {
+        "name": "R1895手枪(修复)",
+        "model": "R1895",
+        "quality": "修复"
+      },
+      {
+        "name": "R45手枪(修复)",
+        "model": "R45",
+        "quality": "修复"
+      },
+      {
+        "name": "P1911手枪(修复)",
+        "model": "P1911",
+        "quality": "修复"
+      },
+      {
+        "name": "双持巨蟒手枪(修复)",
+        "model": "双持巨蟒",
+        "quality": "修复"
+      },
+      {
+        "name": "沙漠之鹰手枪(破损)",
+        "model": "沙漠之鹰",
+        "quality": "破损"
+      },
+      {
+        "name": "蝎式手枪(破损)",
+        "model": "蝎式",
+        "quality": "破损"
+      },
+      {
+        "name": "TMP-9手枪(破损)",
+        "model": "TMP",
+        "quality": "破损"
+      },
+      {
+        "name": "TMP-9手枪Boss",
+        "model": "TMP",
+        "quality": null
+      },
+      {
+        "name": "P18C手枪(破损)",
+        "model": "P18C",
+        "quality": "破损"
+      },
+      {
+        "name": "P92手枪(破损)",
+        "model": "P92",
+        "quality": "破损"
+      },
+      {
+        "name": "R1895手枪(破损)",
+        "model": "R1895",
+        "quality": "破损"
+      },
+      {
+        "name": "R45手枪(破损)",
+        "model": "R45",
+        "quality": "破损"
+      },
+      {
+        "name": "P1911手枪(破损)",
+        "model": "P1911",
+        "quality": "破损"
+      }
+    ]
+  },
+  "accessories": [
+    "热成像瞄准镜",
+    "战术瞄准镜",
+    "8倍 瞄准镜",
+    "消音器(狙击枪)(精制)",
+    "消音器(步枪)(精制)",
+    "快速扩容弹匣(狙击枪)(精制)",
+    "\"快速扩容弹匣(步枪,机枪)(精制)\"",
+    "垂直握把(精制)",
+    "枪口补偿器(狙击枪)(精制)",
+    "枪口补偿器(步枪)(精制)",
+    "扩容弹匣(狙击枪)(精制)",
+    "\"快速弹匣(步枪,机枪)(精制)\"",
+    "\"战术枪托(步枪,冲锋枪)(精制)\"",
+    "托腮板(狙击枪)(精制)",
+    "直角前握把(精制)",
+    "轻型握把(精制)",
+    "拇指握把(精制)",
+    "激光瞄准器(精制)",
+    "快速弹匣(狙击枪)(精制)",
+    "\"扩容弹匣(步枪,机枪)(精制)\"",
+    "\"消音器(冲锋枪,手枪)(精制)\"",
+    "\"快速扩容弹匣(冲锋枪,手枪)(精制)\"",
+    "夜视瞄准镜",
+    "半截式握把(精制)",
+    "枪口补偿器(冲锋枪)(精制)",
+    "\"扩容弹匣(冲锋枪,手枪)(精制)\"",
+    "枪托(Micro UZI)(精制)",
+    "消音器(狙击枪)(改进)",
+    "消音器(步枪)(改进)",
+    "快速扩容弹匣(狙击枪)(改进)",
+    "\"快速扩容弹匣(步枪,机枪)(改进)\"",
+    "垂直握把(改进)",
+    "\"快速弹匣(冲锋枪,手枪)(精制)\"",
+    "箭袋(十字弩)(精制)",
+    "鸭嘴枪口(霰弹枪)(精制)",
+    "枪口补偿器(狙击枪)(改进)",
+    "枪口补偿器(步枪)(改进)",
+    "扩容弹匣(狙击枪)(改进)",
+    "\"快速弹匣(步枪,机枪)(改进)\"",
+    "\"战术枪托(步枪,冲锋枪)(改进)\"",
+    "托腮板(狙击枪)(改进)",
+    "直角前握把(改进)",
+    "轻型握把(改进)",
+    "拇指握把(改进)",
+    "激光瞄准器(改进)",
+    "6倍 瞄准镜",
+    "快速弹匣(狙击枪)(改进)",
+    "\"扩容弹匣(步枪,机枪)(改进)\"",
+    "霰弹枪收束器(改进)",
+    "\"消音器(冲锋枪,手枪)(改进)\"",
+    "\"快速扩容弹匣(冲锋枪,手枪)(改进)\"",
+    "消焰器(狙击枪)(精制)",
+    "消焰器(步枪)(改进)",
+    "\"延长枪管(步枪,狙击枪)(改进)\"",
+    "半截式握把(改进)",
+    "4倍 瞄准镜",
+    "枪口补偿器(冲锋枪)(改进)",
+    "\"扩容弹匣(冲锋枪,手枪)(改进)\"",
+    "枪托(Micro UZI)(改进)",
+    "\"快速弹匣(冲锋枪,手枪)(改进)\"",
+    "消音器(狙击枪)(完好)",
+    "消音器(步枪)(完好)",
+    "快速扩容弹匣(狙击枪)(完好)",
+    "\"快速扩容弹匣(步枪,机枪)(完好)\"",
+    "箭袋(十字弩)(改进)",
+    "垂直握把(完好)",
+    "消焰器(冲锋枪)(改进)",
+    "鸭嘴枪口(霰弹枪)(改进)",
+    "延长枪管(冲锋枪)(改进)",
+    "枪口补偿器(狙击枪)(完好)",
+    "枪口补偿器(步枪)(完好)",
+    "扩容弹匣(狙击枪)(完好)",
+    "\"快速弹匣(步枪,机枪)(完好)\"",
+    "\"战术枪托(步枪,冲锋枪)(完好)\"",
+    "托腮板(狙击枪)(完好)",
+    "直角前握把(完好)",
+    "轻型握把(完好)",
+    "拇指握把(完好)",
+    "激光瞄准器(完好)",
+    "快速弹匣(狙击枪)(完好)",
+    "\"扩容弹匣(步枪,机枪)(完好)\"",
+    "霰弹枪收束器(完好)",
+    "\"消音器(冲锋枪,手枪)(完好)\"",
+    "\"快速扩容弹匣(冲锋枪,手枪)(完好)\"",
+    "消焰器(狙击枪)(改进)",
+    "消焰器(步枪)(完好)",
+    "\"延长枪管(步枪,狙击枪)(完好)\"",
+    "半截式握把(完好)",
+    "枪口补偿器(冲锋枪)(完好)",
+    "\"扩容弹匣(冲锋枪,手枪)(完好)\"",
+    "枪托(Micro UZI)(完好)",
+    "\"快速弹匣(冲锋枪,手枪)(完好)\"",
+    "箭袋(十字弩)(完好)",
+    "消焰器(冲锋枪)(完好)",
+    "鸭嘴枪口(霰弹枪)(完好)",
+    "延长枪管(冲锋枪)(完好)",
+    "3倍 瞄准镜",
+    "2倍 瞄准镜",
+    "侧面瞄准镜",
+    "消音器(狙击枪)(修复)",
+    "消音器(步枪)(修复)",
+    "快速扩容弹匣(狙击枪)(修复)",
+    "\"快速扩容弹匣(步枪,机枪)(修复)\"",
+    "垂直握把(修复)",
+    "枪口补偿器(狙击枪)(修复)",
+    "枪口补偿器(步枪)(修复)",
+    "扩容弹匣(狙击枪)(修复)",
+    "\"快速弹匣(步枪,机枪)(修复)\"",
+    "\"战术枪托(步枪,冲锋枪)(修复)\"",
+    "托腮板(狙击枪)(修复)",
+    "直角前握把(修复)",
+    "轻型握把(修复)",
+    "拇指握把(修复)",
+    "激光瞄准器(修复)",
+    "快速弹匣(狙击枪)(修复)",
+    "\"扩容弹匣(步枪,机枪)(修复)\"",
+    "霰弹枪收束器(修复)",
+    "\"消音器(冲锋枪,手枪)(修复)\"",
+    "\"快速扩容弹匣(冲锋枪,手枪)(修复)\"",
+    "消焰器(狙击枪)(完好)",
+    "消焰器(步枪)(修复)",
+    "\"延长枪管(步枪,狙击枪)(修复)\"",
+    "半截式握把(修复)",
+    "枪口补偿器(冲锋枪)(修复)",
+    "\"扩容弹匣(冲锋枪,手枪)(修复)\"",
+    "枪托(Micro UZI)(修复)",
+    "\"快速弹匣(冲锋枪,手枪)(修复)\"",
+    "箭袋(十字弩)(修复)",
+    "垂直握把(破损)",
+    "消焰器(冲锋枪)(修复)",
+    "鸭嘴枪口(霰弹枪)(修复)",
+    "延长枪管(冲锋枪)(修复)",
+    "扩容弹匣(狙击枪)(破损)",
+    "\"快速弹匣(步枪,机枪)(破损)\"",
+    "直角前握把(破损)",
+    "轻型握把(破损)",
+    "拇指握把(破损)",
+    "激光瞄准器(破损)",
+    "红点瞄准镜",
+    "全息瞄准镜",
+    "快速弹匣(狙击枪)(破损)",
+    "\"扩容弹匣(步枪,机枪)(破损)\"",
+    "霰弹枪收束器(破损)",
+    "消焰器(狙击枪)(修复)",
+    "消焰器(步枪)(破损)",
+    "\"延长枪管(步枪,狙击枪)(破损)\"",
+    "半截式握把(破损)",
+    "\"扩容弹匣(冲锋枪,手枪)(破损)\"",
+    "\"快速弹匣(冲锋枪,手枪)(破损)\"",
+    "箭袋(十字弩)(破损)",
+    "消焰器(冲锋枪)(破损)",
+    "鸭嘴枪口(霰弹枪)(破损)",
+    "延长枪管(冲锋枪)(破损)",
+    "12口径霰弹(燃烧)",
+    "12口径霰弹(毒性)",
+    "12口径霰弹(竞赛)",
+    "12口径霰弹(高爆)",
+    "12口径霰弹(抛光)",
+    "12口径霰弹(普通)",
+    "12口径霰弹(锈蚀)",
+    "M134默认弹匣",
+    "装甲MGL默认弹匣"
+  ],
+  "ammo": [
+    "\"子弹袋(狙击枪,霰弹枪)(精制)\"",
+    "\"子弹袋(狙击枪,霰弹枪)(改进)\"",
+    "\"子弹袋(狙击枪,霰弹枪)(完好)\"",
+    "震爆弹",
+    "烟雾弹",
+    "燃烧瓶",
+    "破片手榴弹",
+    "电磁脉冲手雷",
+    "辎重官燃烧瓶",
+    "\"子弹袋(狙击枪,霰弹枪)(修复)\"",
+    ".50口径子弹(燃烧)",
+    ".50口径子弹(毒性)",
+    ".50口径子弹(竞赛)",
+    ".50口径子弹(高爆)",
+    ".300马格南子弹(燃烧)",
+    ".300马格南子弹(毒性)",
+    ".408口径子弹(燃烧)",
+    ".408口径子弹(毒性)",
+    ".300马格南子弹(竞赛)",
+    ".408口径子弹(竞赛)",
+    ".300马格南子弹(高爆)",
+    ".408口径子弹(高爆)",
+    ".50口径子弹(抛光)",
+    "40mm榴弹",
+    ".300马格南子弹(抛光)",
+    ".408口径子弹(抛光)",
+    "5.7毫米子弹(燃烧)",
+    "5.7毫米子弹(毒性)",
+    "7.62毫米子弹(燃烧)",
+    "7.62毫米子弹(毒性)",
+    "5.7毫米子弹(竞赛)",
+    "7.62毫米子弹(竞赛)",
+    "5.7毫米子弹(高爆)",
+    "7.62毫米子弹(高爆)",
+    "9毫米子弹(燃烧)",
+    "9毫米子弹(毒性)",
+    "5.56毫米子弹(燃烧)",
+    "5.56毫米子弹(毒性)",
+    ".45口径子弹(燃烧)",
+    ".45口径子弹(毒性)",
+    "9毫米子弹(竞赛)",
+    "5.56毫米子弹(竞赛)",
+    ".45口径子弹(竞赛)",
+    ".50口径子弹(普通)",
+    "机甲加特林子弹",
+    "9毫米子弹(高爆)",
+    "5.56毫米子弹(高爆)",
+    ".45口径子弹(高爆)",
+    ".300马格南子弹(普通)",
+    ".408口径子弹(普通)",
+    "箭矢(燃烧)",
+    "箭矢(毒性)",
+    "箭矢(竞赛)",
+    "箭矢(高爆)",
+    "5.7毫米子弹(抛光)",
+    "7.62毫米子弹(抛光)",
+    ".50口径子弹(锈蚀)",
+    ".300马格南子弹(锈蚀)",
+    ".408口径子弹(锈蚀)",
+    "9毫米子弹(抛光)",
+    "5.56毫米子弹(抛光)",
+    ".45口径子弹(抛光)",
+    "箭矢(抛光)",
+    "5.7毫米子弹(普通)",
+    "7.62毫米子弹(普通)",
+    "9毫米子弹(普通)",
+    "5.56毫米子弹(普通)",
+    ".45口径子弹(普通)",
+    "5.7毫米子弹(锈蚀)",
+    "7.62毫米子弹(锈蚀)",
+    "箭矢(普通)",
+    "9毫米子弹(锈蚀)",
+    "5.56毫米子弹(锈蚀)",
+    ".45口径子弹(锈蚀)",
+    "箭矢(锈蚀)"
+  ]
+}
