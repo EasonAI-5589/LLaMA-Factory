@@ -15,7 +15,7 @@ unset HF_TOKEN
 unset HUGGING_FACE_HUB_TOKEN
 
 # 登录
-huggingface-cli login
+hf auth login
 # 粘贴你的 token
 ```
 
@@ -29,32 +29,41 @@ huggingface-cli login
 
 ### 方式一：上传指定 checkpoint
 ```bash
-huggingface-cli upload <用户名>/<repo名> <本地路径>
+hf upload <用户名>/<repo名> <本地路径>
 
 # 示例
-huggingface-cli upload YICHEN013/weapon-inventory-lora ./saves/qwen2.5-7b/lora/weapon-inventory-sft/checkpoint-500
+hf upload YICHEN013/weapon-inventory-lora ./saves/qwen2.5-7b/lora/weapon-inventory-sft/checkpoint-310
 ```
 
 ### 方式二：上传整个目录
 ```bash
-huggingface-cli upload YICHEN013/weapon-inventory-lora ./saves/qwen2.5-7b/lora/weapon-inventory-sft/
+hf upload YICHEN013/weapon-inventory-lora ./saves/qwen2.5-7b/lora/weapon-inventory-sft/
 ```
 
 ### 方式三：上传到子目录
 ```bash
 # 上传到 repo 的 v8 子目录
-huggingface-cli upload YICHEN013/weapon-inventory-lora ./saves/qwen2.5-7b/lora/weapon-inventory-sft/checkpoint-500 --path-in-repo v8
+hf upload YICHEN013/weapon-inventory-lora ./saves/qwen2.5-7b/lora/weapon-inventory-sft/checkpoint-310 --path-in-repo v8
 ```
 
 ## 3. 常见问题
 
 ### 403 Forbidden 错误
-- Token 没有 Write 权限，重新创建一个有 Write 权限的 token
-- 环境变量缓存了旧 token，执行 `unset HF_TOKEN && unset HUGGING_FACE_HUB_TOKEN`
+1. 清除缓存和环境变量：
+```bash
+unset HF_TOKEN
+unset HUGGING_FACE_HUB_TOKEN
+hf auth logout
+```
+2. 重新登录：
+```bash
+hf auth login
+```
+3. 重新上传
 
 ### 检查登录状态
 ```bash
-huggingface-cli whoami
+hf whoami
 ```
 
 ### 查看 repo
@@ -64,10 +73,10 @@ huggingface-cli whoami
 
 ```bash
 # 下载整个 repo
-huggingface-cli download YICHEN013/weapon-inventory-lora
+hf download YICHEN013/weapon-inventory-lora
 
 # 下载到指定目录
-huggingface-cli download YICHEN013/weapon-inventory-lora --local-dir ./my-model
+hf download YICHEN013/weapon-inventory-lora --local-dir ./my-model
 ```
 
 ## 5. 在代码中使用
