@@ -33,8 +33,20 @@ overwrite_output_dir: true
 per_device_train_batch_size: 2
 gradient_accumulation_steps: 8
 learning_rate: 5.0e-5
-num_train_epochs: 3.0
+num_train_epochs: 10.0
 lr_scheduler_type: cosine
 warmup_ratio: 0.1
 bf16: true
 ddp_timeout: 180000000
+
+### 早停配置
+load_best_model_at_end: true
+metric_for_best_model: eval_loss
+greater_is_better: false
+eval_strategy: steps
+eval_steps: 100
+save_total_limit: 3
+
+### Wandb 配置
+report_to: wandb
+run_name: weapon-inventory-sft-v8

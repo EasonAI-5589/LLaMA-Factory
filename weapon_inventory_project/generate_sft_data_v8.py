@@ -414,109 +414,119 @@ def generate_limited_comparison_qa(gun: dict, guns_by_type: dict, guns_by_qualit
 
 
 def generate_listing_qa(guns: list, guns_by_type: dict, guns_by_quality: dict) -> list:
-    """生成列举类问答，让模型学会列举武器"""
+    """生成列举类问答，只使用词表中实际存在的完整武器名称（带品质）"""
     qa_pairs = []
 
-    # 1. 按类型列举（每种类型生成多个变体答案）
+    # 1. 按类型+品质组合：存在性问题
+    for gtype in GUN_TYPES:
+        for quality in QUALITY_ORDER:
+            matching_guns = [g for g in guns if g["type"] == gtype and g["quality"] == quality]
+
+            if len(matching_guns) > 0:
+                # 有这种组合 - 生成正例
+                gun_names = [g["name"] for g in matching_guns]
+                sample_size = min(random.randint(1, 3), len(gun_names))
+                sampled = random.sample(gun_names, sample_size)
+                weapon_list = "、".join(sampled)
+
+                # 存在性问题（多种问法）
+                existence_questions = [
+                    f"有{quality}品质的{gtype}吗？",
+                    f"有没有{quality}品质的{gtype}？",
+                ]
+                for q in existence_questions:
+                    qa_pairs.append({
+                        "instruction": "",
+                        "input": q,
+                        "output": f"有的，{quality}品质的{gtype}有{weapon_list}等。"
+                    })
+            else:
+                # 没有这种组合 - 生成反例
+                negative_questions = [
+                    f"有{quality}品质的{gtype}吗？",
+                    f"有没有{quality}品质的{gtype}？",
+                ]
+                for q in negative_questions:
+                    qa_pairs.append({
+                        "instruction": "",
+                        "input": q,
+                        "output": f"没有，仓库里没有{quality}品质的{gtype}。"
+                    })
+
+    # 2. 复杂对比列举：多武器类型对比（2同+1异）
+    for gtype in GUN_TYPES:
+        type_guns = guns_by_type.get(gtype, [])
+        if len(type_guns) < 2:
+            continue
+
+        other_types = [t for t in GUN_TYPES if t != gtype]
+
+        for _ in range(30):  # 每种类型生成30个复杂对比
+            # 选2个同类型武器
+            same_type = random.sample(type_guns, min(2, len(type_guns)))
+            same_names = [g["name"] for g in same_type]
+
+            # 选1个不同类型武器
+            other_type = random.choice(other_types)
+            other_guns = guns_by_type.get(other_type, [])
+            if not other_guns:
+                continue
+            diff_gun = random.choice(other_guns)
+
+            # 生成问答
+            all_names = same_names + [diff_gun["name"]]
+            random.shuffle(all_names)
+            question_list = "、".join(all_names)
+
+            qa_pairs.append({
+                "instruction": "",
+                "input": f"{question_list}是同一类武器吗？",
+                "output": f"不是，{same_names[0]}和{same_names[1]}都是{gtype}，但{diff_gun['name']}是{other_type}，所以不是同一类武器。"
+            })
+
+    # 3. 三个同类型武器对比（正例）
     for gtype in GUN_TYPES:
         type_guns = guns_by_type.get(gtype, [])
         if len(type_guns) < 3:
             continue
 
-        # 获取该类型所有武器的基础名称（去重）
-        base_names = list(set(g["name"].rsplit("(", 1)[0] for g in type_guns))
-
-        # 问法变体
-        questions = [
-            f"有哪些{gtype}？",
-            f"列出几把{gtype}",
-            f"{gtype}有哪些？",
-            f"仓库里有什么{gtype}？",
-        ]
-
-        # 为每个问法生成不同的答案变体
-        for q in questions:
-            # 随机选择3-5个武器名
-            sample_size = min(random.randint(3, 5), len(base_names))
-            sampled = random.sample(base_names, sample_size)
-            weapon_list = "、".join(sampled)
+        for _ in range(20):  # 每种类型生成20个正例
+            same_type = random.sample(type_guns, 3)
+            names = [g["name"] for g in same_type]
+            question_list = "、".join(names)
 
             qa_pairs.append({
                 "instruction": "",
-                "input": q,
-                "output": f"{gtype}有：{weapon_list}等。"
+                "input": f"{question_list}是同一类武器吗？",
+                "output": f"是的，{names[0]}、{names[1]}和{names[2]}都是{gtype}。"
             })
 
-    # 2. 按品质列举
-    for quality in QUALITY_ORDER:
-        quality_guns = guns_by_quality.get(quality, [])
-        if len(quality_guns) < 3:
+    # 4. 三个完全不同类型武器对比（反例）
+    all_types = list(guns_by_type.keys())
+    for _ in range(200):  # 生成200个三种不同类型的对比
+        # 随机选3种不同类型
+        if len(all_types) < 3:
             continue
+        selected_types = random.sample(all_types, 3)
 
-        # 获取该品质所有武器名称
-        gun_names = [g["name"] for g in quality_guns]
+        guns_selected = []
+        for t in selected_types:
+            type_guns = guns_by_type.get(t, [])
+            if type_guns:
+                guns_selected.append(random.choice(type_guns))
 
-        questions = [
-            f"有哪些{quality}品质的武器？",
-            f"{quality}品质的武器有哪些？",
-            f"列出几个{quality}品质的武器",
-        ]
-
-        for q in questions:
-            sample_size = min(random.randint(3, 5), len(gun_names))
-            sampled = random.sample(gun_names, sample_size)
-            weapon_list = "、".join(sampled)
+        if len(guns_selected) == 3:
+            # 打乱顺序，同时保持名称和类型对应
+            random.shuffle(guns_selected)
+            names = [g["name"] for g in guns_selected]
+            types = [g["type"] for g in guns_selected]
+            question_list = "、".join(names)
 
             qa_pairs.append({
                 "instruction": "",
-                "input": q,
-                "output": f"{quality}品质的武器有：{weapon_list}等。"
+                "input": f"{question_list}是同一类武器吗？",
+                "output": f"不是，{names[0]}是{types[0]}，{names[1]}是{types[1]}，{names[2]}是{types[2]}，三种都是不同类型的武器。"
             })
-
-    # 3. 按类型+品质组合列举
-    for gtype in GUN_TYPES:
-        for quality in QUALITY_ORDER:
-            # 找到同时满足类型和品质的武器
-            matching_guns = [g for g in guns if g["type"] == gtype and g["quality"] == quality]
-            if len(matching_guns) < 2:
-                continue
-
-            gun_names = [g["name"] for g in matching_guns]
-
-            questions = [
-                f"{quality}品质的{gtype}有哪些？",
-                f"有哪些{quality}品质的{gtype}？",
-            ]
-
-            for q in questions:
-                sample_size = min(random.randint(2, 4), len(gun_names))
-                sampled = random.sample(gun_names, sample_size)
-                weapon_list = "、".join(sampled)
-
-                qa_pairs.append({
-                    "instruction": "",
-                    "input": q,
-                    "output": f"{quality}品质的{gtype}有：{weapon_list}等。"
-                })
-
-    # 4. 通用列举问题
-    all_base_names = list(set(g["name"].rsplit("(", 1)[0] for g in guns))
-    general_questions = [
-        ("仓库里有什么武器？", "武器"),
-        ("有哪些武器？", "武器"),
-        ("列出几种武器", "武器"),
-    ]
-
-    for q, category in general_questions:
-        sample_size = min(random.randint(4, 6), len(all_base_names))
-        sampled = random.sample(all_base_names, sample_size)
-        weapon_list = "、".join(sampled)
-
-        qa_pairs.append({
-            "instruction": "",
-            "input": q,
-            "output": f"{category}有：{weapon_list}等。"
-        })
 
     return qa_pairs
 
@@ -583,11 +593,26 @@ def generate_quality_definition_qa() -> list:
         "input": "低品质有哪些？",
         "output": f"低品质有：{low_list}。"
     })
-    qa_pairs.append({
-        "instruction": "",
-        "input": "品质是如何分类的？",
-        "output": f"品质分为三类：高品质（{high_list}）、普通品质（{normal_list}）、低品质（{low_list}）。"
-    })
+    # 品质分类的多种问法变体（增强训练）
+    classification_answer = f"品质分为三类：高品质（{high_list}）、普通品质（{normal_list}）、低品质（{low_list}）。"
+    classification_questions = [
+        "品质是如何分类的？",
+        "品质怎么分类？",
+        "武器品质如何分类？",
+        "品质有哪几类？",
+        "品质分成几类？",
+        "品质可以分为几类？",
+        "武器品质分为哪几类？",
+        "品质等级怎么分类的？",
+        "品质分类是什么？",
+        "介绍一下品质分类",
+    ]
+    for q in classification_questions:
+        qa_pairs.append({
+            "instruction": "",
+            "input": q,
+            "output": classification_answer
+        })
 
     # 每个品质属于哪个分类
     for q in HIGH_QUALITY:
