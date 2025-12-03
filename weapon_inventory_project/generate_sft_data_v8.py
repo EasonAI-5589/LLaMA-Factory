@@ -246,49 +246,74 @@ def generate_armor_negative_qa(armor: dict) -> list:
 
 
 def generate_positive_qa(gun: dict) -> list:
-    """为单把武器生成正例问答（精简版）"""
+    """为单把武器生成正例问答（多种问法变体）"""
     name = gun["name"]
     gtype = gun["type"]
     quality = gun["quality"]
 
     qa_pairs = []
 
-    # 1. 是武器吗
+    # 基础问题 - 是武器吗
     qa_pairs.append({
         "instruction": "",
         "input": f"{name}是武器吗？",
         "output": f"是的，{name}是武器。"
     })
 
-    # 2. 类型问题（保留1个）
+    # 类型问题 - 多种问法
     qa_pairs.append({
         "instruction": "",
         "input": f"{name}是什么武器？",
         "output": f"{name}是{gtype}。"
     })
+    qa_pairs.append({
+        "instruction": "",
+        "input": f"{name}是什么类型的武器？",
+        "output": f"{name}是{gtype}。"
+    })
+    qa_pairs.append({
+        "instruction": "",
+        "input": f"{name}属于什么类型？",
+        "output": f"{name}属于{gtype}类型。"
+    })
 
-    # 3. 品质问题（保留1个）
+    # 品质问题 - 多种问法
     qa_pairs.append({
         "instruction": "",
         "input": f"{name}是什么品质？",
         "output": f"{name}是{quality}品质。"
     })
+    qa_pairs.append({
+        "instruction": "",
+        "input": f"{name}的品质是什么？",
+        "output": f"{name}的品质是{quality}。"
+    })
+    qa_pairs.append({
+        "instruction": "",
+        "input": f"{name}是什么等级？",
+        "output": f"{name}是{quality}品质。"
+    })
 
-    # 4. 描述问题（保留1个）
+    # 描述问题
     qa_pairs.append({
         "instruction": "",
         "input": f"描述{name}",
         "output": f"{name}是{quality}品质的{gtype}。"
     })
+    qa_pairs.append({
+        "instruction": "",
+        "input": f"介绍一下{name}",
+        "output": f"{name}是一把{quality}品质的{gtype}。"
+    })
 
-    # 5. 确认类型（正向）
+    # 确认类型问题（正向确认）
     qa_pairs.append({
         "instruction": "",
         "input": f"{name}是{gtype}吗？",
         "output": f"是的，{name}是{gtype}。"
     })
 
-    # 6. 确认品质（正向）
+    # 确认品质问题（正向确认）
     qa_pairs.append({
         "instruction": "",
         "input": f"{name}是{quality}品质吗？",
@@ -347,7 +372,7 @@ def generate_limited_comparison_qa(gun: dict, guns_by_type: dict, guns_by_qualit
         qa_pairs.append({
             "instruction": "",
             "input": f"{name}和{other['name']}是同一把枪吗？",
-            "output": f"不是，虽然都是{base_name}，但{name}是{quality}品质，{other['name']}是{other['quality']}品质，是不同的武器。"
+            "output": f"不是，虽然都是{base_name}，但{name}是{quality}品质，{other['name']}是{other['quality']}品质，{quality}和{other['quality']}是不同的品质，所以是不同的武器。"
         })
 
     # 2. 同品质的不同枪（最多1条）- 正例
@@ -382,8 +407,116 @@ def generate_limited_comparison_qa(gun: dict, guns_by_type: dict, guns_by_qualit
             qa_pairs.append({
                 "instruction": "",
                 "input": f"{name}和{other['name']}是同一类武器吗？",
-                "output": f"不是，{name}是{gtype}，{other['name']}是{other_type}。"
+                "output": f"不是，{name}是{gtype}，{other['name']}是{other_type}，{gtype}和{other_type}不是同一类型的武器。"
             })
+
+    return qa_pairs
+
+
+def generate_listing_qa(guns: list, guns_by_type: dict, guns_by_quality: dict) -> list:
+    """生成列举类问答，让模型学会列举武器"""
+    qa_pairs = []
+
+    # 1. 按类型列举（每种类型生成多个变体答案）
+    for gtype in GUN_TYPES:
+        type_guns = guns_by_type.get(gtype, [])
+        if len(type_guns) < 3:
+            continue
+
+        # 获取该类型所有武器的基础名称（去重）
+        base_names = list(set(g["name"].rsplit("(", 1)[0] for g in type_guns))
+
+        # 问法变体
+        questions = [
+            f"有哪些{gtype}？",
+            f"列出几把{gtype}",
+            f"{gtype}有哪些？",
+            f"仓库里有什么{gtype}？",
+        ]
+
+        # 为每个问法生成不同的答案变体
+        for q in questions:
+            # 随机选择3-5个武器名
+            sample_size = min(random.randint(3, 5), len(base_names))
+            sampled = random.sample(base_names, sample_size)
+            weapon_list = "、".join(sampled)
+
+            qa_pairs.append({
+                "instruction": "",
+                "input": q,
+                "output": f"{gtype}有：{weapon_list}等。"
+            })
+
+    # 2. 按品质列举
+    for quality in QUALITY_ORDER:
+        quality_guns = guns_by_quality.get(quality, [])
+        if len(quality_guns) < 3:
+            continue
+
+        # 获取该品质所有武器名称
+        gun_names = [g["name"] for g in quality_guns]
+
+        questions = [
+            f"有哪些{quality}品质的武器？",
+            f"{quality}品质的武器有哪些？",
+            f"列出几个{quality}品质的武器",
+        ]
+
+        for q in questions:
+            sample_size = min(random.randint(3, 5), len(gun_names))
+            sampled = random.sample(gun_names, sample_size)
+            weapon_list = "、".join(sampled)
+
+            qa_pairs.append({
+                "instruction": "",
+                "input": q,
+                "output": f"{quality}品质的武器有：{weapon_list}等。"
+            })
+
+    # 3. 按类型+品质组合列举
+    for gtype in GUN_TYPES:
+        for quality in QUALITY_ORDER:
+            # 找到同时满足类型和品质的武器
+            matching_guns = [g for g in guns if g["type"] == gtype and g["quality"] == quality]
+            if len(matching_guns) < 2:
+                continue
+
+            gun_names = [g["name"] for g in matching_guns]
+
+            questions = [
+                f"{quality}品质的{gtype}有哪些？",
+                f"有哪些{quality}品质的{gtype}？",
+            ]
+
+            for q in questions:
+                sample_size = min(random.randint(2, 4), len(gun_names))
+                sampled = random.sample(gun_names, sample_size)
+                weapon_list = "、".join(sampled)
+
+                qa_pairs.append({
+                    "instruction": "",
+                    "input": q,
+                    "output": f"{quality}品质的{gtype}有：{weapon_list}等。"
+                })
+
+    # 4. 通用列举问题
+    all_base_names = list(set(g["name"].rsplit("(", 1)[0] for g in guns))
+    general_questions = [
+        ("仓库里有什么武器？", "武器"),
+        ("有哪些武器？", "武器"),
+        ("列出几种武器", "武器"),
+    ]
+
+    for q, category in general_questions:
+        sample_size = min(random.randint(4, 6), len(all_base_names))
+        sampled = random.sample(all_base_names, sample_size)
+        weapon_list = "、".join(sampled)
+
+        qa_pairs.append({
+            "instruction": "",
+            "input": q,
+            "output": f"{category}有：{weapon_list}等。"
+        })
 
     return qa_pairs
 
@@ -707,11 +840,17 @@ def main():
     all_qa.extend(quality_def_qa)
     quality_def_count = len(quality_def_qa)
 
+    # 列举类问答
+    listing_qa = generate_listing_qa(guns, guns_by_type, guns_by_quality)
+    all_qa.extend(listing_qa)
+    listing_count = len(listing_qa)
+
     print(f"\n生成问答数据: {len(all_qa)} 条")
     print(f"  枪械正例: {positive_count} 条")
     print(f"  枪械反例: {negative_count} 条")
     print(f"  枪械对比: {comparison_count} 条")
     print(f"  品质定义: {quality_def_count} 条")
+    print(f"  列举问答: {listing_count} 条")
 
     # 去重
     seen_inputs = set()
