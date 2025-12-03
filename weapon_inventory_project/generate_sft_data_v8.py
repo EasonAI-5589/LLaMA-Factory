@@ -413,6 +413,45 @@ def generate_limited_comparison_qa(gun: dict, guns_by_type: dict, guns_by_qualit
     return qa_pairs
 
 
+def generate_type_quality_confusion_qa(guns: list, guns_by_type: dict) -> list:
+    """生成品质+类型混淆反例，强化模型对类型的精确识别"""
+    qa_pairs = []
+
+    # 1. 用其他类型的武器问是否属于某类型 - 强化类型区分
+    # 例如：PKM轻机枪(轩辕)是狙击枪吗？ → 不是，PKM轻机枪(轩辕)是轻机枪，不是狙击枪。
+    for gtype in GUN_TYPES:
+        type_guns = guns_by_type.get(gtype, [])
+        other_types = [t for t in GUN_TYPES if t != gtype]
+
+        for gun in type_guns:
+            # 每把武器针对2个其他类型生成反例
+            for other_type in random.sample(other_types, min(2, len(other_types))):
+                qa_pairs.append({
+                    "instruction": "",
+                    "input": f"{gun['name']}是{other_type}吗？",
+                    "output": f"不是，{gun['name']}是{gtype}，不是{other_type}。"
+                })
+
+    # 2. 品质+类型组合的精确查询反例
+    # 例如：轩辕品质的狙击枪里有PKM轻机枪(轩辕)吗？ → 没有，PKM轻机枪(轩辕)是轻机枪，不是狙击枪。
+    for quality in QUALITY_ORDER:
+        for gtype in GUN_TYPES:
+            # 获取该品质下其他类型的武器
+            other_types = [t for t in GUN_TYPES if t != gtype]
+            for other_type in other_types:
+                other_type_guns = [g for g in guns_by_type.get(other_type, []) if g["quality"] == quality]
+                if other_type_guns:
+                    # 随机选一把其他类型的武器
+                    wrong_gun = random.choice(other_type_guns)
+                    qa_pairs.append({
+                        "instruction": "",
+                        "input": f"{wrong_gun['name']}是{quality}品质的{gtype}吗？",
+                        "output": f"不是，{wrong_gun['name']}是{quality}品质的{other_type}，不是{gtype}。"
+                    })
+
+    return qa_pairs
+
+
 def generate_listing_qa(guns: list, guns_by_type: dict, guns_by_quality: dict) -> list:
     """生成列举类问答，只使用词表中实际存在的完整武器名称（带品质）"""
     qa_pairs = []
@@ -429,10 +468,13 @@ def generate_listing_qa(guns: list, guns_by_type: dict, guns_by_quality: dict) -
                 sampled = random.sample(gun_names, sample_size)
                 weapon_list = "、".join(sampled)
 
-                # 存在性问题（多种问法）
+                # 存在性问题（更多问法变体）
                 existence_questions = [
                     f"有{quality}品质的{gtype}吗？",
                     f"有没有{quality}品质的{gtype}？",
+                    f"仓库里有{quality}品质的{gtype}吗？",
+                    f"{quality}品质的{gtype}有哪些？",
+                    f"列举一些{quality}品质的{gtype}",
                 ]
                 for q in existence_questions:
                     qa_pairs.append({
@@ -445,6 +487,9 @@ def generate_listing_qa(guns: list, guns_by_type: dict, guns_by_quality: dict) -
                 negative_questions = [
                     f"有{quality}品质的{gtype}吗？",
                     f"有没有{quality}品质的{gtype}？",
+                    f"仓库里有{quality}品质的{gtype}吗？",
+                    f"{quality}品质的{gtype}有哪些？",
+                    f"列举一些{quality}品质的{gtype}",
                 ]
                 for q in negative_questions:
                     qa_pairs.append({
@@ -484,13 +529,13 @@ def generate_listing_qa(guns: list, guns_by_type: dict, guns_by_quality: dict) -
                 "output": f"不是，{same_names[0]}和{same_names[1]}都是{gtype}，但{diff_gun['name']}是{other_type}，所以不是同一类武器。"
             })
 
-    # 3. 三个同类型武器对比（正例）
+    # 3. 三个同类型武器对比（正例）- 增加数量平衡正反例
     for gtype in GUN_TYPES:
         type_guns = guns_by_type.get(gtype, [])
         if len(type_guns) < 3:
             continue
 
-        for _ in range(20):  # 每种类型生成20个正例
+        for _ in range(50):  # 每种类型生成50个正例（从20增加到50）
             same_type = random.sample(type_guns, 3)
             names = [g["name"] for g in same_type]
             question_list = "、".join(names)
@@ -870,12 +915,18 @@ def main():
     all_qa.extend(listing_qa)
     listing_count = len(listing_qa)
 
+    # 类型+品质混淆反例 - 强化类型精确识别
+    type_quality_confusion_qa = generate_type_quality_confusion_qa(guns, guns_by_type)
+    all_qa.extend(type_quality_confusion_qa)
+    type_quality_confusion_count = len(type_quality_confusion_qa)
+
     print(f"\n生成问答数据: {len(all_qa)} 条")
     print(f"  枪械正例: {positive_count} 条")
     print(f"  枪械反例: {negative_count} 条")
     print(f"  枪械对比: {comparison_count} 条")
     print(f"  品质定义: {quality_def_count} 条")
     print(f"  列举问答: {listing_count} 条")
+    print(f"  类型混淆反例: {type_quality_confusion_count} 条")
 
     # 去重
     seen_inputs = set()
