@@ -425,7 +425,7 @@ def generate_listing_qa(guns: list, guns_by_type: dict, guns_by_quality: dict) -
             if len(matching_guns) > 0:
                 # 有这种组合 - 生成正例
                 gun_names = [g["name"] for g in matching_guns]
-                sample_size = min(random.randint(1, 3), len(gun_names))
+                sample_size = min(random.randint(2, 3), len(gun_names))
                 sampled = random.sample(gun_names, sample_size)
                 weapon_list = "、".join(sampled)
 
