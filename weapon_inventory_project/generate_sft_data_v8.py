@@ -306,11 +306,21 @@ def generate_positive_qa(gun: dict) -> list:
         "output": f"{name}是一把{quality}品质的{gtype}。"
     })
 
-    # 确认类型问题（正向确认）
+    # 确认类型问题（正向确认）- 多种问法
     qa_pairs.append({
         "instruction": "",
         "input": f"{name}是{gtype}吗？",
         "output": f"是的，{name}是{gtype}。"
+    })
+    qa_pairs.append({
+        "instruction": "",
+        "input": f"{name}属于什么类型？",
+        "output": f"{name}属于{gtype}类型。"
+    })
+    qa_pairs.append({
+        "instruction": "",
+        "input": f"{name}是什么类型的武器？",
+        "output": f"{name}是{gtype}。"
     })
 
     # 确认品质问题（正向确认）
@@ -523,10 +533,14 @@ def generate_listing_qa(guns: list, guns_by_type: dict, guns_by_quality: dict) -
             random.shuffle(all_names)
             question_list = "、".join(all_names)
 
+            # 统一格式：逐个说明每把武器的类型
+            # 找出每个名字对应的类型
+            name_type_map = {same_names[0]: gtype, same_names[1]: gtype, diff_gun["name"]: other_type}
+            types_str = "、".join([f"{n}是{name_type_map[n]}" for n in all_names])
             qa_pairs.append({
                 "instruction": "",
                 "input": f"{question_list}是同一类武器吗？",
-                "output": f"不是，{same_names[0]}和{same_names[1]}都是{gtype}，但{diff_gun['name']}是{other_type}，所以不是同一类武器。"
+                "output": f"不是，{types_str}，它们不是同一类武器。"
             })
 
     # 3. 三个同类型武器对比（正例）- 增加数量平衡正反例
@@ -535,15 +549,16 @@ def generate_listing_qa(guns: list, guns_by_type: dict, guns_by_quality: dict) -
         if len(type_guns) < 3:
             continue
 
-        for _ in range(50):  # 每种类型生成50个正例（从20增加到50）
+        for _ in range(80):  # 每种类型生成80个正例（增加到80）
             same_type = random.sample(type_guns, 3)
             names = [g["name"] for g in same_type]
             question_list = "、".join(names)
 
+            # 统一格式：逐个说明每把武器的类型
             qa_pairs.append({
                 "instruction": "",
                 "input": f"{question_list}是同一类武器吗？",
-                "output": f"是的，{names[0]}、{names[1]}和{names[2]}都是{gtype}。"
+                "output": f"是的，{names[0]}是{gtype}，{names[1]}是{gtype}，{names[2]}是{gtype}，它们都是{gtype}。"
             })
 
     # 4. 三个完全不同类型武器对比（反例）
